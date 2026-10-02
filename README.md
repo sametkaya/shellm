@@ -18,7 +18,7 @@ shellm: mkdr: command not found
   ┃ [y] run   [n] skip
 ```
 
-SheLLM grew out of a student project supported by TÜBİTAK (2209-A programme, project no. 1919B012531262). This repository contains the shell, its installer, and the complete replication package of the accompanying research: test suites, benchmark tasks, guard labels, all recorded model responses, and the analysis scripts.
+SheLLM grew out of an undergraduate research project at Fatih Sultan Mehmet Vakıf University, supported by TÜBİTAK under the 2209-A programme (project no. 1919B012531262); see [Contributors](#contributors) and [Funding](#funding). This repository contains the shell, its installer, and the complete replication package of the accompanying research: test suites, benchmark tasks, guard labels, all recorded model responses, and the analysis scripts.
 
 ## Quick start
 
@@ -137,9 +137,18 @@ python3 bench.py && python3 heredoc_race.py
 
 Model queries need the provider's API key in the environment and cost a few US dollars for the full plan. Comparisons with the student prototype (`v1`) need that prototype built in `../SheLLM/SheLLM`; they are skipped otherwise. The "old" trigger rule in `trigger_coverage.py` needs a build of the pre-revision release (`SHELLM_OLD_BIN`).
 
+## Contributors
+
+- **Dr. Samet Kaya** (Fatih Sultan Mehmet Vakıf University, Department of Computer Engineering) conceived the idea and designed the architecture of SheLLM, supervised the student project, later revised the code into the current version, and designed and carried out the scientific experiments.
+- **Zeynep Sude Yılmaz** and **Öykü Azra Yılmaz** implemented the first version of SheLLM (the student prototype, "v1" in `tests/`) as their TÜBİTAK 2209-A research project and their undergraduate graduation project in Computer Engineering at Fatih Sultan Mehmet Vakıf University. The current code base grew out of their prototype; [CHANGES.md](CHANGES.md) lists the changes since then.
+
+## Funding
+
+The project "SheLLM: Yapay Zeka Destekli Akıllı Terminal Sistemi" (SheLLM: an AI-assisted smart terminal system) was supported by TÜBİTAK, the Scientific and Technological Research Council of Türkiye, under the 2209-A University Students Research Projects Support Programme (2025 call, project no. 1919B012531262). The project was carried out at Fatih Sultan Mehmet Vakıf University, Istanbul, with Dr. Samet Kaya as advisor.
+
 ## Citation
 
-The system and its verification, and the multi-model, bilingual evaluation, are described in two papers that are currently under review. Citation details will be added once they are published.
+The system and its verification, and the multi-model, bilingual evaluation, are described in two papers in preparation. Citation details will be added once they are published.
 
 ## License
 
