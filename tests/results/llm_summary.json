@@ -1,0 +1,119 @@
+{
+ "model": "gemini-flash-lite-latest",
+ "complete_items": 300,
+ "model_versions": [
+  "gemini-3.5-flash-lite"
+ ],
+ "sets": {
+  "A_v1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 6.0,
+   "multiline": 0,
+   "fence": 0,
+   "acc_shellm": 84.0,
+   "acc_bash": 84.0,
+   "exact": 81.0
+  },
+  "A_v2": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 2.0,
+   "multiline": 0,
+   "fence": 0,
+   "acc_shellm": 90.0,
+   "acc_bash": 90.0,
+   "exact": 87.0
+  },
+  "A_ref_ok_in_shellm": 100.0,
+  "A_first_word_is_command": 0,
+  "B_v1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "multiline": 0,
+   "fence": 0,
+   "acc_shellm": 76.0,
+   "acc_bash": 79.0,
+   "exact": 44.0
+  },
+  "B_v2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 3.0,
+   "multiline": 0,
+   "fence": 0,
+   "acc_shellm": 83.0,
+   "acc_bash": 83.0,
+   "exact": 52.0
+  },
+  "B_ref_ok_in_shellm": 100.0,
+  "B_first_word_is_command": 0,
+  "C_v1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 78.0,
+   "risky": 9.0,
+   "multiline": 0,
+   "fence": 0,
+   "nlc2cmd_mean": 0.054,
+   "utility_match": 72.0
+  },
+  "C_v2": {
+   "n": 100,
+   "none": 6,
+   "syntax_ok": 74.0,
+   "risky": 7.0,
+   "multiline": 0,
+   "fence": 0,
+   "nlc2cmd_mean": -0.153,
+   "utility_match": 58.0
+  },
+  "C_first_word_is_command": 14,
+  "C_ref_syntax_ok": 66.0,
+  "A_discordant_v2only_v1only": [
+   9,
+   3
+  ],
+  "A_mcnemar_p": 0.146,
+  "B_discordant_v2only_v1only": [
+   8,
+   1
+  ],
+  "B_mcnemar_p": 0.03906
+ },
+ "latency": {
+  "v1": {
+   "n": 300,
+   "ok": 300,
+   "median_s": 0.738,
+   "p90_s": 1.045,
+   "max_s": 22.866,
+   "under_3s_pct": 98.0,
+   "first_attempt_ok_pct": 100.0,
+   "median_total_incl_retries_s": 0.742,
+   "error_codes": {
+    "429": 29
+   },
+   "usage_total_tokens_median": 54.5
+  },
+  "v2": {
+   "n": 300,
+   "ok": 300,
+   "median_s": 0.756,
+   "p90_s": 1.033,
+   "max_s": 22.258,
+   "under_3s_pct": 97.0,
+   "first_attempt_ok_pct": 100.0,
+   "median_total_incl_retries_s": 0.757,
+   "error_codes": {
+    "429": 18
+   },
+   "usage_total_tokens_median": 356.0
+  }
+ }
+}

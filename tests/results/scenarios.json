@@ -1,0 +1,82 @@
+{
+ "S1": {
+  "name": "Suggestion after a built-in in a pipeline",
+  "v1": false,
+  "v2": true
+ },
+ "S2": {
+  "name": "Suggestion after a here-document",
+  "v1": false,
+  "v2": true
+ },
+ "S3": {
+  "name": "Suggestion after Ctrl+C at the prompt",
+  "v1": false,
+  "v2": true
+ },
+ "S4": {
+  "name": "Suggestion when started from another directory",
+  "v1": false,
+  "v2": true
+ },
+ "S5": {
+  "name": "Unrelated process on the same port is left alone",
+  "v1": false,
+  "v2": true
+ },
+ "S6": {
+  "name": "$? = 127 after a skipped suggestion",
+  "v1": false,
+  "v2": true
+ },
+ "S7": {
+  "name": "Reply longer than 1024 bytes is handled safely",
+  "v1": false,
+  "v2": true
+ },
+ "S8": {
+  "name": "Slow model request can be cancelled with Ctrl+C",
+  "v1": false,
+  "v2": true
+ },
+ "S9": {
+  "name": "Two shell instances get suggestions at once",
+  "v1": true,
+  "v2": true
+ },
+ "S10": {
+  "name": "Service is closed to other local users",
+  "v1": false,
+  "v2": true
+ },
+ "S11": {
+  "name": "Unknown command in any pipeline stage",
+  "v1": false,
+  "v2": true
+ },
+ "S12": {
+  "name": "127 from a child process does not trigger",
+  "v1": false,
+  "v2": true
+ },
+ "S13": {
+  "name": "Turkish request with apostrophe reaches helper",
+  "v1": false,
+  "v2": true
+ },
+ "S14": {
+  "name": "Line with password/key is not sent",
+  "v1": false,
+  "v2": true
+ },
+ "S15": {
+  "name": "API key does not reach child environment",
+  "v1": false,
+  "v2": true
+ },
+ "S16": {
+  "name": "'# request' explicit path; bare '#' is a comment",
+  "v1": false,
+  "v2": true
+ }
+}

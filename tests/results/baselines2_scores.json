@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "A001",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "let",
+  "ms": 307.71,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A001",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls",
+  "ms": 9.24,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A002",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls",
+  "ms": 308.1,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A002",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls",
+  "ms": 9.63,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A003",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -la",
+  "ms": 308.03,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A003",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -la",
+  "ms": 13.32,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A004",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -la",
+  "ms": 312.65,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A004",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -la",
+  "ms": 15.13,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A005",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls belgeler",
+  "ms": 311.72,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A005",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls belgeler",
+  "ms": 11.67,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A006",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls belgeler",
+  "ms": 307.62,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A006",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls belgeler",
+  "ms": 13.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A007",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -R projeler",
+  "ms": 306.08,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A007",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -R projeler",
+  "ms": 9.67,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A008",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -R projeler",
+  "ms": 310.65,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A008",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -R projeler",
+  "ms": 12.88,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A009",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "pwd",
+  "ms": 307.01,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A009",
+  "set": "A",
+  "method": "freq",
+  "cmd": "pwd",
+  "ms": 11.29,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A010",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "pwd",
+  "ms": 305.57,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A010",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd",
+  "ms": 7.25,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A011",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cat notlar.txt",
+  "ms": 306.09,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A011",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cat notlar.txt",
+  "ms": 14.31,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A012",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cat notlar.txt",
+  "ms": 305.67,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A012",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cat notlar.txt",
+  "ms": 19.2,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A013",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "head -n 3 veri.csv",
+  "ms": 306.42,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A013",
+  "set": "A",
+  "method": "freq",
+  "cmd": "head -n 3 veri.csv",
+  "ms": 17.38,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A014",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "head -n 3 veri.csv",
+  "ms": 306.79,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A014",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sed -n 3 veri.csv",
+  "ms": 14.34,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A015",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tail -n 2 loglar/app.log",
+  "ms": 306.49,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A015",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tail -n 2 loglar/app.log",
+  "ms": 17.86,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A016",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tail -n 2 loglar/app.log",
+  "ms": 307.36,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A016",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tail -n 2 loglar/app.log",
+  "ms": 23.41,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A017",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "wc -l veri.csv",
+  "ms": 306.08,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A017",
+  "set": "A",
+  "method": "freq",
+  "cmd": "wc -l veri.csv",
+  "ms": 11.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A018",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "wc -l veri.csv",
+  "ms": 306.05,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A018",
+  "set": "A",
+  "method": "freq",
+  "cmd": "wc -l veri.csv",
+  "ms": 8.58,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A019",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep ERROR loglar/app.log",
+  "ms": 306.35,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A019",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep ERROR loglar/app.log",
+  "ms": 17.8,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A020",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep ERROR loglar/app.log",
+  "ms": 306.2,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A020",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep ERROR loglar/app.log",
+  "ms": 30.05,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A021",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep -i hata loglar/sistem.log",
+  "ms": 306.84,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A021",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -i hata loglar/sistem.log",
+  "ms": 16.88,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A022",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grip -i hata loglar/sistem.log",
+  "ms": 306.57,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A022",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -i hata loglar/sistem.log",
+  "ms": 13.57,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A023",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep -c INFO loglar/app.log",
+  "ms": 311.63,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A023",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -c INFO loglar/app.log",
+  "ms": 19.14,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A024",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep -c INFO loglar/app.log",
+  "ms": 306.17,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A024",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -c INFO loglar/app.log",
+  "ms": 29.76,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A025",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sort isimler.txt",
+  "ms": 306.17,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A025",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sort isimler.txt",
+  "ms": 28.97,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A026",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sort isimler.txt",
+  "ms": 305.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A026",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sort isimler.txt",
+  "ms": 16.18,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A027",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sort -n sayilar.txt",
+  "ms": 306.42,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A027",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sort -n sayilar.txt",
+  "ms": 17.35,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A028",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sort -n sayilar.txt",
+  "ms": 305.97,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A028",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sort -n sayilar.txt",
+  "ms": 17.93,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A029",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cut -d , -f 1 veri.csv",
+  "ms": 306.17,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A029",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cut -d , -f 1 veri.csv",
+  "ms": 15.4,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A030",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cut -d , -f 1 veri.csv",
+  "ms": 305.49,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A030",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cut -d , -f 1 veri.csv",
+  "ms": 13.62,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A031",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "rg a-z A-Z < notlar.txt",
+  "ms": 310.13,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A031",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr a-z A-Z < notlar.txt",
+  "ms": 11.93,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A032",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tr a-z A-Z < notlar.txt",
+  "ms": 308.51,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A032",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr a-z A-Z < notlar.txt",
+  "ms": 11.27,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A033",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "mkdir yedek",
+  "ms": 306.16,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A033",
+  "set": "A",
+  "method": "freq",
+  "cmd": "mkdir yedek",
+  "ms": 19.23,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A034",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "mkdir yedek",
+  "ms": 305.83,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A034",
+  "set": "A",
+  "method": "freq",
+  "cmd": "mkdir yedek",
+  "ms": 23.63,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A035",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "touch yeni.txt",
+  "ms": 306.38,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A035",
+  "set": "A",
+  "method": "freq",
+  "cmd": "touch yeni.txt",
+  "ms": 26.3,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A036",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "touch yeni.txt",
+  "ms": 306.58,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A036",
+  "set": "A",
+  "method": "freq",
+  "cmd": "touch yeni.txt",
+  "ms": 24.51,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A037",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cp notlar.txt notlar_yedek.txt",
+  "ms": 306.26,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A037",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd notlar.txt notlar_yedek.txt",
+  "ms": 14.08,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A038",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cp notlar.txt notlar_yedek.txt",
+  "ms": 306.24,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A038",
+  "set": "A",
+  "method": "freq",
+  "cmd": "wc notlar.txt notlar_yedek.txt",
+  "ms": 12.24,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A039",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "mv gecici/c.bak gecici/c.txt",
+  "ms": 305.97,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A039",
+  "set": "A",
+  "method": "freq",
+  "cmd": "mv gecici/c.bak gecici/c.txt",
+  "ms": 13.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A040",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "mv gecici/c.bak gecici/c.txt",
+  "ms": 307.43,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A040",
+  "set": "A",
+  "method": "freq",
+  "cmd": "mv gecici/c.bak gecici/c.txt",
+  "ms": 13.17,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A041",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "rm gecici/a.tmp",
+  "ms": 307.09,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A041",
+  "set": "A",
+  "method": "freq",
+  "cmd": "rev gecici/a.tmp",
+  "ms": 21.06,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A042",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "rm gecici/a.tmp",
+  "ms": 308.35,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A042",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr gecici/a.tmp",
+  "ms": 10.1,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A043",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "echo merhaba",
+  "ms": 306.5,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A043",
+  "set": "A",
+  "method": "freq",
+  "cmd": "echo merhaba",
+  "ms": 15.43,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A044",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "echo merhaba",
+  "ms": 306.6,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A044",
+  "set": "A",
+  "method": "freq",
+  "cmd": "echo merhaba",
+  "ms": 18.63,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A045",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "echo $HOME",
+  "ms": 305.7,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A045",
+  "set": "A",
+  "method": "freq",
+  "cmd": "echo $HOME",
+  "ms": 23.14,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A046",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "echo $HOME",
+  "ms": 306.87,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A046",
+  "set": "A",
+  "method": "freq",
+  "cmd": "echo $HOME",
+  "ms": 19.78,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A047",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "fc belgeler",
+  "ms": 307.27,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A047",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd belgeler",
+  "ms": 9.71,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A048",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cc belgeler",
+  "ms": 306.15,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A048",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd belgeler",
+  "ms": 13.36,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A049",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ctr projeler",
+  "ms": 306.62,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A049",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr projeler",
+  "ms": 9.91,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A050",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cd projeler",
+  "ms": 309.27,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A050",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd projeler",
+  "ms": 17.4,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A051",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "find . -name '*.py'",
+  "ms": 306.39,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A051",
+  "set": "A",
+  "method": "freq",
+  "cmd": "find . -name '*.py'",
+  "ms": 18.8,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A052",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "find . -name '*.py'",
+  "ms": 308.95,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A052",
+  "set": "A",
+  "method": "freq",
+  "cmd": "find . -name '*.py'",
+  "ms": 14.04,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A053",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "find belgeler -type f",
+  "ms": 307.61,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A053",
+  "set": "A",
+  "method": "freq",
+  "cmd": "find belgeler -type f",
+  "ms": 18.36,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A054",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "find belgeler -type f",
+  "ms": 306.38,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A054",
+  "set": "A",
+  "method": "freq",
+  "cmd": "find belgeler -type f",
+  "ms": 22.3,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A055",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "du -s belgeler",
+  "ms": 306.39,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A055",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cd -s belgeler",
+  "ms": 9.68,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A056",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "vi -s belgeler",
+  "ms": 306.08,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A056",
+  "set": "A",
+  "method": "freq",
+  "cmd": "du -s belgeler",
+  "ms": 11.51,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A057",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "wc -w notlar.txt",
+  "ms": 305.9,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A057",
+  "set": "A",
+  "method": "freq",
+  "cmd": "wc -w notlar.txt",
+  "ms": 9.47,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A058",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "wc -w notlar.txt",
+  "ms": 306.51,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A058",
+  "set": "A",
+  "method": "freq",
+  "cmd": "wc -w notlar.txt",
+  "ms": 10.65,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A059",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "file projeler/hesap.c",
+  "ms": 306.47,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A059",
+  "set": "A",
+  "method": "freq",
+  "cmd": "file projeler/hesap.c",
+  "ms": 23.58,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A060",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tie projeler/hesap.c",
+  "ms": 306.51,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A060",
+  "set": "A",
+  "method": "freq",
+  "cmd": "file projeler/hesap.c",
+  "ms": 13.86,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A061",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "stat -c %s veri.csv",
+  "ms": 305.83,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A061",
+  "set": "A",
+  "method": "freq",
+  "cmd": "stat -c %s veri.csv",
+  "ms": 17.07,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A062",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "stat -c %s veri.csv",
+  "ms": 307.94,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A062",
+  "set": "A",
+  "method": "freq",
+  "cmd": "stat -c %s veri.csv",
+  "ms": 27.39,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A063",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "basename projeler/hesap.c",
+  "ms": 305.93,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A063",
+  "set": "A",
+  "method": "freq",
+  "cmd": "basename projeler/hesap.c",
+  "ms": 35.18,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A064",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "basename projeler/hesap.c",
+  "ms": 305.96,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A064",
+  "set": "A",
+  "method": "freq",
+  "cmd": "basename projeler/hesap.c",
+  "ms": 43.59,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A065",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "dirname projeler/hesap.c",
+  "ms": 309.55,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A065",
+  "set": "A",
+  "method": "freq",
+  "cmd": "dirname projeler/hesap.c",
+  "ms": 32.43,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A066",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "dirname projeler/hesap.c",
+  "ms": 306.36,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A066",
+  "set": "A",
+  "method": "freq",
+  "cmd": "dirname projeler/hesap.c",
+  "ms": 34.24,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A067",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "diff notlar.txt belgeler/notlar.txt",
+  "ms": 306.84,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A067",
+  "set": "A",
+  "method": "freq",
+  "cmd": "diff notlar.txt belgeler/notlar.txt",
+  "ms": 23.33,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A068",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "diff notlar.txt belgeler/notlar.txt",
+  "ms": 307.85,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A068",
+  "set": "A",
+  "method": "freq",
+  "cmd": "diff notlar.txt belgeler/notlar.txt",
+  "ms": 13.13,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A069",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "seq 1 5",
+  "ms": 305.69,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A069",
+  "set": "A",
+  "method": "freq",
+  "cmd": "seq 1 5",
+  "ms": 10.43,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A070",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "seq 1 5",
+  "ms": 305.87,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A070",
+  "set": "A",
+  "method": "freq",
+  "cmd": "seq 1 5",
+  "ms": 22.49,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A071",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "whoami",
+  "ms": 306.04,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A071",
+  "set": "A",
+  "method": "freq",
+  "cmd": "whoami",
+  "ms": 27.86,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A072",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "whoami",
+  "ms": 306.53,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A072",
+  "set": "A",
+  "method": "freq",
+  "cmd": "whoami",
+  "ms": 21.18,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A073",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tac notlar.txt",
+  "ms": 306.12,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A073",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tar notlar.txt",
+  "ms": 14.52,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A074",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tac notlar.txt",
+  "ms": 306.84,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A074",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tac notlar.txt",
+  "ms": 17.05,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A075",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "nl notlar.txt",
+  "ms": 305.87,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A075",
+  "set": "A",
+  "method": "freq",
+  "cmd": "nl notlar.txt",
+  "ms": 11.79,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A076",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "nl notlar.txt",
+  "ms": 306.08,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A076",
+  "set": "A",
+  "method": "freq",
+  "cmd": "nl notlar.txt",
+  "ms": 12.73,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A077",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "awk -F , '{print $2}' veri.csv",
+  "ms": 307.58,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A077",
+  "set": "A",
+  "method": "freq",
+  "cmd": "awk -F , '{print $2}' veri.csv",
+  "ms": 16.42,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A078",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "awk -F , '{print $2}' veri.csv",
+  "ms": 306.3,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A078",
+  "set": "A",
+  "method": "freq",
+  "cmd": "awk -F , '{print $2}' veri.csv",
+  "ms": 19.1,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A079",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sed 's/INFO/BILGI/' loglar/app.log",
+  "ms": 306.57,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A079",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sed 's/INFO/BILGI/' loglar/app.log",
+  "ms": 11.42,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A080",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "sed 's/INFO/BILGI/' loglar/app.log",
+  "ms": 306.28,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A080",
+  "set": "A",
+  "method": "freq",
+  "cmd": "sed 's/INFO/BILGI/' loglar/app.log",
+  "ms": 14.3,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A081",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "chmod +x betik.sh",
+  "ms": 306.54,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A081",
+  "set": "A",
+  "method": "freq",
+  "cmd": "chmod +x betik.sh",
+  "ms": 21.56,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A082",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "chmod +x betik.sh",
+  "ms": 307.7,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A082",
+  "set": "A",
+  "method": "freq",
+  "cmd": "chmod +x betik.sh",
+  "ms": 25.16,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A083",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ln -s notlar.txt kisayol",
+  "ms": 306.15,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A083",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ln -s notlar.txt kisayol",
+  "ms": 8.6,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A084",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ln -s notlar.txt kisayol",
+  "ms": 307.85,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A084",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -s notlar.txt kisayol",
+  "ms": 14.17,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A085",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -1 resimler",
+  "ms": 306.18,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A085",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -1 resimler",
+  "ms": 8.63,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A086",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "ls -1 resimler",
+  "ms": 306.14,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A086",
+  "set": "A",
+  "method": "freq",
+  "cmd": "ls -1 resimler",
+  "ms": 14.93,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A087",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cat -n notlar.txt",
+  "ms": 306.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A087",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cat -n notlar.txt",
+  "ms": 13.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A088",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "cut -n notlar.txt",
+  "ms": 305.87,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A088",
+  "set": "A",
+  "method": "freq",
+  "cmd": "cut -n notlar.txt",
+  "ms": 10.56,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A089",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "md5sum notlar.txt",
+  "ms": 306.88,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A089",
+  "set": "A",
+  "method": "freq",
+  "cmd": "md5sum notlar.txt",
+  "ms": 23.38,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A090",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "md5sum notlar.txt",
+  "ms": 306.08,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A090",
+  "set": "A",
+  "method": "freq",
+  "cmd": "md5sum notlar.txt",
+  "ms": 34.43,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A091",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep -rn main projeler",
+  "ms": 306.44,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A091",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -rn main projeler",
+  "ms": 26.06,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A092",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "grep -rn main projeler",
+  "ms": 305.89,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A092",
+  "set": "A",
+  "method": "freq",
+  "cmd": "grep -rn main projeler",
+  "ms": 14.31,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A093",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "python3 projeler/betik.py",
+  "ms": 306.56,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A093",
+  "set": "A",
+  "method": "freq",
+  "cmd": "python3 projeler/betik.py",
+  "ms": 35.41,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A094",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "python3 projeler/betik.py",
+  "ms": 306.66,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A094",
+  "set": "A",
+  "method": "freq",
+  "cmd": "python3 projeler/betik.py",
+  "ms": 46.54,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A095",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "uniq isimler.txt",
+  "ms": 306.41,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A095",
+  "set": "A",
+  "method": "freq",
+  "cmd": "uniq isimler.txt",
+  "ms": 19.67,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A096",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "uniq isimler.txt",
+  "ms": 305.75,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A096",
+  "set": "A",
+  "method": "freq",
+  "cmd": "uniq isimler.txt",
+  "ms": 14.5,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A097",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "rg notlar.txt",
+  "ms": 306.4,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A097",
+  "set": "A",
+  "method": "freq",
+  "cmd": "rev notlar.txt",
+  "ms": 11.69,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A098",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "rev notlar.txt",
+  "ms": 306.41,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A098",
+  "set": "A",
+  "method": "freq",
+  "cmd": "rev notlar.txt",
+  "ms": 19.42,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A099",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tar -tzf arsiv.tar.gz",
+  "ms": 312.91,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A099",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr -tzf arsiv.tar.gz",
+  "ms": 21.36,
+  "ok_shellm": false,
+  "ok_bash": false
+ },
+ {
+  "id": "A100",
+  "set": "A",
+  "method": "zsh",
+  "cmd": "tar -tzf arsiv.tar.gz",
+  "ms": 306.85,
+  "ok_shellm": true,
+  "ok_bash": true
+ },
+ {
+  "id": "A100",
+  "set": "A",
+  "method": "freq",
+  "cmd": "tr -tzf arsiv.tar.gz",
+  "ms": 9.34,
+  "ok_shellm": false,
+  "ok_bash": false
+ }
+]

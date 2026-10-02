@@ -1,0 +1,58 @@
+{
+ "per_command_ms": {
+  "builtin (echo x)": {
+   "bash": 0.004,
+   "v1": 0.013,
+   "v2": 0.003
+  },
+  "_startup_noninteractive_ms": {
+   "bash": 1.9,
+   "v1": 1006.8,
+   "v2": 1.6
+  },
+  "external (/bin/true)": {
+   "bash": 1.223,
+   "v1": 1.24,
+   "v2": 1.031
+  },
+  "pipeline (echo x | cat | cat)": {
+   "bash": 2.147,
+   "v1": 1.938,
+   "v2": 1.659
+  },
+  "redirection (echo x > /dev/null)": {
+   "bash": 0.008,
+   "v1": 0.03,
+   "v2": 0.009
+  },
+  "glob (echo *.txt)": {
+   "bash": 0.017,
+   "v1": 0.019,
+   "v2": 0.045
+  }
+ },
+ "startup_ms": {
+  "v1": {
+   "median": 1011.3,
+   "p90": 1013.2,
+   "n": 20
+  },
+  "v2": {
+   "median": 104.0,
+   "p90": 104.7,
+   "n": 20
+  }
+ },
+ "ai_path_ms": {
+  "v1": {
+   "median": 2.2,
+   "p90": 2.7,
+   "n": 60
+  },
+  "v2": {
+   "median": 0.7,
+   "p90": 1.0,
+   "n": 60
+  }
+ }
+}

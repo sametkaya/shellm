@@ -1,0 +1,28 @@
+{
+ "zsh": {
+  "n": 100,
+  "none": 0,
+  "acc_shellm": 90.0,
+  "acc_bash": 90.0,
+  "same_cmd_as_ref": 90,
+  "median_ms": 306.42,
+  "vs_shellm_prompt_discordant": [
+   7,
+   7
+  ],
+  "vs_shellm_prompt_mcnemar_p": 1.0
+ },
+ "freq": {
+  "n": 100,
+  "none": 0,
+  "acc_shellm": 87.0,
+  "acc_bash": 87.0,
+  "same_cmd_as_ref": 87,
+  "median_ms": 15.43,
+  "vs_shellm_prompt_discordant": [
+   11,
+   8
+  ],
+  "vs_shellm_prompt_mcnemar_p": 0.64761
+ }
+}

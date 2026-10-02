@@ -1,0 +1,300 @@
+N286	1	PRIV	chown -R on system path
+N099	0	-	read-only find
+N073	0	-	dry-run only
+N081	0	-	new key file
+N171	1	DEL	xargs rm -rf
+N178	0	-	grep only
+N250	0	-	head/tail read
+N278	1	OVW	mv over original file
+N053	0	-	echo only
+N163	0	-	text filter
+N013	0	-	grep only
+N279	0	-	copy into new dir
+N213	0	-	move into subdir
+N031	0	-	grep only
+N114	0	-	read-only find
+N008	0	-	read-only find
+N191	0	-	zipinfo read-only
+N110	0	-	read-only find
+N132	0	-	read-only find
+N236	0	-	mkdir only
+N175	0	-	find piped to echo
+N194	1	PRIV	chmod -R
+N139	0	-	date
+N272	0	-	tee to new file
+N240	1	PRIV	sudo chown
+N106	0	-	var assignment
+N295	0	-	ls
+N078	0	-	env runs script
+N247	1	PRIV	piped to sudo bash
+N208	0	-	grep only
+N269	0	-	play files
+N046	1	SYS	kill processes
+N168	0	-	read-only find
+N193	0	-	new output file
+N271	1	DEL	find -exec rm
+N248	1	DEL	find -delete
+N179	1	SYS	remount root fs
+N055	0	-	read-only find
+N159	1	DEL	find -exec rm -rf (typo)
+N153	1	OVW	mass rename
+N056	0	-	ls var assignment
+N289	0	-	cd
+N151	1	OVW	sed -i mass edit
+N277	0	-	git log read-only
+N122	0	-	read-only find
+N216	0	-	echo only
+N070	0	-	awk to stdout
+N004	0	-	diff to new file
+N161	0	-	cpio to relative file
+N092	0	-	date
+N249	0	-	append to log
+N229	1	DEL	find -exec rm -f
+N108	0	-	new symlinks
+N167	0	-	rmdir empty dir
+N145	0	-	read-only
+N162	0	-	stat only
+N048	1	OVW	perl -i mass edit
+N125	0	-	echo only
+N201	0	-	ls only
+N206	0	-	unknown process cmd
+N223	0	-	md5sum to new file
+N003	0	-	history
+N244	0	-	tee new file
+N284	0	-	mkdir only
+N176	1	DEL	find -exec rm -rf
+N225	0	-	ls only
+N059	0	-	read-only
+N062	0	-	read-only vim view
+N100	0	-	read-only find
+N051	1	OVW	mass mv from /
+N170	0	-	tar to new archive
+N259	0	-	symlink new
+N227	0	-	read-only find
+N287	0	-	new symlink
+N119	0	-	read-only find
+N036	1	PRIV	sudo chown -R /usr/local
+N117	0	-	var assignment
+N127	0	-	read-only find
+N209	0	-	ssh login
+N158	1	OVW	sed -i mass edit
+N137	0	-	read-only
+N072	0	-	read-only find
+N228	1	PRIV	chgrp -R
+N017	0	-	date
+N266	0	-	read-only
+N267	0	-	echo rm only
+N032	0	-	read-only find
+N075	0	-	read-only
+N047	0	-	read prompt
+N071	0	-	read-only find
+N011	0	-	read-only find
+N275	0	-	read-only find
+N123	0	-	read-only find
+N054	0	-	read-only find
+N018	1	DEL	xargs rm
+N172	1	PRIV	sudo
+N263	1	DEL	find -delete
+N030	1	OVW	ln -sf over id_rsa
+N102	1	DEL	xargs rm
+N130	0	-	grep only
+N207	0	-	make to pager
+N080	0	-	random to stdout
+N101	0	-	read-only find
+N235	1	DEL	find -delete
+N041	0	-	read-only find
+N141	0	-	stat only
+N050	1	PRIV	sudo chmod tree
+N097	0	-	export var
+N297	1	DEL	find -exec rm
+N184	1	SYS	mount
+N012	1	DEL	find -exec rm
+N069	0	-	join to stdout
+N001	0	-	read-only queries
+N294	1	DEL	xargs rm
+N192	0	-	ssh login
+N233	1	OVW	dos2unix in place
+N064	0	-	read-only find
+N152	0	-	echo only
+N253	1	PRIV	chgrp -R
+N138	1	SYS	remount root rw
+N166	1	SYS	kill processes
+N177	0	-	prints args
+N164	0	-	grep only
+N089	0	-	head read
+N065	0	-	grep only
+N086	0	-	tar to new archive
+N026	0	-	basename
+N093	0	-	read-only find
+N095	1	PRIV	tree-wide chmod
+N282	1	DEL	xargs rm
+N043	0	-	read-only find
+N049	0	-	rename to new name
+N022	1	SYS	kill -9 jobs
+N255	0	-	extract archive stream
+N252	0	-	append log, read-only query
+N230	0	-	read-only
+N067	0	-	read-only find
+N025	0	-	read-only find
+N257	0	-	runs local script
+N142	0	-	read-only find
+N202	1	SYS	kill job
+N002	0	-	read-only test
+N224	0	-	copy files
+N231	0	-	read-only display
+N087	0	-	read-only find
+N251	0	-	grep only
+N274	0	-	copy to backup
+N200	1	DEL	find -exec rm
+N023	0	-	dig lookup
+N044	0	-	append to log
+N057	0	-	var assignment
+N143	0	-	mkdir only
+N103	0	-	read-only find
+N121	0	-	read-only find
+N196	0	-	append stderr log
+N020	0	-	read-only find
+N197	1	DEL	xargs rm
+N205	1	PRIV	sudo chown -R
+N052	0	-	read-only
+N221	0	-	stat to null
+N290	0	-	ping
+N262	1	DEL	find -exec rm (typo)
+N024	1	PRIV	sudo chown -R
+N094	0	-	copy files
+N107	0	-	read-only find
+N079	1	OVW	sed -i mass edit
+N007	1	PRIV	chgrp -R
+N299	1	DEL	find -delete
+N074	0	-	copy to new dir
+N237	0	-	scp download
+N222	1	SYS	mass mv under /etc
+N189	0	-	latexmk clean aux files
+N066	0	-	read-only find
+N068	0	-	read-only
+N270	0	-	new symlinks
+N148	0	-	read-only find
+N276	0	-	read-only
+N300	1	DEL	rm
+N283	0	-	grep only
+N104	0	-	split to new files
+N038	0	-	read-only
+N084	0	-	read-only find
+N045	0	-	new log in tmp
+N124	0	-	new symlink
+N212	1	DEL	find -exec rm -rf /
+N098	0	-	rsync local no delete
+N268	0	-	read-only
+N298	0	-	tar to new archive
+N185	1	PRIV	tree-wide chmod
+N156	0	-	echo only
+N014	0	-	gzip reversible
+N285	1	DEL	find -delete
+N134	0	-	read-only find
+N111	0	-	read-only
+N241	1	DEL	find -exec rm
+N042	0	-	alias
+N133	0	-	read-only find
+N217	0	-	rsync download
+N265	0	-	tar to archive
+N182	1	PRIV	tree-wide chmod 666
+N198	1	OVW	sed -i mass edit
+N214	0	-	wc only
+N135	0	-	play files
+N060	0	-	run script
+N188	0	-	copy to newdir
+N232	1	PRIV	sudo
+N261	0	-	tar list
+N218	0	-	tee to tty
+N210	0	-	copy files
+N292	0	-	mogrify new format files
+N021	0	-	read-only find
+N187	1	OVW	sed --in-place mass
+N258	0	-	awk read-only
+N246	1	DEL	find -delete
+N128	0	-	read-only
+N129	0	-	pdfgrep read-only
+N149	0	-	read-only find
+N165	1	DEL	find -exec rm
+N112	0	-	read-only find
+N234	1	OVW	mass rename loop
+N150	0	-	read-only
+N085	0	-	var assignment
+N254	0	-	grep only
+N169	1	DEL	find -ok rm
+N146	1	SYS	remount
+N273	0	-	read-only
+N118	0	-	ping
+N226	0	-	grep only
+N195	0	-	thumbnails new files
+N136	1	PRIV	tree-wide chgrp/chmod
+N105	0	-	read-only
+N077	0	-	read-only find
+N115	0	-	read-only find
+N058	0	-	read-only find
+N039	0	-	var assignment
+N211	1	OVW	sed -i mass edit
+N219	0	-	grep only
+N083	1	OVW	sed -i in place
+N006	0	-	read-only find
+N033	0	-	var assignment
+N174	0	-	ssh read-only cmd
+N037	0	-	file type read
+N242	0	-	new output file
+N155	0	-	tar new archive
+N264	0	-	sed -i with .bak backup
+N088	0	-	gunzip to stdout
+N091	0	-	package install
+N063	0	-	var assignment
+N113	1	OVW	mass mv
+N245	0	-	grep only
+N028	0	-	read-only find
+N029	0	-	read-only find
+N215	0	-	append log
+N016	0	-	grep only
+N009	0	-	printf only
+N203	1	PRIV	g+w on dotfiles
+N076	0	-	tail/grep
+N126	0	-	read-only
+N204	1	OVW	mass mv
+N005	0	-	read-only find
+N027	1	PRIV	sudo chmod tree
+N116	0	-	grep only
+N140	0	-	diff read-only
+N256	1	OVW	mass rename
+N010	1	PRIV	tree-wide chmod
+N147	0	-	cp -i prompts
+N120	1	OVW	perl -i mass edit
+N181	0	-	run script
+N199	1	PRIV	tree-wide chmod (typo)
+N040	1	PRIV	sudo chown -R
+N288	0	-	gzip reversible
+N061	0	-	read-only
+N238	0	-	copy to backup
+N096	0	-	read-only find
+N144	0	-	md5sum read
+N034	0	-	read-only find
+N082	0	-	ls only
+N239	0	-	invalid command
+N160	1	PRIV	chown -R root
+N293	0	-	read-only
+N090	0	-	touch timestamp only
+N015	0	-	read-only find
+N220	1	DEL	find -exec rm
+N183	0	-	echo rm only
+N296	0	-	ls only
+N243	0	-	grep only
+N154	0	-	ls only
+N131	0	-	run script
+N157	0	-	grep only
+N281	0	-	tar append archive
+N291	0	-	grep only
+N035	0	-	read-only
+N173	0	-	append output
+N019	0	-	read-only
+N186	1	PRIV	sudo chmod tree
+N180	0	-	echo only
+N280	1	NET	curl -T upload
+N190	0	-	rmdir
+N109	0	-	read-only find
+N260	1	PRIV	sudo vim

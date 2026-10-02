@@ -1,0 +1,5602 @@
+[
+ {
+  "id": "B001",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B001",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B001",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B001",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B002",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "resizepart klasöründeki png dosyalarını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B002",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "resizepart klasöründeki png dosyalarını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B002",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B002",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B003",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B003",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B003",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B003",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B004",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasörünün içeriğini göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B004",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasörünün içeriğini göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B004",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B004",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B005",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "bun dizindeki sadece klasörleri listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B005",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "bun dizindeki sadece klasörleri listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B005",
+  "set": "B",
+  "method": "zsh",
+  "cmd": "bun dizindeki sadece klasörleri listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B005",
+  "set": "B",
+  "method": "freq",
+  "cmd": "du dizindeki sadece klasörleri listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B006",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B006",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B006",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B006",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B007",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B007",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B007",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B007",
+  "set": "B",
+  "method": "freq",
+  "cmd": "tr python dosyalarını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B008",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründeki c ve h uzantılı dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B008",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründeki c ve h uzantılı dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B008",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B008",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B009",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "resizepart klasöründeki jpg ve jpeg dosyalarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B009",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "resizepart klasöründeki jpg ve jpeg dosyalarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B009",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B009",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B010",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "gcc klasöründeki tmp dosyalarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B010",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "gcc klasöründeki tmp dosyalarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B010",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B010",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B011",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "logger klasöründeki .log uzantılı dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B011",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "logger klasöründeki .log uzantılı dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B011",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B011",
+  "set": "B",
+  "method": "freq",
+  "cmd": "logger klasöründeki .log uzantılı dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B012",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B012",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B012",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B012",
+  "set": "B",
+  "method": "freq",
+  "cmd": "od dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B013",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B013",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B013",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B013",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B014",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "bison 1 gün içinde değiştirilen dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B014",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "bison 1 gün içinde değiştirilen dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B014",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B014",
+  "set": "B",
+  "method": "freq",
+  "cmd": "sort 1 gün içinde değiştirilen dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B015",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B015",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B015",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B015",
+  "set": "B",
+  "method": "freq",
+  "cmd": "awk rapor ile başlayan dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B016",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "addpart test geçen python dosyalarını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B016",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "addpart test geçen python dosyalarını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B016",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B016",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B017",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B017",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B017",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B017",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B018",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründeki dosyaları ayrıntılı olarak listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B018",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründeki dosyaları ayrıntılı olarak listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B018",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B018",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B019",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B019",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B019",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B019",
+  "set": "B",
+  "method": "freq",
+  "cmd": "tr gizli dosyaları bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B020",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B020",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B020",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B020",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B021",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "logger klasöründe ERROR içeren dosyaların adlarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B021",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "logger klasöründe ERROR içeren dosyaların adlarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B021",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B021",
+  "set": "B",
+  "method": "freq",
+  "cmd": "logger klasöründe ERROR içeren dosyaların adlarını listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B022",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B022",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B022",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B022",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B023",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B023",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "ar siv.tar.gz arşivinin içindeki dosyaları listele",
+  "ok_shellm": false
+ },
+ {
+  "id": "B023",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B023",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B024",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "bun dizindeki dosya ve klasörlerin sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B024",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "bun dizindeki dosya ve klasörlerin sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B024",
+  "set": "B",
+  "method": "zsh",
+  "cmd": "bun dizindeki dosya ve klasörlerin sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B024",
+  "set": "B",
+  "method": "freq",
+  "cmd": "du dizindeki dosya ve klasörlerin sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B025",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B025",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B025",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B025",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B026",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B026",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B026",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B026",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B027",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasında kaç tane ERROR satırı var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B027",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasında kaç tane ERROR satırı var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B027",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B027",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B028",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründe kaç tane c dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B028",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründe kaç tane c dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B028",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B028",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B029",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B029",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B029",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B029",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B030",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "resizepart klasöründeki dosya sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B030",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "resizepart klasöründeki dosya sayısını bul",
+  "ok_shellm": false
+ },
+ {
+  "id": "B030",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B030",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B031",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "cat klasörler dahil kaç tane txt dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B031",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "cat klasörler dahil kaç tane txt dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B031",
+  "set": "B",
+  "method": "zsh",
+  "cmd": "apt klasörler dahil kaç tane txt dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B031",
+  "set": "B",
+  "method": "freq",
+  "cmd": "apt klasörler dahil kaç tane txt dosyası var",
+  "ok_shellm": false
+ },
+ {
+  "id": "B032",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B032",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B032",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B032",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B033",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B033",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B033",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B033",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B034",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B034",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B034",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B034",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B035",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B035",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B035",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B035",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B036",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B036",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B036",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B036",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B037",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B037",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B037",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B037",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B038",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B038",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B038",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B038",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B039",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B039",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B039",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B039",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B040",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasının son 3 satırını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B040",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasının son 3 satırını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B040",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B040",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B041",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B041",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B041",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B041",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B042",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründeki README.md dosyasını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B042",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründeki README.md dosyasını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B042",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B042",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B043",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B043",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B043",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B043",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B044",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B044",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B044",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B044",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B045",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "systemctl dosyasının ilk satırını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B045",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "systemctl dosyasının ilk satırını göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B045",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B045",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B046",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B046",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B046",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B046",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B047",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B047",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B047",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B047",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B048",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasındaki boş olmayan satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B048",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasındaki boş olmayan satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B048",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B048",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B049",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog içinde ERROR geçen satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B049",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog içinde ERROR geçen satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B049",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B049",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B050",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "systemctl içinde büyük küçük harf ayırmadan hata kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B050",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "systemctl içinde büyük küçük harf ayırmadan hata kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B050",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B050",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B051",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründeki dosyalarda main kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B051",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründeki dosyalarda main kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B051",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B051",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B052",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasında WARN içermeyen satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B052",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasında WARN içermeyen satırları göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B052",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B052",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B053",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B053",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B053",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B053",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B054",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "logger klasöründeki tüm dosyalarda timeout kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B054",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "logger klasöründeki tüm dosyalarda timeout kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B054",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B054",
+  "set": "B",
+  "method": "freq",
+  "cmd": "logger klasöründeki tüm dosyalarda timeout kelimesini ara",
+  "ok_shellm": false
+ },
+ {
+  "id": "B055",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B055",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B055",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B055",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B056",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B056",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B056",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B056",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B057",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B057",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B057",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B057",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B058",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B058",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B058",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B058",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B059",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B059",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B059",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B059",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B060",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B060",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B060",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B060",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B061",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B061",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B061",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B061",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B062",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B062",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B062",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B062",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B063",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B063",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B063",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B063",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B064",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B064",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B064",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B064",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B065",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B065",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B065",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B065",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B066",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B066",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B066",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B066",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B067",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B067",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B067",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B067",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B068",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasındaki INFO kelimelerini BILGI ile değiştirerek ekrana yazdır",
+  "ok_shellm": false
+ },
+ {
+  "id": "B068",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasındaki INFO kelimelerini BILGI ile değiştirerek ekrana yazdır",
+  "ok_shellm": false
+ },
+ {
+  "id": "B068",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B068",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B069",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B069",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B069",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B069",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B070",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B070",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B070",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B070",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B071",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B071",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B071",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B071",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B072",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B072",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B072",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B072",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B073",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B073",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B073",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B073",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B074",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "pslog dosyasındaki satırların sadece ilk kelimesini göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B074",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "pslog dosyasındaki satırların sadece ilk kelimesini göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B074",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B074",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B075",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B075",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B075",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B075",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B076",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B076",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B076",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B076",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B077",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B077",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "ar siv/2024/ocak klasör yapısını oluştur",
+  "ok_shellm": false
+ },
+ {
+  "id": "B077",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B077",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B078",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B078",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B078",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B078",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B079",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B079",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B079",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B079",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B080",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B080",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B080",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B080",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B081",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B081",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B081",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B081",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B082",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "resizepart klasöründeki png dosyalarını belgeler klasörüne taşı",
+  "ok_shellm": false
+ },
+ {
+  "id": "B082",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "resizepart klasöründeki png dosyalarını belgeler klasörüne taşı",
+  "ok_shellm": false
+ },
+ {
+  "id": "B082",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B082",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B083",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "gcc klasöründeki tmp uzantılı dosyaları sil",
+  "ok_shellm": false
+ },
+ {
+  "id": "B083",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "gcc klasöründeki tmp uzantılı dosyaları sil",
+  "ok_shellm": false
+ },
+ {
+  "id": "B083",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B083",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B084",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "gcc klasörünü içindekilerle birlikte sil",
+  "ok_shellm": false
+ },
+ {
+  "id": "B084",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "gcc klasörünü içindekilerle birlikte sil",
+  "ok_shellm": false
+ },
+ {
+  "id": "B084",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B084",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B085",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B085",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B085",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B085",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B086",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B086",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B086",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B086",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B087",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B087",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B087",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B087",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B088",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B088",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B088",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B088",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B089",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B089",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B089",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B089",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B090",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "logger klasörünü loglar.tar.gz adıyla arşivle",
+  "ok_shellm": false
+ },
+ {
+  "id": "B090",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "logger klasörünü loglar.tar.gz adıyla arşivle",
+  "ok_shellm": false
+ },
+ {
+  "id": "B090",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B090",
+  "set": "B",
+  "method": "freq",
+  "cmd": "logger klasörünü loglar.tar.gz adıyla arşivle",
+  "ok_shellm": false
+ },
+ {
+  "id": "B091",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B091",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "arsiv.tar.gz arşivini bu dizine a",
+  "ok_shellm": false
+ },
+ {
+  "id": "B091",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B091",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B092",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasörüne geç",
+  "ok_shellm": false
+ },
+ {
+  "id": "B092",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "projeler klasörüne ge",
+  "ok_shellm": false
+ },
+ {
+  "id": "B092",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B092",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B093",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "irb üst dizine çık",
+  "ok_shellm": false
+ },
+ {
+  "id": "B093",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "irb üst dizine çık",
+  "ok_shellm": false
+ },
+ {
+  "id": "B093",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B093",
+  "set": "B",
+  "method": "freq",
+  "cmd": "dir üst dizine çık",
+  "ok_shellm": false
+ },
+ {
+  "id": "B094",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "rev dizinine git",
+  "ok_shellm": false
+ },
+ {
+  "id": "B094",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "rev dizinine git",
+  "ok_shellm": false
+ },
+ {
+  "id": "B094",
+  "set": "B",
+  "method": "zsh",
+  "cmd": "rev dizinine git",
+  "ok_shellm": false
+ },
+ {
+  "id": "B094",
+  "set": "B",
+  "method": "freq",
+  "cmd": "rev dizinine git",
+  "ok_shellm": false
+ },
+ {
+  "id": "B095",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B095",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B095",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B095",
+  "set": "B",
+  "method": "freq",
+  "cmd": "du anki dizinin tam yolunu göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B096",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "clang kullanıcıyla oturum açtığımı göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B096",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "clang kullanıcıyla oturum açtığımı göster",
+  "ok_shellm": false
+ },
+ {
+  "id": "B096",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B096",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B097",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B097",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B097",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B097",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B098",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B098",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B098",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B098",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B099",
+  "set": "B",
+  "method": "nearest",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B099",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B099",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B099",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B100",
+  "set": "B",
+  "method": "nearest",
+  "cmd": "prove klasöründeki betik.py programını çalıştır",
+  "ok_shellm": false
+ },
+ {
+  "id": "B100",
+  "set": "B",
+  "method": "thefuck",
+  "cmd": "prove klasöründeki betik.py programını çalıştır",
+  "ok_shellm": false
+ },
+ {
+  "id": "B100",
+  "set": "B",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "B100",
+  "set": "B",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E001",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the txt files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E001",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the txt files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E001",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the txt files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E001",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the txt files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E002",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the png files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E002",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the png files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E002",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the png files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E002",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the png files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E003",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last everything in the belgeler folder including hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E003",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last everything in the belgeler folder including hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E003",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls everything in the belgeler folder including hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E003",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last everything in the belgeler folder including hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E004",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the contents of the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E004",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the contents of the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E004",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the contents of the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E004",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the contents of the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E005",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last only the folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E005",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last only the folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E005",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls only the folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E005",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last only the folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E006",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last all files in the belgeler folder including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E006",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last all files in the belgeler folder including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E006",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls all files in the belgeler folder including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E006",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last all files in the belgeler folder including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E007",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find all python files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E007",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E007",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E007",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find all python files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E008",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the files with c and h extensions in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E008",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the files with c and h extensions in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E008",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the files with c and h extensions in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E008",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the files with c and h extensions in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E009",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the jpg and jpeg files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E009",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the jpg and jpeg files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E009",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the jpg and jpeg files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E009",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the jpg and jpeg files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E010",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the tmp files in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E010",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the tmp files in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E010",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the tmp files in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E010",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the tmp files in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E011",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the files with the .log extension in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E011",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the files with the .log extension in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E011",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the files with the .log extension in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E011",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the files with the .log extension in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E012",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find empty files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E012",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E012",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E012",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find empty files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E013",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find files larger than 100 KB",
+  "ok_shellm": false
+ },
+ {
+  "id": "E013",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E013",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E013",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find files larger than 100 KB",
+  "ok_shellm": false
+ },
+ {
+  "id": "E014",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find files modified in the last 1 day",
+  "ok_shellm": false
+ },
+ {
+  "id": "E014",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E014",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E014",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find files modified in the last 1 day",
+  "ok_shellm": false
+ },
+ {
+  "id": "E015",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find files whose names start with rapor",
+  "ok_shellm": false
+ },
+ {
+  "id": "E015",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E015",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E015",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find files whose names start with rapor",
+  "ok_shellm": false
+ },
+ {
+  "id": "E016",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find python files with test in their name",
+  "ok_shellm": false
+ },
+ {
+  "id": "E016",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E016",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E016",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find python files with test in their name",
+  "ok_shellm": false
+ },
+ {
+  "id": "E017",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the pdf files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E017",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the pdf files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E017",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the pdf files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E017",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the pdf files in the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E018",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the files in the projeler folder in detail",
+  "ok_shellm": false
+ },
+ {
+  "id": "E018",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the files in the projeler folder in detail",
+  "ok_shellm": false
+ },
+ {
+  "id": "E018",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the files in the projeler folder in detail",
+  "ok_shellm": false
+ },
+ {
+  "id": "E018",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the files in the projeler folder in detail",
+  "ok_shellm": false
+ },
+ {
+  "id": "E019",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find all hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E019",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E019",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E019",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find all hidden files",
+  "ok_shellm": false
+ },
+ {
+  "id": "E020",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find files with the bak extension",
+  "ok_shellm": false
+ },
+ {
+  "id": "E020",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E020",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E020",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find files with the bak extension",
+  "ok_shellm": false
+ },
+ {
+  "id": "E021",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the names of the files in the loglar folder that contain ERROR",
+  "ok_shellm": false
+ },
+ {
+  "id": "E021",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the names of the files in the loglar folder that contain ERROR",
+  "ok_shellm": false
+ },
+ {
+  "id": "E021",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the names of the files in the loglar folder that contain ERROR",
+  "ok_shellm": false
+ },
+ {
+  "id": "E021",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the names of the files in the loglar folder that contain ERROR",
+  "ok_shellm": false
+ },
+ {
+  "id": "E022",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find the rapor.txt file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E022",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E022",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E022",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find the rapor.txt file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E023",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the files inside the arsiv.tar.gz archive",
+  "ok_shellm": false
+ },
+ {
+  "id": "E023",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the files inside the arsiv.tar.gz archive",
+  "ok_shellm": false
+ },
+ {
+  "id": "E023",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the files inside the arsiv.tar.gz archive",
+  "ok_shellm": false
+ },
+ {
+  "id": "E023",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the files inside the arsiv.tar.gz archive",
+  "ok_shellm": false
+ },
+ {
+  "id": "E024",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "mount the files and folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E024",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "mount the files and folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E024",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "cut the files and folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E024",
+  "set": "E",
+  "method": "freq",
+  "cmd": "mount the files and folders in this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E025",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many lines are in veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E025",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many lines are in veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E025",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E025",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many lines are in veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E026",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many words does notlar.txt contain",
+  "ok_shellm": false
+ },
+ {
+  "id": "E026",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many words does notlar.txt contain",
+  "ok_shellm": false
+ },
+ {
+  "id": "E026",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E026",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many words does notlar.txt contain",
+  "ok_shellm": false
+ },
+ {
+  "id": "E027",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many ERROR lines are in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E027",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many ERROR lines are in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E027",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E027",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many ERROR lines are in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E028",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many c files are in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E028",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many c files are in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E028",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E028",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many c files are in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E029",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many distinct names are in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E029",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many distinct names are in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E029",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E029",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many distinct names are in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E030",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "mount the files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E030",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "mount the files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E030",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "cut the files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E030",
+  "set": "E",
+  "method": "freq",
+  "cmd": "mount the files in the resimler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E031",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many txt files are there including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E031",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many txt files are there including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E031",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E031",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many txt files are there including subfolders",
+  "ok_shellm": false
+ },
+ {
+  "id": "E032",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many records are in veri.csv excluding the header line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E032",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many records are in veri.csv excluding the header line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E032",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E032",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many records are in veri.csv excluding the header line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E033",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the size of notlar.txt in bytes",
+  "ok_shellm": false
+ },
+ {
+  "id": "E033",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the size of notlar.txt in bytes",
+  "ok_shellm": false
+ },
+ {
+  "id": "E033",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the size of notlar.txt in bytes",
+  "ok_shellm": false
+ },
+ {
+  "id": "E033",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the size of notlar.txt in bytes",
+  "ok_shellm": false
+ },
+ {
+  "id": "E034",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "tabulate the sum of the numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E034",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "tabulate the sum of the numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E034",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E034",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E035",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find the largest number in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E035",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E035",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E035",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find the largest number in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E036",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many numbers in sayilar.txt are greater than 50",
+  "ok_shellm": false
+ },
+ {
+  "id": "E036",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many numbers in sayilar.txt are greater than 50",
+  "ok_shellm": false
+ },
+ {
+  "id": "E036",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E036",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many numbers in sayilar.txt are greater than 50",
+  "ok_shellm": false
+ },
+ {
+  "id": "E037",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "chown many times does Ayse appear in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E037",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "chown many times does Ayse appear in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E037",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E037",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown many times does Ayse appear in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E038",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the contents of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E038",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the contents of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E038",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the contents of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E038",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the contents of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E039",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the first 5 lines of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E039",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the first 5 lines of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E039",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the first 5 lines of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E039",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the first 5 lines of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E040",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the last 3 lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E040",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the last 3 lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E040",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the last 3 lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E040",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the last 3 lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E041",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh notlar.txt with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E041",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh notlar.txt with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E041",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who notlar.txt with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E041",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown notlar.txt with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E042",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the README.md file in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E042",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the README.md file in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E042",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the README.md file in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E042",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the README.md file in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E043",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the 3rd line of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E043",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the 3rd line of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E043",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the 3rd line of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E043",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the 3rd line of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E044",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh notlar.txt in reverse order, starting from the last line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E044",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh notlar.txt in reverse order, starting from the last line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E044",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who notlar.txt in reverse order, starting from the last line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E044",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown notlar.txt in reverse order, starting from the last line",
+  "ok_shellm": false
+ },
+ {
+  "id": "E045",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the first line of sistem.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E045",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the first line of sistem.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E045",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the first line of sistem.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E045",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the first line of sistem.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E046",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the arsiv.dat file in the belgeler/eski folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E046",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the arsiv.dat file in the belgeler/eski folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E046",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the arsiv.dat file in the belgeler/eski folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E046",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the arsiv.dat file in the belgeler/eski folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E047",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the first 2 lines of hesap.h",
+  "ok_shellm": false
+ },
+ {
+  "id": "E047",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the first 2 lines of hesap.h",
+  "ok_shellm": false
+ },
+ {
+  "id": "E047",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the first 2 lines of hesap.h",
+  "ok_shellm": false
+ },
+ {
+  "id": "E047",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the first 2 lines of hesap.h",
+  "ok_shellm": false
+ },
+ {
+  "id": "E048",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the non-empty lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E048",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the non-empty lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E048",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the non-empty lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E048",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the non-empty lines of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E049",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the lines containing ERROR in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E049",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the lines containing ERROR in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E049",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the lines containing ERROR in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E049",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the lines containing ERROR in app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E050",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "setarch sistem.log for the word hata, ignoring case",
+  "ok_shellm": false
+ },
+ {
+  "id": "E050",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "setarch sistem.log for the word hata, ignoring case",
+  "ok_shellm": false
+ },
+ {
+  "id": "E050",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "setarch sistem.log for the word hata, ignoring case",
+  "ok_shellm": false
+ },
+ {
+  "id": "E050",
+  "set": "E",
+  "method": "freq",
+  "cmd": "setarch sistem.log for the word hata, ignoring case",
+  "ok_shellm": false
+ },
+ {
+  "id": "E051",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "setarch for the word main in the files in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E051",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "setarch for the word main in the files in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E051",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "setarch for the word main in the files in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E051",
+  "set": "E",
+  "method": "freq",
+  "cmd": "setarch for the word main in the files in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E052",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the lines of app.log that do not contain WARN",
+  "ok_shellm": false
+ },
+ {
+  "id": "E052",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the lines of app.log that do not contain WARN",
+  "ok_shellm": false
+ },
+ {
+  "id": "E052",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the lines of app.log that do not contain WARN",
+  "ok_shellm": false
+ },
+ {
+  "id": "E052",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the lines of app.log that do not contain WARN",
+  "ok_shellm": false
+ },
+ {
+  "id": "E053",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "find the lines containing Ankara in veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E053",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E053",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E053",
+  "set": "E",
+  "method": "freq",
+  "cmd": "find the lines containing Ankara in veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E054",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "setarch for the word timeout in all files in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E054",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "setarch for the word timeout in all files in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E054",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "setarch for the word timeout in all files in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E054",
+  "set": "E",
+  "method": "freq",
+  "cmd": "setarch for the word timeout in all files in the loglar folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E055",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the include lines in hesap.c",
+  "ok_shellm": false
+ },
+ {
+  "id": "E055",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the include lines in hesap.c",
+  "ok_shellm": false
+ },
+ {
+  "id": "E055",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the include lines in hesap.c",
+  "ok_shellm": false
+ },
+ {
+  "id": "E055",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the include lines in hesap.c",
+  "ok_shellm": false
+ },
+ {
+  "id": "E056",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the lines of notlar.txt containing the word proje, with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E056",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the lines of notlar.txt containing the word proje, with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E056",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the lines of notlar.txt containing the word proje, with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E056",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the lines of notlar.txt containing the word proje, with line numbers",
+  "ok_shellm": false
+ },
+ {
+  "id": "E057",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the names in isimler.txt that start with the letter A",
+  "ok_shellm": false
+ },
+ {
+  "id": "E057",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the names in isimler.txt that start with the letter A",
+  "ok_shellm": false
+ },
+ {
+  "id": "E057",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the names in isimler.txt that start with the letter A",
+  "ok_shellm": false
+ },
+ {
+  "id": "E057",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the names in isimler.txt that start with the letter A",
+  "ok_shellm": false
+ },
+ {
+  "id": "E058",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the people in veri.csv who live in İstanbul",
+  "ok_shellm": false
+ },
+ {
+  "id": "E058",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the people in veri.csv who live in İstanbul",
+  "ok_shellm": false
+ },
+ {
+  "id": "E058",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the people in veri.csv who live in İstanbul",
+  "ok_shellm": false
+ },
+ {
+  "id": "E058",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the people in veri.csv who live in İstanbul",
+  "ok_shellm": false
+ },
+ {
+  "id": "E059",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sort isimler.txt alphabetically",
+  "ok_shellm": false
+ },
+ {
+  "id": "E059",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E059",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E059",
+  "set": "E",
+  "method": "freq",
+  "cmd": "sort isimler.txt alphabetically",
+  "ok_shellm": false
+ },
+ {
+  "id": "E060",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sort isimler.txt and remove duplicate lines",
+  "ok_shellm": false
+ },
+ {
+  "id": "E060",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E060",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E060",
+  "set": "E",
+  "method": "freq",
+  "cmd": "sort isimler.txt and remove duplicate lines",
+  "ok_shellm": false
+ },
+ {
+  "id": "E061",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sort the numbers in sayilar.txt in ascending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E061",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E061",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E061",
+  "set": "E",
+  "method": "freq",
+  "cmd": "sort the numbers in sayilar.txt in ascending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E062",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sort the numbers in sayilar.txt in descending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E062",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E062",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E062",
+  "set": "E",
+  "method": "freq",
+  "cmd": "sort the numbers in sayilar.txt in descending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E063",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh only the first column of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E063",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh only the first column of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E063",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who only the first column of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E063",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown only the first column of veri.csv",
+  "ok_shellm": false
+ },
+ {
+  "id": "E064",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "last the cities in veri.csv without duplicates",
+  "ok_shellm": false
+ },
+ {
+  "id": "E064",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "last the cities in veri.csv without duplicates",
+  "ok_shellm": false
+ },
+ {
+  "id": "E064",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "ls the cities in veri.csv without duplicates",
+  "ok_shellm": false
+ },
+ {
+  "id": "E064",
+  "set": "E",
+  "method": "freq",
+  "cmd": "last the cities in veri.csv without duplicates",
+  "ok_shellm": false
+ },
+ {
+  "id": "E065",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the contents of notlar.txt in uppercase",
+  "ok_shellm": false
+ },
+ {
+  "id": "E065",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the contents of notlar.txt in uppercase",
+  "ok_shellm": false
+ },
+ {
+  "id": "E065",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the contents of notlar.txt in uppercase",
+  "ok_shellm": false
+ },
+ {
+  "id": "E065",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the contents of notlar.txt in uppercase",
+  "ok_shellm": false
+ },
+ {
+  "id": "E066",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "mount how many times each name appears in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E066",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "mount how many times each name appears in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E066",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "cut how many times each name appears in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E066",
+  "set": "E",
+  "method": "freq",
+  "cmd": "mount how many times each name appears in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E067",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "printf veri.csv to the screen using semicolons instead of commas",
+  "ok_shellm": false
+ },
+ {
+  "id": "E067",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "printf veri.csv to the screen using semicolons instead of commas",
+  "ok_shellm": false
+ },
+ {
+  "id": "E067",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E067",
+  "set": "E",
+  "method": "freq",
+  "cmd": "printf veri.csv to the screen using semicolons instead of commas",
+  "ok_shellm": false
+ },
+ {
+  "id": "E068",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "printf app.log to the screen with INFO replaced by BILGI",
+  "ok_shellm": false
+ },
+ {
+  "id": "E068",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "printf app.log to the screen with INFO replaced by BILGI",
+  "ok_shellm": false
+ },
+ {
+  "id": "E068",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E068",
+  "set": "E",
+  "method": "freq",
+  "cmd": "printf app.log to the screen with INFO replaced by BILGI",
+  "ok_shellm": false
+ },
+ {
+  "id": "E069",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sort the records in veri.csv by age in ascending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E069",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E069",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E069",
+  "set": "E",
+  "method": "freq",
+  "cmd": "sort the records in veri.csv by age in ascending order",
+  "ok_shellm": false
+ },
+ {
+  "id": "E070",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the differences between notlar.txt and belgeler/notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E070",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the differences between notlar.txt and belgeler/notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E070",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the differences between notlar.txt and belgeler/notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E070",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the differences between notlar.txt and belgeler/notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E071",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the repeated names in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E071",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the repeated names in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E071",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the repeated names in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E071",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the repeated names in isimler.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E072",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the even numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E072",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the even numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E072",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the even numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E072",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the even numbers in sayilar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E073",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the people in veri.csv who are older than 30",
+  "ok_shellm": false
+ },
+ {
+  "id": "E073",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the people in veri.csv who are older than 30",
+  "ok_shellm": false
+ },
+ {
+  "id": "E073",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the people in veri.csv who are older than 30",
+  "ok_shellm": false
+ },
+ {
+  "id": "E073",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the people in veri.csv who are older than 30",
+  "ok_shellm": false
+ },
+ {
+  "id": "E074",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh only the first word of each line of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E074",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh only the first word of each line of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E074",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who only the first word of each line of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E074",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown only the first word of each line of app.log",
+  "ok_shellm": false
+ },
+ {
+  "id": "E075",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh notlar.txt with spaces replaced by underscores",
+  "ok_shellm": false
+ },
+ {
+  "id": "E075",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh notlar.txt with spaces replaced by underscores",
+  "ok_shellm": false
+ },
+ {
+  "id": "E075",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who notlar.txt with spaces replaced by underscores",
+  "ok_shellm": false
+ },
+ {
+  "id": "E075",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown notlar.txt with spaces replaced by underscores",
+  "ok_shellm": false
+ },
+ {
+  "id": "E076",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "createdb a folder named yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E076",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "createdb a folder named yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E076",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E076",
+  "set": "E",
+  "method": "freq",
+  "cmd": "createdb a folder named yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E077",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "createdb the folder structure arsiv/2024/ocak",
+  "ok_shellm": false
+ },
+ {
+  "id": "E077",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "createdb the folder structure arsiv/2024/ocak",
+  "ok_shellm": false
+ },
+ {
+  "id": "E077",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E077",
+  "set": "E",
+  "method": "freq",
+  "cmd": "createdb the folder structure arsiv/2024/ocak",
+  "ok_shellm": false
+ },
+ {
+  "id": "E078",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "createdb an empty file named yeni.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E078",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "createdb an empty file named yeni.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E078",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E078",
+  "set": "E",
+  "method": "freq",
+  "cmd": "createdb an empty file named yeni.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E079",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "objcopy notlar.txt as yedek_notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E079",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "objcopy notlar.txt as yedek_notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E079",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "opt notlar.txt as yedek_notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E079",
+  "set": "E",
+  "method": "freq",
+  "cmd": "comm notlar.txt as yedek_notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E080",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "objcopy the belgeler folder under the name belgeler_yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E080",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "objcopy the belgeler folder under the name belgeler_yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E080",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "opt the belgeler folder under the name belgeler_yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E080",
+  "set": "E",
+  "method": "freq",
+  "cmd": "comm the belgeler folder under the name belgeler_yedek",
+  "ok_shellm": false
+ },
+ {
+  "id": "E081",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "rename.ul taslak.txt in the belgeler folder to son.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E081",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "rename.ul taslak.txt in the belgeler folder to son.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E081",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E081",
+  "set": "E",
+  "method": "freq",
+  "cmd": "uname taslak.txt in the belgeler folder to son.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E082",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "more the png files in the resimler folder to the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E082",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "more the png files in the resimler folder to the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E082",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "node the png files in the resimler folder to the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E082",
+  "set": "E",
+  "method": "freq",
+  "cmd": "more the png files in the resimler folder to the belgeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E083",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "detex the files with the tmp extension in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E083",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "detex the files with the tmp extension in the gecici folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E083",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E083",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E084",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "detex the gecici folder together with its contents",
+  "ok_shellm": false
+ },
+ {
+  "id": "E084",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "detex the gecici folder together with its contents",
+  "ok_shellm": false
+ },
+ {
+  "id": "E084",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E084",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E085",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "detex the bos.txt file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E085",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "detex the bos.txt file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E085",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E085",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E086",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "lowriter the text merhaba dünya to selam.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E086",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "lowriter the text merhaba dünya to selam.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E086",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E086",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E087",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "pdfopen the line 'yeni not' to the end of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E087",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "pdfopen the line yeni not to the end of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E087",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E087",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E088",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "make betik.sh executable",
+  "ok_shellm": false
+ },
+ {
+  "id": "E088",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E088",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E088",
+  "set": "E",
+  "method": "freq",
+  "cmd": "make betik.sh executable",
+  "ok_shellm": false
+ },
+ {
+  "id": "E089",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "createdb a symbolic link named kisayol for notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E089",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "createdb a symbolic link named kisayol for notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E089",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E089",
+  "set": "E",
+  "method": "freq",
+  "cmd": "createdb a symbolic link named kisayol for notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E090",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "gp-archive the loglar folder as loglar.tar.gz",
+  "ok_shellm": false
+ },
+ {
+  "id": "E090",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "gp-archive the loglar folder as loglar.tar.gz",
+  "ok_shellm": false
+ },
+ {
+  "id": "E090",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E090",
+  "set": "E",
+  "method": "freq",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E091",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "extractbb the arsiv.tar.gz archive into this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E091",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "extractbb the arsiv.tar.gz archive into this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E091",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E091",
+  "set": "E",
+  "method": "freq",
+  "cmd": "extractbb the arsiv.tar.gz archive into this directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E092",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "gio to the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E092",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "gio to the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E092",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "gio to the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E092",
+  "set": "E",
+  "method": "freq",
+  "cmd": "gio to the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E093",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "gio up one directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E093",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "gio up one directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E093",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "gio up one directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E093",
+  "set": "E",
+  "method": "freq",
+  "cmd": "gio up one directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E094",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "gio to the home directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E094",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "gio to the home directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E094",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "gio to the home directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E094",
+  "set": "E",
+  "method": "freq",
+  "cmd": "gio to the home directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E095",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the full path of the current directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E095",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the full path of the current directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E095",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the full path of the current directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E095",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the full path of the current directory",
+  "ok_shellm": false
+ },
+ {
+  "id": "E096",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh which user I am logged in as",
+  "ok_shellm": false
+ },
+ {
+  "id": "E096",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh which user I am logged in as",
+  "ok_shellm": false
+ },
+ {
+  "id": "E096",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who which user I am logged in as",
+  "ok_shellm": false
+ },
+ {
+  "id": "E096",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown which user I am logged in as",
+  "ok_shellm": false
+ },
+ {
+  "id": "E097",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "printf the value of the HOME variable",
+  "ok_shellm": false
+ },
+ {
+  "id": "E097",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "printf the value of the HOME variable",
+  "ok_shellm": false
+ },
+ {
+  "id": "E097",
+  "set": "E",
+  "method": "zsh",
+  "cmd": null,
+  "ok_shellm": false
+ },
+ {
+  "id": "E097",
+  "set": "E",
+  "method": "freq",
+  "cmd": "printf the value of the HOME variable",
+  "ok_shellm": false
+ },
+ {
+  "id": "E098",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the permissions of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E098",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the permissions of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E098",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the permissions of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E098",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the permissions of notlar.txt",
+  "ok_shellm": false
+ },
+ {
+  "id": "E099",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "sh the type of the hesap.c file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E099",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "sh the type of the hesap.c file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E099",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "who the type of the hesap.c file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E099",
+  "set": "E",
+  "method": "freq",
+  "cmd": "chown the type of the hesap.c file",
+  "ok_shellm": false
+ },
+ {
+  "id": "E100",
+  "set": "E",
+  "method": "nearest",
+  "cmd": "runc the betik.py program in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E100",
+  "set": "E",
+  "method": "thefuck",
+  "cmd": "runc the betik.py program in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E100",
+  "set": "E",
+  "method": "zsh",
+  "cmd": "runc the betik.py program in the projeler folder",
+  "ok_shellm": false
+ },
+ {
+  "id": "E100",
+  "set": "E",
+  "method": "freq",
+  "cmd": "bun the betik.py program in the projeler folder",
+  "ok_shellm": false
+ }
+]

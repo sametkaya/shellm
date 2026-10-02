@@ -1,0 +1,1319 @@
+{
+ "cells": {
+  "anthropic|claude-haiku-4-5-20251001|C1K1|A|1": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 2.0,
+   "acc": 79.0,
+   "acc_bash": 79.0,
+   "correct": 79
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|A|2": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 2.0,
+   "acc": 79.0,
+   "acc_bash": 79.0,
+   "correct": 79
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|A|3": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 2.0,
+   "acc": 79.0,
+   "acc_bash": 79.0,
+   "correct": 79
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 75.0,
+   "acc_bash": 76.0,
+   "correct": 75
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 75.0,
+   "acc_bash": 76.0,
+   "correct": 75
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 75.0,
+   "acc_bash": 76.0,
+   "correct": 75
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|C|1": {
+   "n": 100,
+   "none": 14,
+   "syntax_ok": 70.0,
+   "risky": 8.0,
+   "nlc2cmd": -0.158,
+   "utility": 53.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|C|2": {
+   "n": 100,
+   "none": 14,
+   "syntax_ok": 71.0,
+   "risky": 8.0,
+   "nlc2cmd": -0.159,
+   "utility": 53.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|C|3": {
+   "n": 100,
+   "none": 15,
+   "syntax_ok": 71.0,
+   "risky": 8.0,
+   "nlc2cmd": -0.16,
+   "utility": 52.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 85.0,
+   "correct": 83
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 85.0,
+   "correct": 83
+  },
+  "anthropic|claude-haiku-4-5-20251001|C1K1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 85.0,
+   "correct": 83
+  },
+  "anthropic|claude-haiku-4-5-20251001|INJ|A|1": {
+   "n": 25,
+   "none": 2,
+   "syntax_ok": 92.0,
+   "risky": 0.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "anthropic|claude-haiku-4-5-20251001|INJ|B|1": {
+   "n": 25,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 8.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|A|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 1.0,
+   "acc": 81.0,
+   "acc_bash": 81.0,
+   "correct": 81
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|A|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 1.0,
+   "acc": 81.0,
+   "acc_bash": 81.0,
+   "correct": 81
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|A|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 1.0,
+   "acc": 82.0,
+   "acc_bash": 82.0,
+   "correct": 82
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 74.0,
+   "acc_bash": 77.0,
+   "correct": 74
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 73.0,
+   "acc_bash": 76.0,
+   "correct": 73
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 73.0,
+   "acc_bash": 76.0,
+   "correct": 73
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|C|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 79.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.13,
+   "utility": 66.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|C|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 79.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.12,
+   "utility": 66.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|C|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 79.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.13,
+   "utility": 66.0
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 77.0,
+   "acc_bash": 80.0,
+   "correct": 77
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 76.0,
+   "acc_bash": 79.0,
+   "correct": 76
+  },
+  "anthropic|claude-haiku-4-5-20251001|V1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 96.0,
+   "risky": 3.0,
+   "acc": 77.0,
+   "acc_bash": 80.0,
+   "correct": 77
+  },
+  "gemini|gemini-3.5-flash-lite|C0K0|A|1": {
+   "n": 100,
+   "none": 3,
+   "syntax_ok": 97.0,
+   "risky": 5.0,
+   "acc": 83.0,
+   "acc_bash": 83.0,
+   "correct": 83
+  },
+  "gemini|gemini-3.5-flash-lite|C0K0|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 72.0,
+   "acc_bash": 74.0,
+   "correct": 72
+  },
+  "gemini|gemini-3.5-flash-lite|C0K0|C|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 80.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.032,
+   "utility": 67.0
+  },
+  "gemini|gemini-3.5-flash-lite|C0K0|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 77.0,
+   "acc_bash": 79.0,
+   "correct": 77
+  },
+  "gemini|gemini-3.5-flash-lite|C0K1|A|1": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "gemini|gemini-3.5-flash-lite|C0K1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 3.0,
+   "acc": 71.0,
+   "acc_bash": 71.0,
+   "correct": 71
+  },
+  "gemini|gemini-3.5-flash-lite|C0K1|C|1": {
+   "n": 100,
+   "none": 3,
+   "syntax_ok": 74.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.171,
+   "utility": 58.0
+  },
+  "gemini|gemini-3.5-flash-lite|C0K1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 70.0,
+   "acc_bash": 71.0,
+   "correct": 70
+  },
+  "gemini|gemini-3.5-flash-lite|C1K0|A|1": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 88.0,
+   "acc_bash": 88.0,
+   "correct": 88
+  },
+  "gemini|gemini-3.5-flash-lite|C1K0|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 81.0,
+   "acc_bash": 83.0,
+   "correct": 81
+  },
+  "gemini|gemini-3.5-flash-lite|C1K0|C|1": {
+   "n": 100,
+   "none": 5,
+   "syntax_ok": 74.0,
+   "risky": 12.0,
+   "nlc2cmd": -0.048,
+   "utility": 63.0
+  },
+  "gemini|gemini-3.5-flash-lite|C1K0|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 79.0,
+   "acc_bash": 82.0,
+   "correct": 79
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|A|1": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 4.0,
+   "acc": 90.0,
+   "acc_bash": 90.0,
+   "correct": 90
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|A|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 4.0,
+   "acc": 90.0,
+   "acc_bash": 90.0,
+   "correct": 90
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|A|3": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 4.0,
+   "acc": 89.0,
+   "acc_bash": 89.0,
+   "correct": 89
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 83.0,
+   "correct": 83
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|B|2": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 82.0,
+   "acc_bash": 82.0,
+   "correct": 82
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 3.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|C|1": {
+   "n": 100,
+   "none": 6,
+   "syntax_ok": 74.0,
+   "risky": 10.0,
+   "nlc2cmd": -0.153,
+   "utility": 58.0
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|C|2": {
+   "n": 100,
+   "none": 6,
+   "syntax_ok": 75.0,
+   "risky": 10.0,
+   "nlc2cmd": -0.106,
+   "utility": 59.0
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|C|3": {
+   "n": 100,
+   "none": 7,
+   "syntax_ok": 76.0,
+   "risky": 9.0,
+   "nlc2cmd": -0.144,
+   "utility": 57.0
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 84.0,
+   "correct": 83
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 83.0,
+   "acc_bash": 84.0,
+   "correct": 83
+  },
+  "gemini|gemini-3.5-flash-lite|C1K1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 3.0,
+   "acc": 82.0,
+   "acc_bash": 83.0,
+   "correct": 82
+  },
+  "gemini|gemini-3.5-flash-lite|INJ|A|1": {
+   "n": 25,
+   "none": 2,
+   "syntax_ok": 92.0,
+   "risky": 4.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "gemini|gemini-3.5-flash-lite|INJ|B|1": {
+   "n": 25,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 8.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "gemini|gemini-3.5-flash-lite|V1|A|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 7.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "gemini|gemini-3.5-flash-lite|V1|A|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 8.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "gemini|gemini-3.5-flash-lite|V1|A|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 5.0,
+   "acc": 82.0,
+   "acc_bash": 82.0,
+   "correct": 82
+  },
+  "gemini|gemini-3.5-flash-lite|V1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 76.0,
+   "acc_bash": 79.0,
+   "correct": 76
+  },
+  "gemini|gemini-3.5-flash-lite|V1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 77.0,
+   "acc_bash": 80.0,
+   "correct": 77
+  },
+  "gemini|gemini-3.5-flash-lite|V1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 76.0,
+   "acc_bash": 79.0,
+   "correct": 76
+  },
+  "gemini|gemini-3.5-flash-lite|V1|C|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 78.0,
+   "risky": 13.0,
+   "nlc2cmd": 0.054,
+   "utility": 72.0
+  },
+  "gemini|gemini-3.5-flash-lite|V1|C|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 78.0,
+   "risky": 12.0,
+   "nlc2cmd": -0.011,
+   "utility": 70.0
+  },
+  "gemini|gemini-3.5-flash-lite|V1|C|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 81.0,
+   "risky": 14.0,
+   "nlc2cmd": 0.069,
+   "utility": 73.0
+  },
+  "gemini|gemini-3.5-flash-lite|V1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 77.0,
+   "acc_bash": 80.0,
+   "correct": 77
+  },
+  "gemini|gemini-3.5-flash-lite|V1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 78.0,
+   "acc_bash": 81.0,
+   "correct": 78
+  },
+  "gemini|gemini-3.5-flash-lite|V1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 78.0,
+   "acc_bash": 81.0,
+   "correct": 78
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|A|1": {
+   "n": 100,
+   "none": 50,
+   "syntax_ok": 49.0,
+   "risky": 0.0,
+   "acc": 28.0,
+   "acc_bash": 28.0,
+   "correct": 28
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|A|2": {
+   "n": 100,
+   "none": 50,
+   "syntax_ok": 49.0,
+   "risky": 0.0,
+   "acc": 28.0,
+   "acc_bash": 28.0,
+   "correct": 28
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 4.0,
+   "acc": 36.0,
+   "acc_bash": 36.0,
+   "correct": 36
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 4.0,
+   "acc": 36.0,
+   "acc_bash": 36.0,
+   "correct": 36
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|C|1": {
+   "n": 100,
+   "none": 10,
+   "syntax_ok": 82.0,
+   "risky": 9.0,
+   "nlc2cmd": -0.538,
+   "utility": 35.0
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 60.0,
+   "acc_bash": 61.0,
+   "correct": 60
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|C1K1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 60.0,
+   "acc_bash": 61.0,
+   "correct": 60
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|INJ|A|1": {
+   "n": 25,
+   "none": 20,
+   "syntax_ok": 20.0,
+   "risky": 16.0,
+   "injected": 3,
+   "injected_flagged": 3
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|INJ|B|1": {
+   "n": 25,
+   "none": 1,
+   "syntax_ok": 96.0,
+   "risky": 36.0,
+   "injected": 7,
+   "injected_flagged": 7
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|V1|A|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 2.0,
+   "acc": 43.0,
+   "acc_bash": 43.0,
+   "correct": 43
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|V1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 4.0,
+   "acc": 23.0,
+   "acc_bash": 23.0,
+   "correct": 23
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|V1|C|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 87.0,
+   "risky": 13.0,
+   "nlc2cmd": -0.483,
+   "utility": 45.0
+  },
+  "local|qwen2.5-coder-1.5b-instruct-q4_k_m|V1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 99.0,
+   "risky": 4.0,
+   "acc": 47.0,
+   "acc_bash": 48.0,
+   "correct": 47
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|A|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 1.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|A|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 1.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|A|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 1.0,
+   "acc": 84.0,
+   "acc_bash": 84.0,
+   "correct": 84
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 79.0,
+   "acc_bash": 81.0,
+   "correct": 79
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 81.0,
+   "acc_bash": 83.0,
+   "correct": 81
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 80.0,
+   "acc_bash": 82.0,
+   "correct": 80
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|C|1": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 83.0,
+   "risky": 11.0,
+   "nlc2cmd": -0.194,
+   "utility": 58.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|C|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 84.0,
+   "risky": 10.0,
+   "nlc2cmd": -0.164,
+   "utility": 61.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|C|3": {
+   "n": 100,
+   "none": 1,
+   "syntax_ok": 83.0,
+   "risky": 12.0,
+   "nlc2cmd": -0.173,
+   "utility": 61.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 82.0,
+   "acc_bash": 84.0,
+   "correct": 82
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 98.0,
+   "risky": 3.0,
+   "acc": 84.0,
+   "acc_bash": 86.0,
+   "correct": 84
+  },
+  "openai|gpt-5.4-mini-2026-03-17|C1K1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 84.0,
+   "acc_bash": 87.0,
+   "correct": 84
+  },
+  "openai|gpt-5.4-mini-2026-03-17|INJ|A|1": {
+   "n": 25,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 0.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|INJ|B|1": {
+   "n": 25,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 8.0,
+   "injected": 0,
+   "injected_flagged": 0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|A|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 1.0,
+   "acc": 88.0,
+   "acc_bash": 88.0,
+   "correct": 88
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|A|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 2.0,
+   "acc": 90.0,
+   "acc_bash": 90.0,
+   "correct": 90
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|A|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 100.0,
+   "risky": 1.0,
+   "acc": 89.0,
+   "acc_bash": 89.0,
+   "correct": 89
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|B|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 66.0,
+   "acc_bash": 67.0,
+   "correct": 66
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|B|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 67.0,
+   "acc_bash": 68.0,
+   "correct": 67
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|B|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 65.0,
+   "acc_bash": 66.0,
+   "correct": 65
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|C|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 80.0,
+   "risky": 11.0,
+   "nlc2cmd": 0.033,
+   "utility": 70.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|C|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 78.0,
+   "risky": 11.0,
+   "nlc2cmd": 0.05,
+   "utility": 71.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|C|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 81.0,
+   "risky": 12.0,
+   "nlc2cmd": 0.053,
+   "utility": 70.0
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|E|1": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 80.0,
+   "acc_bash": 83.0,
+   "correct": 80
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|E|2": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 80.0,
+   "acc_bash": 83.0,
+   "correct": 80
+  },
+  "openai|gpt-5.4-mini-2026-03-17|V1|E|3": {
+   "n": 100,
+   "none": 0,
+   "syntax_ok": 97.0,
+   "risky": 3.0,
+   "acc": 81.0,
+   "acc_bash": 84.0,
+   "correct": 81
+  }
+ },
+ "tests": {
+  "anthropic/claude-haiku-4-5-20251001 A C1K1 vs V1": {
+   "c1k1_only": 5,
+   "v1_only": 7,
+   "p": 0.77441
+  },
+  "anthropic/claude-haiku-4-5-20251001 B C1K1 vs V1": {
+   "c1k1_only": 5,
+   "v1_only": 4,
+   "p": 1.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 E C1K1 vs V1": {
+   "c1k1_only": 8,
+   "v1_only": 2,
+   "p": 0.10938
+  },
+  "anthropic/claude-haiku-4-5-20251001 C1K1 EN vs TR": {
+   "en_only": 11,
+   "tr_only": 3,
+   "p": 0.05737
+  },
+  "anthropic/claude-haiku-4-5-20251001 V1 EN vs TR": {
+   "en_only": 6,
+   "tr_only": 3,
+   "p": 0.50781
+  },
+  "gemini/gemini-3.5-flash-lite A C1K1 vs V1": {
+   "c1k1_only": 9,
+   "v1_only": 3,
+   "p": 0.146
+  },
+  "gemini/gemini-3.5-flash-lite B C1K1 vs V1": {
+   "c1k1_only": 8,
+   "v1_only": 1,
+   "p": 0.03906
+  },
+  "gemini/gemini-3.5-flash-lite E C1K1 vs V1": {
+   "c1k1_only": 9,
+   "v1_only": 3,
+   "p": 0.146
+  },
+  "gemini/gemini-3.5-flash-lite C1K1 EN vs TR": {
+   "en_only": 4,
+   "tr_only": 4,
+   "p": 1.0
+  },
+  "gemini/gemini-3.5-flash-lite V1 EN vs TR": {
+   "en_only": 3,
+   "tr_only": 2,
+   "p": 1.0
+  },
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C0K1": {
+   "full_only": 9,
+   "abl_only": 3,
+   "p": 0.146
+  },
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C0K1": {
+   "full_only": 12,
+   "abl_only": 0,
+   "p": 0.00049
+  },
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C0K1": {
+   "full_only": 14,
+   "abl_only": 1,
+   "p": 0.00098
+  },
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C1K0": {
+   "full_only": 4,
+   "abl_only": 2,
+   "p": 0.6875
+  },
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C1K0": {
+   "full_only": 4,
+   "abl_only": 2,
+   "p": 0.6875
+  },
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C1K0": {
+   "full_only": 8,
+   "abl_only": 4,
+   "p": 0.3877
+  },
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C0K0": {
+   "full_only": 10,
+   "abl_only": 3,
+   "p": 0.09229
+  },
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C0K0": {
+   "full_only": 11,
+   "abl_only": 0,
+   "p": 0.00098
+  },
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C0K0": {
+   "full_only": 7,
+   "abl_only": 1,
+   "p": 0.07031
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m A C1K1 vs V1": {
+   "c1k1_only": 2,
+   "v1_only": 17,
+   "p": 0.00073
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m B C1K1 vs V1": {
+   "c1k1_only": 19,
+   "v1_only": 6,
+   "p": 0.01463
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m E C1K1 vs V1": {
+   "c1k1_only": 22,
+   "v1_only": 9,
+   "p": 0.02945
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m C1K1 EN vs TR": {
+   "en_only": 28,
+   "tr_only": 4,
+   "p": 2e-05
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m V1 EN vs TR": {
+   "en_only": 30,
+   "tr_only": 6,
+   "p": 7e-05
+  },
+  "openai/gpt-5.4-mini-2026-03-17 A C1K1 vs V1": {
+   "c1k1_only": 3,
+   "v1_only": 7,
+   "p": 0.34375
+  },
+  "openai/gpt-5.4-mini-2026-03-17 B C1K1 vs V1": {
+   "c1k1_only": 15,
+   "v1_only": 2,
+   "p": 0.00235
+  },
+  "openai/gpt-5.4-mini-2026-03-17 E C1K1 vs V1": {
+   "c1k1_only": 4,
+   "v1_only": 2,
+   "p": 0.6875
+  },
+  "openai/gpt-5.4-mini-2026-03-17 C1K1 EN vs TR": {
+   "en_only": 3,
+   "tr_only": 0,
+   "p": 0.25
+  },
+  "openai/gpt-5.4-mini-2026-03-17 V1 EN vs TR": {
+   "en_only": 15,
+   "tr_only": 1,
+   "p": 0.00052
+  }
+ },
+ "latency": {
+  "anthropic/claude-haiku-4-5-20251001 V1": {
+   "n": 1200,
+   "median": 0.605,
+   "p90": 0.79,
+   "under3": 99.9,
+   "tokens_in_median": 56.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 C1K1": {
+   "n": 1200,
+   "median": 0.615,
+   "p90": 0.801,
+   "under3": 99.8,
+   "tokens_in_median": 373.0
+  },
+  "gemini/gemini-3.5-flash-lite V1": {
+   "n": 1200,
+   "median": 0.707,
+   "p90": 0.897,
+   "under3": 99.3,
+   "tokens_in_median": 44.0
+  },
+  "gemini/gemini-3.5-flash-lite C1K1": {
+   "n": 1200,
+   "median": 0.713,
+   "p90": 0.925,
+   "under3": 98.7,
+   "tokens_in_median": 346.0
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m V1": {
+   "n": 400,
+   "median": 2.984,
+   "p90": 4.78,
+   "under3": 50.5,
+   "tokens_in_median": 73.0
+  },
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m C1K1": {
+   "n": 700,
+   "median": 1.845,
+   "p90": 3.577,
+   "under3": 83.7,
+   "tokens_in_median": 346.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 V1": {
+   "n": 1200,
+   "median": 0.804,
+   "p90": 1.393,
+   "under3": 98.8,
+   "tokens_in_median": 48.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 C1K1": {
+   "n": 1200,
+   "median": 0.81,
+   "p90": 1.406,
+   "under3": 98.6,
+   "tokens_in_median": 331.0
+  }
+ },
+ "injection": {},
+ "reps": {
+  "anthropic/claude-haiku-4-5-20251001 V1 A": {
+   "acc": [
+    81.0,
+    81.0,
+    82.0
+   ],
+   "mean": 81.3,
+   "sd": 0.58,
+   "task_agreement": 99.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 V1 B": {
+   "acc": [
+    74.0,
+    73.0,
+    73.0
+   ],
+   "mean": 73.3,
+   "sd": 0.58,
+   "task_agreement": 99.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 V1 E": {
+   "acc": [
+    77.0,
+    76.0,
+    77.0
+   ],
+   "mean": 76.7,
+   "sd": 0.58,
+   "task_agreement": 99.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 C1K1 A": {
+   "acc": [
+    79.0,
+    79.0,
+    79.0
+   ],
+   "mean": 79.0,
+   "sd": 0.0,
+   "task_agreement": 100.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 C1K1 B": {
+   "acc": [
+    75.0,
+    75.0,
+    75.0
+   ],
+   "mean": 75.0,
+   "sd": 0.0,
+   "task_agreement": 100.0
+  },
+  "anthropic/claude-haiku-4-5-20251001 C1K1 E": {
+   "acc": [
+    83.0,
+    83.0,
+    83.0
+   ],
+   "mean": 83.0,
+   "sd": 0.0,
+   "task_agreement": 100.0
+  },
+  "gemini/gemini-3.5-flash-lite V1 A": {
+   "acc": [
+    84.0,
+    84.0,
+    82.0
+   ],
+   "mean": 83.3,
+   "sd": 1.15,
+   "task_agreement": 94.0
+  },
+  "gemini/gemini-3.5-flash-lite V1 B": {
+   "acc": [
+    76.0,
+    77.0,
+    76.0
+   ],
+   "mean": 76.3,
+   "sd": 0.58,
+   "task_agreement": 96.0
+  },
+  "gemini/gemini-3.5-flash-lite V1 E": {
+   "acc": [
+    77.0,
+    78.0,
+    78.0
+   ],
+   "mean": 77.7,
+   "sd": 0.58,
+   "task_agreement": 99.0
+  },
+  "gemini/gemini-3.5-flash-lite C1K1 A": {
+   "acc": [
+    90.0,
+    90.0,
+    89.0
+   ],
+   "mean": 89.7,
+   "sd": 0.58,
+   "task_agreement": 97.0
+  },
+  "gemini/gemini-3.5-flash-lite C1K1 B": {
+   "acc": [
+    83.0,
+    82.0,
+    84.0
+   ],
+   "mean": 83.0,
+   "sd": 1.0,
+   "task_agreement": 98.0
+  },
+  "gemini/gemini-3.5-flash-lite C1K1 E": {
+   "acc": [
+    83.0,
+    83.0,
+    82.0
+   ],
+   "mean": 82.7,
+   "sd": 0.58,
+   "task_agreement": 94.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 V1 A": {
+   "acc": [
+    88.0,
+    90.0,
+    89.0
+   ],
+   "mean": 89.0,
+   "sd": 1.0,
+   "task_agreement": 97.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 V1 B": {
+   "acc": [
+    66.0,
+    67.0,
+    65.0
+   ],
+   "mean": 66.0,
+   "sd": 1.0,
+   "task_agreement": 96.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 V1 E": {
+   "acc": [
+    80.0,
+    80.0,
+    81.0
+   ],
+   "mean": 80.3,
+   "sd": 0.58,
+   "task_agreement": 99.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 C1K1 A": {
+   "acc": [
+    84.0,
+    84.0,
+    84.0
+   ],
+   "mean": 84.0,
+   "sd": 0.0,
+   "task_agreement": 98.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 C1K1 B": {
+   "acc": [
+    79.0,
+    81.0,
+    80.0
+   ],
+   "mean": 80.0,
+   "sd": 1.0,
+   "task_agreement": 98.0
+  },
+  "openai/gpt-5.4-mini-2026-03-17 C1K1 E": {
+   "acc": [
+    82.0,
+    84.0,
+    84.0
+   ],
+   "mean": 83.3,
+   "sd": 1.15,
+   "task_agreement": 95.0
+  }
+ },
+ "holm": {
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m C1K1 EN vs TR": 0.00058,
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m V1 EN vs TR": 0.00196,
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C0K1": 0.01323,
+  "openai/gpt-5.4-mini-2026-03-17 V1 EN vs TR": 0.01352,
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m A C1K1 vs V1": 0.01825,
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C0K1": 0.02352,
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C0K0": 0.02352,
+  "openai/gpt-5.4-mini-2026-03-17 B C1K1 vs V1": 0.0517,
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m B C1K1 vs V1": 0.30723,
+  "local/qwen2.5-coder-1.5b-instruct-q4_k_m E C1K1 vs V1": 0.589,
+  "gemini/gemini-3.5-flash-lite B C1K1 vs V1": 0.74214,
+  "anthropic/claude-haiku-4-5-20251001 C1K1 EN vs TR": 1.0,
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C0K0": 1.0,
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C0K0": 1.0,
+  "anthropic/claude-haiku-4-5-20251001 E C1K1 vs V1": 1.0,
+  "gemini/gemini-3.5-flash-lite A C1K1 vs V1": 1.0,
+  "gemini/gemini-3.5-flash-lite E C1K1 vs V1": 1.0,
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C0K1": 1.0,
+  "openai/gpt-5.4-mini-2026-03-17 C1K1 EN vs TR": 1.0,
+  "openai/gpt-5.4-mini-2026-03-17 A C1K1 vs V1": 1.0,
+  "gemini/gemini-3.5-flash-lite E C1K1 vs C1K0": 1.0,
+  "anthropic/claude-haiku-4-5-20251001 V1 EN vs TR": 1.0,
+  "gemini/gemini-3.5-flash-lite A C1K1 vs C1K0": 1.0,
+  "gemini/gemini-3.5-flash-lite B C1K1 vs C1K0": 1.0,
+  "openai/gpt-5.4-mini-2026-03-17 E C1K1 vs V1": 1.0,
+  "anthropic/claude-haiku-4-5-20251001 A C1K1 vs V1": 1.0,
+  "anthropic/claude-haiku-4-5-20251001 B C1K1 vs V1": 1.0,
+  "gemini/gemini-3.5-flash-lite C1K1 EN vs TR": 1.0,
+  "gemini/gemini-3.5-flash-lite V1 EN vs TR": 1.0
+ }
+}

@@ -1,0 +1,173 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 4258381842
+INFO: Loaded 1 modules   (3920 inline 8-bit counters): 3920 [0x5601b15dece0, 0x5601b15dfc30), 
+INFO: Loaded 1 PC tables (3920 PCs): 3920 [0x5601b15dfc30,0x5601b15ef130), 
+INFO: -fork=1: fuzzing in separate process(s)
+INFO: -fork=1: 1387 seed inputs, starting to fuzz in /tmp/libFuzzerTemp.FuzzWithFork24792.dir
+#2576: cov: 6693 ft: 6693 corp: 1387 exec/s: 1288 oom/timeout/crash: 0/0/0 time: 5s job: 1 dft_time: 0
+#6125: cov: 6693 ft: 6693 corp: 1387 exec/s: 1183 oom/timeout/crash: 0/0/0 time: 8s job: 2 dft_time: 0
+#12182: cov: 6693 ft: 6693 corp: 1387 exec/s: 1514 oom/timeout/crash: 0/0/0 time: 12s job: 3 dft_time: 0
+  NEW_FUNC: 0x5601b154eb08 in syntax_issue /home/claude/work/fuzz/../v2/ai_guard.c:84
+  NEW_FUNC: 0x5601b154fff8 in is_assignment_word /home/claude/work/fuzz/../v2/ai_guard.c:37
+  NEW_FUNC: 0x5601b15503b8 in risk_reason_depth /home/claude/work/fuzz/../v2/ai_risk.c:754
+  NEW_FUNC: 0x5601b1551218 in risk_reason /home/claude/work/fuzz/../v2/ai_risk.c:775
+  NEW_FUNC: 0x5601b1551248 in op_at /home/claude/work/fuzz/../v2/ai_risk.c:68
+  NEW_FUNC: 0x5601b1551698 in push /home/claude/work/fuzz/../v2/ai_risk.c:48
+  NEW_FUNC: 0x5601b1551c78 in risk_of_seg /home/claude/work/fuzz/../v2/ai_risk.c:659
+  NEW_FUNC: 0x5601b1553428 in write_target /home/claude/work/fuzz/../v2/ai_risk.c:251
+  NEW_FUNC: 0x5601b1558388 in in_list /home/claude/work/fuzz/../v2/ai_risk.c:143
+  NEW_FUNC: 0x5601b1558528 in risk_embedded /home/claude/work/fuzz/../v2/ai_risk.c:639
+  NEW_FUNC: 0x5601b1558ba8 in risk_inplace /home/claude/work/fuzz/../v2/ai_risk.c:557
+  NEW_FUNC: 0x5601b1559688 in risk_system /home/claude/work/fuzz/../v2/ai_risk.c:585
+  NEW_FUNC: 0x5601b155a5d8 in risk_interp /home/claude/work/fuzz/../v2/ai_risk.c:621
+  NEW_FUNC: 0x5601b155a968 in starts /home/claude/work/fuzz/../v2/ai_risk.c:154
+  NEW_FUNC: 0x5601b155a9c8 in sensitive_path /home/claude/work/fuzz/../v2/ai_risk.c:225
+  NEW_FUNC: 0x5601b155b1d8 in existing_file /home/claude/work/fuzz/../v2/ai_risk.c:206
+  NEW_FUNC: 0x5601b155b408 in expand_home /home/claude/work/fuzz/../v2/ai_risk.c:191
+  NEW_FUNC: 0x5601b15607d8 in ft_strcmp /home/claude/work/fuzz/../v2/env/env_utils.c:5
+  NEW_FUNC: 0x5601b1560b78 in new_env_node /home/claude/work/fuzz/../v2/env/env_utils.c:21
+  NEW_FUNC: 0x5601b1560cc8 in add_env_node /home/claude/work/fuzz/../v2/env/env_utils.c:45
+  NEW_FUNC: 0x5601b1563a38 in find_exec /home/claude/work/fuzz/../v2/env/find.c:65
+  NEW_FUNC: 0x5601b15665d8 in initshell /home/claude/work/fuzz/../v2/main_utils.c:76
+  NEW_FUNC: 0x5601b157c568 in name_resolves /home/claude/work/fuzz/../v2/trigger.c:29
+  NEW_FUNC: 0x5601b157fc08 in ft_bzero /home/claude/work/fuzz/../v2/libft/ft_bzero.c:16
+  NEW_FUNC: 0x5601b1580708 in ft_memcpy /home/claude/work/fuzz/../v2/libft/ft_memcpy.c:16
+  NEW_FUNC: 0x5601b1580a78 in ft_memset /home/claude/work/fuzz/../v2/libft/ft_memset.c:16
+  NEW_FUNC: 0x5601b1580b68 in ft_putchar_fd /home/claude/work/fuzz/../v2/libft/ft_putchar_fd.c:16
+  NEW_FUNC: 0x5601b1581018 in ft_split /home/claude/work/fuzz/../v2/libft/ft_split.c:92
+  NEW_FUNC: 0x5601b1581d58 in ft_strdup /home/claude/work/fuzz/../v2/libft/ft_strdup.c:16
+  NEW_FUNC: 0x5601b1582878 in ft_strlen /home/claude/work/fuzz/../v2/libft/ft_strlen.c:16
+  NEW_FUNC: 0x5601b1582c38 in ft_strncmp /home/claude/work/fuzz/../v2/libft/ft_strncmp.c:16
+  NEW_FUNC: 0x5601b1583278 in ft_strrchr /home/claude/work/fuzz/../v2/libft/ft_strrchr.c:16
+#21269: cov: 6993 ft: 6694 corp: 1388 exec/s: 1817 oom/timeout/crash: 0/0/0 time: 17s job: 4 dft_time: 0
+#31460: cov: 6993 ft: 6694 corp: 1388 exec/s: 1698 oom/timeout/crash: 0/0/0 time: 24s job: 5 dft_time: 0
+  NEW_FUNC: 0x5601b155b5b8 in create_ast_node /home/claude/work/fuzz/../v2/ast/create_ast_node.c:22
+  NEW_FUNC: 0x5601b155bab8 in free_ast /home/claude/work/fuzz/../v2/ast/free_ast.c:69
+  NEW_FUNC: 0x5601b1566da8 in parse_tokens /home/claude/work/fuzz/../v2/parse/parse_command.c:6
+  NEW_FUNC: 0x5601b1567048 in parse_command /home/claude/work/fuzz/../v2/parse/parse_command.c:84
+  NEW_FUNC: 0x5601b15753e8 in init_token_ctx /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced_utils.c:12
+  NEW_FUNC: 0x5601b1575af8 in scan_input /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced_utils.c:28
+  NEW_FUNC: 0x5601b1576518 in append_part /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced_utils.c:75
+  NEW_FUNC: 0x5601b15774b8 in finalize_token /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced_utils.c:154
+  NEW_FUNC: 0x5601b1578d68 in expand_glob_tokens /home/claude/work/fuzz/../v2/tokens/glob_expand.c:81
+  NEW_FUNC: 0x5601b1579668 in push /home/claude/work/fuzz/../v2/tokens/glob_expand.c:27
+  NEW_FUNC: 0x5601b1579e08 in tokenize_with_expansion /home/claude/work/fuzz/../v2/tokens/token.c:23
+  NEW_FUNC: 0x5601b157a368 in freetokens /home/claude/work/fuzz/../v2/tokens/token_utils1.c:6
+  NEW_FUNC: 0x5601b157a6c8 in skip_spaces /home/claude/work/fuzz/../v2/tokens/token_utils1.c:30
+  NEW_FUNC: 0x5601b157a948 in count_tokens_enhanced /home/claude/work/fuzz/../v2/tokens/token_utils2.c:44
+  NEW_FUNC: 0x5601b157b508 in create_special_token /home/claude/work/fuzz/../v2/tokens/token_utils_special.c:42
+  NEW_FUNC: 0x5601b157bc98 in fill_tokens_enhanced_with_expansion /home/claude/work/fuzz/../v2/tokens/tokens_fill.c:17
+  NEW_FUNC: 0x5601b157fc38 in ft_calloc /home/claude/work/fuzz/../v2/libft/ft_calloc.c:16
+  NEW_FUNC: 0x5601b15825a8 in ft_strlcpy /home/claude/work/fuzz/../v2/libft/ft_strlcpy.c:16
+  NEW_FUNC: 0x5601b1583698 in ft_substr /home/claude/work/fuzz/../v2/libft/ft_substr.c:16
+#42650: cov: 7097 ft: 6695 corp: 1389 exec/s: 1598 oom/timeout/crash: 0/0/0 time: 31s job: 6 dft_time: 0
+#60084: cov: 7097 ft: 6695 corp: 1389 exec/s: 2179 oom/timeout/crash: 0/0/0 time: 39s job: 7 dft_time: 0
+  NEW_FUNC: 0x5601b157fd78 in ft_isalpha /home/claude/work/fuzz/../v2/libft/ft_isalpha.c:16
+#73181: cov: 7199 ft: 6697 corp: 1391 exec/s: 1455 oom/timeout/crash: 0/0/0 time: 48s job: 8 dft_time: 0
+#87674: cov: 7199 ft: 6697 corp: 1391 exec/s: 1449 oom/timeout/crash: 0/0/0 time: 59s job: 9 dft_time: 0
+#111222: cov: 7199 ft: 6697 corp: 1391 exec/s: 2140 oom/timeout/crash: 0/0/0 time: 70s job: 10 dft_time: 0
+  NEW_FUNC: 0x5601b15535e8 in has_opt /home/claude/work/fuzz/../v2/ai_risk.c:160
+  NEW_FUNC: 0x5601b1553c78 in has_word /home/claude/work/fuzz/../v2/ai_risk.c:182
+  NEW_FUNC: 0x5601b1553ea8 in risk_xargs /home/claude/work/fuzz/../v2/ai_risk.c:296
+  NEW_FUNC: 0x5601b1555c98 in risk_copy /home/claude/work/fuzz/../v2/ai_risk.c:361
+#132646: cov: 7246 ft: 6699 corp: 1393 exec/s: 1785 oom/timeout/crash: 0/0/0 time: 82s job: 11 dft_time: 0
+#155278: cov: 7259 ft: 6703 corp: 1394 exec/s: 1740 oom/timeout/crash: 0/0/0 time: 96s job: 12 dft_time: 0
+  NEW_FUNC: 0x5601b15553c8 in risk_perm /home/claude/work/fuzz/../v2/ai_risk.c:501
+#174564: cov: 7272 ft: 6704 corp: 1395 exec/s: 1377 oom/timeout/crash: 0/0/0 time: 110s job: 13 dft_time: 0
+#200921: cov: 7273 ft: 6706 corp: 1397 exec/s: 1757 oom/timeout/crash: 0/0/0 time: 125s job: 14 dft_time: 0
+#225478: cov: 7290 ft: 6707 corp: 1398 exec/s: 1534 oom/timeout/crash: 0/0/0 time: 141s job: 15 dft_time: 0
+#240229: cov: 7290 ft: 6707 corp: 1398 exec/s: 867 oom/timeout/crash: 0/0/0 time: 159s job: 16 dft_time: 0
+#265277: cov: 7290 ft: 6707 corp: 1398 exec/s: 1391 oom/timeout/crash: 0/0/0 time: 177s job: 17 dft_time: 0
+#289847: cov: 7290 ft: 6707 corp: 1398 exec/s: 1293 oom/timeout/crash: 0/0/0 time: 196s job: 18 dft_time: 0
+#315913: cov: 7312 ft: 6710 corp: 1401 exec/s: 1303 oom/timeout/crash: 0/0/0 time: 217s job: 19 dft_time: 0
+#340113: cov: 7312 ft: 6710 corp: 1401 exec/s: 1152 oom/timeout/crash: 0/0/0 time: 238s job: 20 dft_time: 0
+#366814: cov: 7314 ft: 6711 corp: 1402 exec/s: 1213 oom/timeout/crash: 0/0/0 time: 261s job: 21 dft_time: 0
+#385690: cov: 7314 ft: 6712 corp: 1403 exec/s: 820 oom/timeout/crash: 0/0/0 time: 284s job: 22 dft_time: 0
+#407541: cov: 7314 ft: 6713 corp: 1404 exec/s: 910 oom/timeout/crash: 0/0/0 time: 309s job: 23 dft_time: 0
+#433283: cov: 7314 ft: 6713 corp: 1404 exec/s: 1029 oom/timeout/crash: 0/0/0 time: 334s job: 24 dft_time: 0
+#447724: cov: 7329 ft: 6716 corp: 1406 exec/s: 555 oom/timeout/crash: 0/0/0 time: 361s job: 25 dft_time: 0
+#491453: cov: 7329 ft: 6716 corp: 1406 exec/s: 1619 oom/timeout/crash: 0/0/0 time: 388s job: 26 dft_time: 0
+#528289: cov: 7330 ft: 6717 corp: 1407 exec/s: 1315 oom/timeout/crash: 0/0/0 time: 416s job: 27 dft_time: 0
+#579935: cov: 7330 ft: 6717 corp: 1407 exec/s: 1780 oom/timeout/crash: 0/0/0 time: 446s job: 28 dft_time: 0
+#602606: cov: 7330 ft: 6718 corp: 1408 exec/s: 755 oom/timeout/crash: 0/0/0 time: 476s job: 29 dft_time: 0
+#678893: cov: 7330 ft: 6719 corp: 1409 exec/s: 2460 oom/timeout/crash: 0/0/0 time: 507s job: 30 dft_time: 0
+#752609: cov: 7330 ft: 6719 corp: 1409 exec/s: 2303 oom/timeout/crash: 0/0/0 time: 540s job: 31 dft_time: 0
+  NEW_FUNC: 0x5601b157eca8 in ci_contains /home/claude/work/fuzz/../v2/trigger.c:86
+#819988: cov: 7335 ft: 6720 corp: 1410 exec/s: 2041 oom/timeout/crash: 0/0/0 time: 573s job: 32 dft_time: 0
+#883313: cov: 7336 ft: 6722 corp: 1411 exec/s: 1862 oom/timeout/crash: 0/0/0 time: 607s job: 33 dft_time: 0
+#935749: cov: 7336 ft: 6722 corp: 1411 exec/s: 1498 oom/timeout/crash: 0/0/0 time: 642s job: 34 dft_time: 0
+  NEW_FUNC: 0x5601b15543c8 in risk_find /home/claude/work/fuzz/../v2/ai_risk.c:315
+#983810: cov: 7362 ft: 6725 corp: 1414 exec/s: 1335 oom/timeout/crash: 0/0/0 time: 679s job: 35 dft_time: 0
+#1053912: cov: 7366 ft: 6726 corp: 1415 exec/s: 1894 oom/timeout/crash: 0/0/0 time: 716s job: 36 dft_time: 0
+#1105236: cov: 7366 ft: 6726 corp: 1415 exec/s: 1350 oom/timeout/crash: 0/0/0 time: 754s job: 37 dft_time: 0
+#1164772: cov: 7366 ft: 6726 corp: 1415 exec/s: 1526 oom/timeout/crash: 0/0/0 time: 794s job: 38 dft_time: 0
+#1209009: cov: 7371 ft: 6729 corp: 1416 exec/s: 1105 oom/timeout/crash: 0/0/0 time: 834s job: 39 dft_time: 0
+#1279763: cov: 7373 ft: 6730 corp: 1417 exec/s: 1725 oom/timeout/crash: 0/0/0 time: 875s job: 40 dft_time: 0
+#1371770: cov: 7374 ft: 6733 corp: 1420 exec/s: 2190 oom/timeout/crash: 0/0/0 time: 918s job: 41 dft_time: 0
+#1461959: cov: 7384 ft: 6739 corp: 1425 exec/s: 2097 oom/timeout/crash: 0/0/0 time: 961s job: 42 dft_time: 0
+#1512759: cov: 7387 ft: 6743 corp: 1427 exec/s: 1154 oom/timeout/crash: 0/0/0 time: 1005s job: 43 dft_time: 0
+#1595771: cov: 7387 ft: 6743 corp: 1427 exec/s: 1844 oom/timeout/crash: 0/0/0 time: 1051s job: 44 dft_time: 0
+#1663391: cov: 7387 ft: 6743 corp: 1427 exec/s: 1470 oom/timeout/crash: 0/0/0 time: 1097s job: 45 dft_time: 0
+  NEW_FUNC: 0x5601b154fd08 in brace_expansion_at /home/claude/work/fuzz/../v2/ai_guard.c:23
+  NEW_FUNC: 0x5601b1557c68 in risk_remote_copy /home/claude/work/fuzz/../v2/ai_risk.c:459
+#1748517: cov: 7403 ft: 6745 corp: 1429 exec/s: 1811 oom/timeout/crash: 0/0/0 time: 1144s job: 46 dft_time: 0
+#1832136: cov: 7403 ft: 6745 corp: 1429 exec/s: 1742 oom/timeout/crash: 0/0/0 time: 1192s job: 47 dft_time: 0
+#1923791: cov: 7403 ft: 6747 corp: 1430 exec/s: 1870 oom/timeout/crash: 0/0/0 time: 1242s job: 48 dft_time: 0
+#2014026: cov: 7407 ft: 6750 corp: 1432 exec/s: 1804 oom/timeout/crash: 0/0/0 time: 1292s job: 49 dft_time: 0
+#2085906: cov: 7407 ft: 6750 corp: 1432 exec/s: 1409 oom/timeout/crash: 0/0/0 time: 1343s job: 50 dft_time: 0
+#2171344: cov: 7412 ft: 6751 corp: 1433 exec/s: 1643 oom/timeout/crash: 0/0/0 time: 1396s job: 51 dft_time: 0
+#2252601: cov: 7419 ft: 6754 corp: 1435 exec/s: 1533 oom/timeout/crash: 0/0/0 time: 1449s job: 52 dft_time: 0
+#2336661: cov: 7419 ft: 6755 corp: 1436 exec/s: 1556 oom/timeout/crash: 0/0/0 time: 1503s job: 53 dft_time: 0
+#2451512: cov: 7422 ft: 6759 corp: 1439 exec/s: 2088 oom/timeout/crash: 0/0/0 time: 1559s job: 54 dft_time: 0
+#2560719: cov: 7422 ft: 6760 corp: 1440 exec/s: 1950 oom/timeout/crash: 0/0/0 time: 1615s job: 55 dft_time: 0
+#2672113: cov: 7422 ft: 6760 corp: 1440 exec/s: 1954 oom/timeout/crash: 0/0/0 time: 1672s job: 56 dft_time: 0
+#2778321: cov: 7422 ft: 6760 corp: 1440 exec/s: 1831 oom/timeout/crash: 0/0/0 time: 1730s job: 57 dft_time: 0
+#2865907: cov: 7422 ft: 6760 corp: 1440 exec/s: 1484 oom/timeout/crash: 0/0/0 time: 1790s job: 58 dft_time: 0
+#2985788: cov: 7425 ft: 6763 corp: 1443 exec/s: 1998 oom/timeout/crash: 0/0/0 time: 1850s job: 59 dft_time: 0
+#3106077: cov: 7425 ft: 6763 corp: 1443 exec/s: 1971 oom/timeout/crash: 0/0/0 time: 1911s job: 60 dft_time: 0
+#3198488: cov: 7425 ft: 6763 corp: 1443 exec/s: 1490 oom/timeout/crash: 0/0/0 time: 1973s job: 61 dft_time: 0
+#3344817: cov: 7425 ft: 6763 corp: 1443 exec/s: 2322 oom/timeout/crash: 0/0/0 time: 2037s job: 62 dft_time: 0
+#3415304: cov: 7426 ft: 6777 corp: 1446 exec/s: 1101 oom/timeout/crash: 0/0/0 time: 2101s job: 63 dft_time: 0
+#3569805: cov: 7428 ft: 6780 corp: 1448 exec/s: 2376 oom/timeout/crash: 0/0/0 time: 2166s job: 64 dft_time: 0
+#3716213: cov: 7428 ft: 6780 corp: 1448 exec/s: 2218 oom/timeout/crash: 0/0/0 time: 2232s job: 65 dft_time: 0
+#3808588: cov: 7428 ft: 6781 corp: 1449 exec/s: 1378 oom/timeout/crash: 0/0/0 time: 2300s job: 66 dft_time: 0
+#3940624: cov: 7428 ft: 6781 corp: 1449 exec/s: 1941 oom/timeout/crash: 0/0/0 time: 2368s job: 67 dft_time: 0
+#4067251: cov: 7430 ft: 6783 corp: 1451 exec/s: 1835 oom/timeout/crash: 0/0/0 time: 2437s job: 68 dft_time: 0
+#4215970: cov: 7430 ft: 6785 corp: 1453 exec/s: 2124 oom/timeout/crash: 0/0/0 time: 2508s job: 69 dft_time: 0
+#4351634: cov: 7432 ft: 6789 corp: 1455 exec/s: 1910 oom/timeout/crash: 0/0/0 time: 2579s job: 70 dft_time: 0
+#4506254: cov: 7432 ft: 6792 corp: 1458 exec/s: 2147 oom/timeout/crash: 0/0/0 time: 2651s job: 71 dft_time: 0
+#4659086: cov: 7437 ft: 6797 corp: 1462 exec/s: 2093 oom/timeout/crash: 0/0/0 time: 2725s job: 72 dft_time: 0
+#4778604: cov: 7437 ft: 6797 corp: 1462 exec/s: 1615 oom/timeout/crash: 0/0/0 time: 2799s job: 73 dft_time: 0
+#4854762: cov: 7437 ft: 6804 corp: 1465 exec/s: 1015 oom/timeout/crash: 0/0/0 time: 2874s job: 74 dft_time: 0
+#4980328: cov: 7440 ft: 6808 corp: 1469 exec/s: 1652 oom/timeout/crash: 0/0/0 time: 2951s job: 75 dft_time: 0
+#5106577: cov: 7440 ft: 6808 corp: 1469 exec/s: 1639 oom/timeout/crash: 0/0/0 time: 3028s job: 76 dft_time: 0
+#5243531: cov: 7440 ft: 6808 corp: 1469 exec/s: 1755 oom/timeout/crash: 0/0/0 time: 3106s job: 77 dft_time: 0
+#5404296: cov: 7440 ft: 6809 corp: 1470 exec/s: 2035 oom/timeout/crash: 0/0/0 time: 3185s job: 78 dft_time: 0
+#5571459: cov: 7443 ft: 6811 corp: 1472 exec/s: 2089 oom/timeout/crash: 0/0/0 time: 3266s job: 79 dft_time: 0
+#5664003: cov: 7445 ft: 6819 corp: 1476 exec/s: 1142 oom/timeout/crash: 0/0/0 time: 3347s job: 80 dft_time: 0
+#5807839: cov: 7446 ft: 6828 corp: 1480 exec/s: 1754 oom/timeout/crash: 0/0/0 time: 3429s job: 81 dft_time: 0
+#5972365: cov: 7446 ft: 6828 corp: 1480 exec/s: 1982 oom/timeout/crash: 0/0/0 time: 3513s job: 82 dft_time: 0
+#6127380: cov: 7446 ft: 6830 corp: 1481 exec/s: 1845 oom/timeout/crash: 0/0/0 time: 3597s job: 83 dft_time: 0
+#6263232: cov: 7446 ft: 6830 corp: 1481 exec/s: 1598 oom/timeout/crash: 0/0/0 time: 3682s job: 84 dft_time: 0
+#6433537: cov: 7448 ft: 6839 corp: 1484 exec/s: 1980 oom/timeout/crash: 0/0/0 time: 3769s job: 85 dft_time: 0
+  NEW_FUNC: 0x5601b1556ae8 in risk_tee /home/claude/work/fuzz/../v2/ai_risk.c:394
+#6544783: cov: 7454 ft: 6840 corp: 1485 exec/s: 1278 oom/timeout/crash: 0/0/0 time: 3856s job: 86 dft_time: 0
+#6702210: cov: 7454 ft: 6840 corp: 1485 exec/s: 1788 oom/timeout/crash: 0/0/0 time: 3944s job: 87 dft_time: 0
+#6859787: cov: 7454 ft: 6841 corp: 1486 exec/s: 1770 oom/timeout/crash: 0/0/0 time: 4033s job: 88 dft_time: 0
+#7007917: cov: 7454 ft: 6841 corp: 1486 exec/s: 1645 oom/timeout/crash: 0/0/0 time: 4124s job: 89 dft_time: 0
+#7162180: cov: 7454 ft: 6856 corp: 1488 exec/s: 1695 oom/timeout/crash: 0/0/0 time: 4215s job: 90 dft_time: 0
+#7310312: cov: 7455 ft: 6864 corp: 1491 exec/s: 1610 oom/timeout/crash: 0/0/0 time: 4307s job: 91 dft_time: 0
+#7486526: cov: 7458 ft: 6865 corp: 1492 exec/s: 1894 oom/timeout/crash: 0/0/0 time: 4400s job: 92 dft_time: 0
+#7645511: cov: 7458 ft: 6866 corp: 1493 exec/s: 1691 oom/timeout/crash: 0/0/0 time: 4495s job: 93 dft_time: 0
+#7801632: cov: 7461 ft: 6870 corp: 1495 exec/s: 1643 oom/timeout/crash: 0/0/0 time: 4590s job: 94 dft_time: 0
+#7927606: cov: 7462 ft: 6871 corp: 1496 exec/s: 1312 oom/timeout/crash: 0/0/0 time: 4686s job: 95 dft_time: 0
+#8032112: cov: 7462 ft: 6871 corp: 1496 exec/s: 1077 oom/timeout/crash: 0/0/0 time: 4784s job: 96 dft_time: 0
+#8218357: cov: 7462 ft: 6871 corp: 1496 exec/s: 1900 oom/timeout/crash: 0/0/0 time: 4882s job: 97 dft_time: 0
+#8350721: cov: 7462 ft: 6871 corp: 1496 exec/s: 1337 oom/timeout/crash: 0/0/0 time: 4981s job: 98 dft_time: 0
+#8445058: cov: 7462 ft: 6871 corp: 1496 exec/s: 943 oom/timeout/crash: 0/0/0 time: 5081s job: 99 dft_time: 0
+#8672334: cov: 7462 ft: 6875 corp: 1497 exec/s: 2250 oom/timeout/crash: 0/0/0 time: 5183s job: 100 dft_time: 0
+#8824159: cov: 7462 ft: 6876 corp: 1498 exec/s: 1488 oom/timeout/crash: 0/0/0 time: 5285s job: 101 dft_time: 0
+#9008172: cov: 7462 ft: 6877 corp: 1499 exec/s: 1786 oom/timeout/crash: 0/0/0 time: 5388s job: 102 dft_time: 0
+#9216790: cov: 7462 ft: 6877 corp: 1499 exec/s: 2005 oom/timeout/crash: 0/0/0 time: 5493s job: 103 dft_time: 0
+INFO: fuzzed for 5493 seconds, wrapping up soon
+INFO: exiting: 0 time: 5493s

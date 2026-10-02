@@ -1,0 +1,110 @@
+
+#include "../minishell.h"
+
+char	*ft_strncpy(char *dest, const char *src, size_t n)
+{
+	size_t	i;
+
+	i = 0;
+	while (i < n && src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	while (i < n)
+		dest[i++] = '\0';
+	return (dest);
+}
+
+int	ft_pwd(t_env *env_list)
+{
+	char	*pwd_env;
+	char	cwd[1024];
+
+	pwd_env = get_env_value(env_list, "PWD");
+	if (pwd_env && pwd_env[0] != '\0')
+	{
+		printf("%s\n", pwd_env);
+		return (0);
+	}
+	if (getcwd(cwd, sizeof(cwd)) != NULL)
+	{
+		printf("%s\n", cwd);
+		return (0);
+	}
+	else
+	{
+		perror("shellm: pwd");
+		return (1);
+	}
+}
+
+int	is_n_flag(const char *str)
+{
+	int	i;
+
+	if (!str || str[0] != '-' || str[1] != 'n')
+		return (0);
+	i = 2;
+	while (str[i])
+	{
+		if (str[i] != 'n')
+			return (0);
+		i++;
+	}
+	return (1);
+}
+
+int	is_builtin(t_cmd *cmd)
+{
+	if (!cmd || !cmd->args || !cmd->args[0])
+		return (0);
+	if (!ft_strcmp(cmd->args[0], "echo"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "pwd"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "env"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "cd"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "export"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "env"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "unset"))
+		return (1);
+	if (!ft_strcmp(cmd->args[0], "exit"))
+		return (1);
+	return (0);
+}
+
+/*
+** SheLLM v2: export/unset/cd modify the environment list through
+** shell->env_list. The old version passed the address of a local copy, so
+** unsetting the first node of the list made the shell read freed memory and
+** crash (use-after-free); a variable exported into an empty environment was
+** also lost.
+*/
+int	run_builtin(t_env *env_list, t_cmd *cmd, t_shell *shell)
+{
+	t_env	**envp;
+
+	envp = &shell->env_list;
+	if (!*envp && env_list)
+		*envp = env_list;
+	if (!ft_strcmp(cmd->args[0], "echo"))
+		return (ft_echo(*envp, cmd->args, *cmd, shell));
+	else if (!ft_strcmp(cmd->args[0], "pwd"))
+		return (ft_pwd(*envp));
+	else if (!ft_strcmp(cmd->args[0], "env"))
+		return (ft_env(*envp));
+	else if (!ft_strcmp(cmd->args[0], "cd"))
+		return (ft_cd(envp, cmd->args));
+	else if (!ft_strcmp(cmd->args[0], "export"))
+		return (execute_export(envp, cmd->args));
+	else if (!ft_strcmp(cmd->args[0], "unset"))
+		return (execute_unset(envp, cmd->args));
+	else if (!ft_strcmp(cmd->args[0], "exit"))
+		return (builtin_exit(cmd->args, shell));
+	return (0);
+}

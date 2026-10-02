@@ -1,0 +1,572 @@
+[
+ {
+  "id": "Ah01",
+  "cat": "A",
+  "stdout": "3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.031124842999815883
+ },
+ {
+  "id": "Ah02",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/Ah02/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.033518494000418286
+ },
+ {
+  "id": "Ah03",
+  "cat": "A",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.02796836100060318
+ },
+ {
+  "id": "Ah04",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.01319711899941467
+ },
+ {
+  "id": "Ah05",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/Ah05\n/tmp/shellm_fix/Ah05\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.012790973999472044
+ },
+ {
+  "id": "Ah06",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.08317998999973497
+ },
+ {
+  "id": "Ah07",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.12315004500032956
+ },
+ {
+  "id": "Ah08",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 255,
+  "timeout": false,
+  "crash": false,
+  "time": 0.11662406699997518
+ },
+ {
+  "id": "Bh01",
+  "cat": "B",
+  "stdout": "x.c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.14116402200033917
+ },
+ {
+  "id": "Bh02",
+  "cat": "B",
+  "stdout": "ZVAR=zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1659302669995668
+ },
+ {
+  "id": "Bh03",
+  "cat": "B",
+  "stdout": "script-ok\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.11706297500040819
+ },
+ {
+  "id": "Bh04",
+  "cat": "B",
+  "stdout": "44\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1323861360006049
+ },
+ {
+  "id": "Bh05",
+  "cat": "B",
+  "stdout": "script-ok\n3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1112583710000763
+ },
+ {
+  "id": "Bh06",
+  "cat": "B",
+  "stdout": "127\n",
+  "stderr": "shellm: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09723868999935803
+ },
+ {
+  "id": "Ch01",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1104196830001456
+ },
+ {
+  "id": "Ch02",
+  "cat": "C",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.11155231400061894
+ },
+ {
+  "id": "Ch03",
+  "cat": "C",
+  "stdout": "armut\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.07035731599989958
+ },
+ {
+  "id": "Ch04",
+  "cat": "C",
+  "stdout": "abc\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.22702711100009765
+ },
+ {
+  "id": "Ch05",
+  "cat": "C",
+  "stdout": "/tmp/shellm_fix/Ch05\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09638918499967986
+ },
+ {
+  "id": "Ch06",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 0.21487788599915802
+ },
+ {
+  "id": "Ch07",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.13963389199943776
+ },
+ {
+  "id": "Ch08",
+  "cat": "C",
+  "stdout": "armut\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.14252130499971827
+ },
+ {
+  "id": "Dh01",
+  "cat": "D",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.14305739700012055
+ },
+ {
+  "id": "Dh02",
+  "cat": "D",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.11101662599958217
+ },
+ {
+  "id": "Dh03",
+  "cat": "D",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09825932399962767
+ },
+ {
+  "id": "Dh04",
+  "cat": "D",
+  "stdout": "hi extra\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.10494948399991699
+ },
+ {
+  "id": "Dh05",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "cat: -: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.13059198399969318
+ },
+ {
+  "id": "Dh06",
+  "cat": "D",
+  "stdout": "x\ny\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1318090900003881
+ },
+ {
+  "id": "Dh07",
+  "cat": "D",
+  "stdout": "5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.170007908000116
+ },
+ {
+  "id": "Eh01",
+  "cat": "E",
+  "stdout": "MERHABA\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.2082611910000196
+ },
+ {
+  "id": "Eh02",
+  "cat": "E",
+  "stdout": "/tmp/shellm_fix/Eh02/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.18461692900018534
+ },
+ {
+  "id": "Eh03",
+  "cat": "E",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.1853284299995721
+ },
+ {
+  "id": "Eh04",
+  "cat": "E",
+  "stdout": "a b   c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.0773747960001856
+ },
+ {
+  "id": "Eh05",
+  "cat": "E",
+  "stdout": "elma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.06112140900040686
+ },
+ {
+  "id": "Fh01",
+  "cat": "F",
+  "stdout": "zzz$ZVARzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.06215634999989561
+ },
+ {
+  "id": "Fh02",
+  "cat": "F",
+  "stdout": "a|b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.05138495600021997
+ },
+ {
+  "id": "Fh03",
+  "cat": "F",
+  "stdout": "a > b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.06646432999968965
+ },
+ {
+  "id": "Fh04",
+  "cat": "F",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.08444762199997058
+ },
+ {
+  "id": "Fh05",
+  "cat": "F",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.10673671900076442
+ },
+ {
+  "id": "Fh06",
+  "cat": "F",
+  "stdout": "zzzzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09509830000024522
+ },
+ {
+  "id": "Fh07",
+  "cat": "F",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.07804716999999073
+ },
+ {
+  "id": "Fh08",
+  "cat": "F",
+  "stdout": "xyz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.04808606000005966
+ },
+ {
+  "id": "Hh01",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "shellm: syntax error `<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 0.02908794800077885
+ },
+ {
+  "id": "Hh02",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "shellm: syntax error  `>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 0.0488904800004093
+ },
+ {
+  "id": "Hh03",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "shellm: syntax error  `>>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 0.05164753099961672
+ },
+ {
+  "id": "Ih01",
+  "cat": "I",
+  "stdout": "/tmp\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.04037904500000877
+ },
+ {
+  "id": "Ih02",
+  "cat": "I",
+  "stdout": "1\n",
+  "stderr": "shellm: cd: HOME not set\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.05943251499957114
+ },
+ {
+  "id": "Ih03",
+  "cat": "I",
+  "stdout": "x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.07678676799969253
+ },
+ {
+  "id": "Ih04",
+  "cat": "I",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 0.05455180300032225
+ },
+ {
+  "id": "Ih05",
+  "cat": "I",
+  "stdout": "EMPTY=\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.11771655000029568
+ },
+ {
+  "id": "Jh01",
+  "cat": "J",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.12105558799976279
+ },
+ {
+  "id": "Jh02",
+  "cat": "J",
+  "stdout": "d/x.c d/y.c d/z.h\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09378405400002521
+ },
+ {
+  "id": "Jh03",
+  "cat": "J",
+  "stdout": "not icerigi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.07893916400007583
+ },
+ {
+  "id": "Jh04",
+  "cat": "J",
+  "stdout": "/tmp/shellm_fix/Jh04/home/Desktop\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.08311162199970568
+ },
+ {
+  "id": "Jh05",
+  "cat": "J",
+  "stdout": "~/x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.053207415000542824
+ },
+ {
+  "id": "Jh06",
+  "cat": "J",
+  "stdout": "x*y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.09263895399999456
+ },
+ {
+  "id": "Jh07",
+  "cat": "J",
+  "stdout": "not.txt\nrapor.pdf\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 0.045967605000441836
+ }
+]

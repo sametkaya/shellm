@@ -1,0 +1,2702 @@
+[
+ {
+  "pid": "T001",
+  "cmd": "find . -mindepth 1 -maxdepth 1 -type d| grep \\/a |xargs -n 1 cp -i index.html",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T002",
+  "cmd": "sed 's/\\(.....\\)\\(.....\\)/\\1\\n\\2/' input_file | split -l 2000000 - out-prefix-",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T003",
+  "cmd": "find /target/dir -type l ! -exec test -e {} \\; -print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T004",
+  "cmd": "find . -mtime +180 -exec du -ks {} \\; | cut -f1 | awk '{total=total+$1}END{print total/1024}'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T005",
+  "cmd": "find \"$1\" -type f -print0 | parallel -0 -X md5 > checksums.md5",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T006",
+  "cmd": "sed -n '/pattern/!p' file",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T007",
+  "cmd": "find . -name '*.php' -type f | sort | xargs wc -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T008",
+  "cmd": "find . — name \"[a‑z][a‑z][0—9][0—9].txt\" — print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T009",
+  "cmd": "find / -type f -name httpd.log",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T010",
+  "cmd": "shopt -s failglob",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T011",
+  "cmd": "find xargstest/ -name 'file*' -print0 | xargs -0 myscript.sh",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T012",
+  "cmd": "df -h |  awk '{print $1}'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T013",
+  "cmd": "bar=$(cat foo.txt | { read bat;echo $bat;})",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T014",
+  "cmd": "chown -R tomcat7:tomcat7 webapps temp logs work conf",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T015",
+  "cmd": "seq -f \"%02g\" 30",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T016",
+  "cmd": "find `pwd` -name \"*.log\" -exec grep \"The SAS System\" {} \\;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T017",
+  "cmd": "find . -name *.gz -exec gunzip '{}' \\;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T018",
+  "cmd": "file -i filename",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T019",
+  "cmd": "screen -D -m yourEvilProgram",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T020",
+  "cmd": "env | grep '^\\(GO\\|HOME=\\|PATH=\\)'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T021",
+  "cmd": "alias rm1g=\"find / -type f -name *.tar -size +1G -exec rm -i {} \\;\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T022",
+  "cmd": "find . -name \\*.php -type f -exec grep -Hn '$test' {} \\; | wc -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T023",
+  "cmd": "rpm2cpio libstdc++-4.9.2-1.fc21.x86_64.rpm |cpio -idmv",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T024",
+  "cmd": "find . -name \"*.flac\" -exec ffmpeg -i {} -ab 160k -map_metadata 0 -id3v2_version 3 {}.mp3 \\;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T025",
+  "cmd": "xargs rm -f <<< $(find . -name \".txt\")",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T026",
+  "cmd": "read -p \"`echo -e 'Please Enter a Message: \\n\\b'`\" message",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T027",
+  "cmd": "time find /usr/src -name \"*.html\" | xargs grep -l \"foo\" | wc -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T028",
+  "cmd": "echo -n teststring | gzip -1 | pigz -lv",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T029",
+  "cmd": "find / -name \"*conf\" -mtime 7",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T030",
+  "cmd": "cat $FILES | md5sum",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T031",
+  "cmd": "find -name \\*.plist",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T032",
+  "cmd": "find . -name “*.old” -print | xargs rm",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T033",
+  "cmd": "find . -type f -iname \"*.py\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T034",
+  "cmd": "find / -name “*.mp3” -atime +01 -type f",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T035",
+  "cmd": "tmux_version=\"$(tmux -V | cut -c 6-)\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T036",
+  "cmd": "cat /proc/17709/cmdline | xargs -0 echo",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T037",
+  "cmd": "yes | cp -rf /zzz/zzz/* /xxx/xxx",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T038",
+  "cmd": "cd $(which oracle | xargs dirname)",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T039",
+  "cmd": "find jcho -name '*.data' | while read -r f; do cp \"$f\" \"$(echo \"$f\" | sed 's~\\([^)]*\\)/\\([^()]*\\)$~\\1_\\2~')\"; done",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T040",
+  "cmd": "read -e -i \"yes\" -p \"Enter your choice: \" choice",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T041",
+  "cmd": "seq $(tail -1 file)|diff - file|grep -Po '.*(?=d)'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T042",
+  "cmd": "yes | tr \\\\n x | head -c $BYTES | pv | grep n",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T043",
+  "cmd": "kill -9 $(lsof -t -u daniel)",
+  "stratum": "random",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T044",
+  "cmd": "du -csxb /path | md5sum > file",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T045",
+  "cmd": "ps h -o pid,user -C ssh,sshd | tr -s \" \"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T046",
+  "cmd": "kill -9 `pgrep -f cps_build`",
+  "stratum": "random",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T047",
+  "cmd": "find /tmp -name *.txt",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T048",
+  "cmd": "find ~/ -name '*.txt' -exec cat {} ;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T049",
+  "cmd": "find / -name filename -print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T050",
+  "cmd": "mount | sed -n -e \"s/\\/\\/mynetaddr on \\([^ ]*\\).*$/\\1/p\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T051",
+  "cmd": "find / -maxdepth 1 -xdev -type f -exec grep -li \"stringtofind\" {} + | parallel sed \"'/./d'\" '{}'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T052",
+  "cmd": "find \"$musicdir\" -type f -print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T053",
+  "cmd": "find {} -name 'upvoter-*' \\( -type f -or -type l \\) -maxdepth 1 -perm +111",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T054",
+  "cmd": "find . -exec touch {} \\;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T055",
+  "cmd": "find . -maxdepth 1 -type d -print | xargs -I {} echo Directory: {}",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T056",
+  "cmd": "yes \"Hidden\" | dd of=/dev/sdb",
+  "stratum": "random",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T057",
+  "cmd": "find . -name \"orm.properties\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T058",
+  "cmd": "find . ! -name . -prune -exec sh -c 'mv \"$@\" targetdirectory/' sh  {} +",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T059",
+  "cmd": "sh -c \"find / -name myfile -type f -print 2> /dev/null\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T060",
+  "cmd": "ln myfile.txt my-hard-link",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T061",
+  "cmd": "cat file | fold -s -w29",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T062",
+  "cmd": "curl -v --get --data-urlencode \"access_token=$(cat .fb_access_token)\" https://graph.facebook.com/me/feed",
+  "stratum": "random",
+  "label": 1,
+  "cat": "NET",
+  "a1": 1,
+  "a2": 0
+ },
+ {
+  "pid": "T063",
+  "cmd": "split -b 1M -d  file.txt file --additional-suffix=.txt",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T064",
+  "cmd": "mount /tmp/loop.img /mnt/image -o loop",
+  "stratum": "random",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T065",
+  "cmd": "find . -type f -name \"*.gz\" -exec zgrep 'GET /foo' {} \\;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T066",
+  "cmd": "find . -name test -prune -o -regex \".*/my.*p.$\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T067",
+  "cmd": "scp user@server_b:/my_folder/my_file.xml user@server_b:/my_new_folder/",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T068",
+  "cmd": "find / -type l -lname '/mnt/oldname*'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T069",
+  "cmd": "find . \\( -name omit-directory -prune \\) -o \\( -type f -print \\)",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T070",
+  "cmd": "find . -name \"file2015-0*\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T071",
+  "cmd": "sudo su -",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T072",
+  "cmd": "find . -type f -name \"*.txt\" -exec sh -c 'for i;do sed 's/[[:space:]]*$//' \"$i\">/tmp/.$$ && mv /tmp/.$$ \"$i\";done' arg0 {} +",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T073",
+  "cmd": "echo $(basename \"$1\")",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T074",
+  "cmd": "read -r a",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T075",
+  "cmd": "find . -name \"*.swp\"|xargs rm",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T076",
+  "cmd": "dir=$(dirname $(readlink /proc/$$/fd/255))",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T077",
+  "cmd": "cd `echo -n \"~\"`",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T078",
+  "cmd": "touch filename",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T079",
+  "cmd": "find dir -type f -print0 | xargs -0 md5sum >> file.txt",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T080",
+  "cmd": "find . -inum $inum -exec rm {} \\;",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T081",
+  "cmd": "\\w",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T082",
+  "cmd": "nl -nrz -w10 -s\\; input | sed -E 's/55//; s/([0-9]{2})-([0-9]{2})-([0-9]{4})/\\3\\2\\1/'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T083",
+  "cmd": "find -daystart -mtime 2",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T084",
+  "cmd": "kill -20 $PID; kill -18 $PID",
+  "stratum": "random",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 0,
+  "a2": 1
+ },
+ {
+  "pid": "T085",
+  "cmd": "find /etc -name \"*.conf\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T086",
+  "cmd": "find . -name .svn -exec rm -rf {} \\;",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T087",
+  "cmd": "find . -type f -name \\*",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T088",
+  "cmd": "alias cdl='cd -- \"$(ls -t | head -n 1)\"'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T089",
+  "cmd": "cat ${TMP}/${SCRIPT_NAME}.pid|sort -rh;",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T090",
+  "cmd": "ls -t *.log | tail -$tailCount | xargs rm -f",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T091",
+  "cmd": "find ../D44203 -iname '2.jpg' | while read fn; do name=$(basename \"$fn\") ; dir=$(dirname \"$fn\") ; mv \"$fn\" \"$dir/$(basename $(pwd))-$name\" ;done",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T092",
+  "cmd": "find -type f -regex \".*/.*\\.\\(shtml\\|css\\)\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T093",
+  "cmd": "find /path/to/directory -type d \\! -name . -prune -exec printf x \\; | wc -c",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T094",
+  "cmd": "rsync $OPTS $FIND $BACKUPDIR",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T095",
+  "cmd": "find . -type f -printf \"%f\\n\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T096",
+  "cmd": "find /home/username/public_html/themes -type f -exec chmod 640 {} +",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T097",
+  "cmd": "find . -name \"*.rb\" -type f -print0 | xargs -0 wc -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T098",
+  "cmd": "find / -mmin -1 -print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T099",
+  "cmd": "ping google.com -n 10 | grep Minimum | awk '{print $3}' | sed s/,//",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T100",
+  "cmd": "nl",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T101",
+  "cmd": "find ${path} -P -type f",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T102",
+  "cmd": "cd \"~\"",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T103",
+  "cmd": "find / \\( -name 10_Recommended* -o -name share \\) -prune -o -type f -name java -print 2>/dev/null",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T104",
+  "cmd": "find dir -type f -print0 | xargs -0 sed -i .bak -E \"s/[[:space:]]*$//\"",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T105",
+  "cmd": "cd `ls -d */ | grep 1670`",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T106",
+  "cmd": "ln $file /tmp/allfiles",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T107",
+  "cmd": "rsync -avzru --delete-excluded /media/Incoming/music/ server:/media/10001/music/",
+  "stratum": "random",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T108",
+  "cmd": "seq 10 | xargs echo -n",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T109",
+  "cmd": "find . -name AssemblyInfo.cs | xargs git diff --name-status --",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T110",
+  "cmd": "path=$(basename $path)",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T111",
+  "cmd": "mv ~/Linux/Old/^Tux.png ~/Linux/New/",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T112",
+  "cmd": "find /mp3-collection -name 'Metallica*' -or -size +10000k",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T113",
+  "cmd": "w | sed '1,2d' | cut -f1 -d' ' | sort | uniq -c",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T114",
+  "cmd": "grep -f file2 file1 | sort -u",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T115",
+  "cmd": "find . \\( -path './dir1/*' -and -not -path './dir1/subdir1*' -or -path './dir2' \\) -prune -or -type f -print",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T116",
+  "cmd": "diff -Naur dir1/ dir2/",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T117",
+  "cmd": "find /var/www/html/zip/data/*/*/*/*/* -type f -mtime +90  | sed 's|/[^/]*$||'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T118",
+  "cmd": "find ~/junk  -name 'cart1' -exec mv {} ~/junk/A \\;",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T119",
+  "cmd": "find /your/dir -type f -exec touch {} +",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T120",
+  "cmd": "find /home -name tecmint.txt",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T121",
+  "cmd": "echo pwd: `pwd`",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T122",
+  "cmd": "find \"$STORAGEFOLDER\" -name .todo -printf '%h\\n' | xargs ls -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T123",
+  "cmd": "find . -type f \\( -name \"*.[sS][hH]\" -o -name \"*.[pP][lL]\" \\)",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T124",
+  "cmd": "awk 'FNR==NR { array[$1]++; next } { n = asorti(array,sort); for (i=1; i<=n; i++) if (sort[i] <= $1 + 10 && sort[i] >= $1 - 10 && $1 != sort[i]) line = (line ? line \",\" : line) sort[i]; print $0, line; line = \"\" }' file.txt{,} | column -t",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T125",
+  "cmd": "find src/js -type f",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T126",
+  "cmd": "ls -l /boot/grub/*.mod | wc -l",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T127",
+  "cmd": "bind '\"\\C-i\":complete'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T128",
+  "cmd": "find . -type f -name '*.php' -exec grep -Hcm2 '[^[:space:]]' {} + | sed -n '/:1$/{s///;p}'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T129",
+  "cmd": "tmux movew -s 4 -t 3",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T130",
+  "cmd": "find ./ -type f -name \"*.php\"  | xargs -r rename \"s/php/html/\"",
+  "stratum": "random",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T131",
+  "cmd": "find /home -not -group test",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T132",
+  "cmd": "sudo chown root. /etc/udev/rules.d/51-android.rules",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T133",
+  "cmd": "find .|grep \"FooBar\"|xargs -I{} cp \"{}\" ~/foo/bar",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T134",
+  "cmd": "find . -mtime 0 -type f",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T135",
+  "cmd": "find /etc -name \"*.txt\" -ls",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T136",
+  "cmd": "cat infile | sed 's/\\r$//' | od -c",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T137",
+  "cmd": "find /base/path/of/proj/d‌​ata -name target.txt | xargs simpleGrepScript.sh > overallenergy.out",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T138",
+  "cmd": "ln -sf '/cygdrive/c/Users/Mic/Desktop/PENDING - Pics/' '/cygdrive/c/Users/Mic/mypics'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 1,
+  "a2": 0
+ },
+ {
+  "pid": "T139",
+  "cmd": "find /target/ | grep -v '\\.disabled$' | sort",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T140",
+  "cmd": "ps aux | grep mysql | grep -v grep",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T141",
+  "cmd": "echo -e \"Testing\\r_Tested\" | awk -v RS=\"_\" '{ print $0; }' | od -a",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T142",
+  "cmd": "ifconfig eth0 | grep HWaddr | cut -d ' ' -f 9",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T143",
+  "cmd": "find . -regextype posix-egrep -regex '.+\\.(c|cpp|h)$' -print0 | grep -vzZ generated | grep -vzZ deploy | xargs -0 ls -1Ld",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T144",
+  "cmd": "sort file1 file2 | uniq -u",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T145",
+  "cmd": "sudo chown root:wheel com.xxxx.adbind.plist",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T146",
+  "cmd": "find . -type f -exec chmod 400 {} \\;",
+  "stratum": "random",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T147",
+  "cmd": "find $HOME -name 'mysong.ogg'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T148",
+  "cmd": "ifconfig en0 | grep inet | grep -v inet6 | awk '{print $2}'",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T149",
+  "cmd": "find  / -type d -name \"project.images\" -ls",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T150",
+  "cmd": "vim <(history)",
+  "stratum": "random",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T151",
+  "cmd": "sort | uniq -u | xargs -r rm",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T152",
+  "cmd": "find . -name \"*.txt\" -print0 | xargs -0 -n 1 process_one",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T153",
+  "cmd": "find . -type f -exec grep -i California {} \\; -print | wc -l",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T154",
+  "cmd": "find ./ -type f -name *\".html\" | xargs sed -i \"s/php/html/g\"",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T155",
+  "cmd": "mount | awk '$3 == \"/pa/th\" {print $1}'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T156",
+  "cmd": "find . -type f -exec cp {} /tmp +",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T157",
+  "cmd": "mount |grep nfs",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T158",
+  "cmd": "for l in $(find . -type l); do cd $(dirname $l); if [ ! -e \"$(readlink $(basename $l))\" ]; then echo $l; fi; cd - > /dev/null; done",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T159",
+  "cmd": "someCommand 2>&1 | tee -a someFile",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T160",
+  "cmd": "ln -sf \"$f\" \"~/my-existing-links/$(basename $f)\"",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 1,
+  "a2": 0
+ },
+ {
+  "pid": "T161",
+  "cmd": "git branch  --no-color  | grep -E '^\\*' | cut -d ' ' -f 2",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T162",
+  "cmd": "find . -name \"*.pl\" -exec ls -ld {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T163",
+  "cmd": "find ./ -type f -print0 | xargs -0 -n1 md5sum | sort -k 1,32 | uniq -w 32 -d --all-repeated=separate | sed -e 's/^[0-9a-f]*\\ *//;'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T164",
+  "cmd": "find /path -type d -exec chmod 0755 {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T165",
+  "cmd": "rsync -avz --rsh=\"ssh -p$2\" key.pub $1:~/.ssh/key.pub",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "NET",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T166",
+  "cmd": "find /mnt/zip -name \"*prefs copy\" -print0 | xargs>    -0 rm",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T167",
+  "cmd": "find /foo/ -name \"*.txt\" -exec rm -v {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T168",
+  "cmd": "du -s <file>",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T169",
+  "cmd": "find /PROD -type d -exec sh -c 'cd \"{}\" && for f in *.json; do /tmp/test.py \"$f\"; done' \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T170",
+  "cmd": "find / -iname \"*.mp3\" -type f -exec /bin/mv {} /mnt/mp3 \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T171",
+  "cmd": "find . -name 'abc*' -exec echo {}' OK' \\; | column -t",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T172",
+  "cmd": "find \"$1\" -perm -u+w -print0 | xargs chmod g+w",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T173",
+  "cmd": "find . -name \"*.java\" -exec grep -i -n TODO {}  \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T174",
+  "cmd": "find ~/junk -exec touch ~/junk/cart{1,2,3,4,5,6} {} \\; 2> /dev/null",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T175",
+  "cmd": "find . -type f -mmin -60 -print0 | xargs -r0 ls -l",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T176",
+  "cmd": "find . -name '*.html' -print0 | xargs -0 perl -pi -e 's/oldstring/newstring/g'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T177",
+  "cmd": "find $d -type f -exec chmod ug=rw,o= '{}' \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T178",
+  "cmd": "find . -name \"*.html\" -print | xargs -l -i wc {}",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T179",
+  "cmd": "find -name *.php -print | xargs -L1 awk 'NR>1{exit} END{if(NR==1) print FILENAME}'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T180",
+  "cmd": "find index.html | xargs -rt sed -i 's/<script>if(window.*<\\/script>//g'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T181",
+  "cmd": "ping google.com | awk '{ sent=NR-1; received+=/^.*(time=.+ ms).*$/; loss=0; } { if (sent>0) loss=100-((received/sent)*100) } { print $0; printf \"sent:%d received:%d loss:%d%%\\n\", sent, received, loss; }'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T182",
+  "cmd": "ln -s $(readlink -f $origlink) $newlink",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T183",
+  "cmd": "chmod 777 /usr/bin/wget",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T184",
+  "cmd": "find . -type f -exec ls -s {} \\; |sort -n -r |head",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T185",
+  "cmd": "find . -type f -mtime +3 –exec rm –f {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T186",
+  "cmd": "find . -mtime -1 ! -name '.DS_Store' -type f -exec basename {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T187",
+  "cmd": "find . -name '*.php' -type f | xargs cat | wc -l",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T188",
+  "cmd": "df -kt<type>",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T189",
+  "cmd": "find . -name \"*.[ch]\" -exec grep --color -aHn \"e\" {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T190",
+  "cmd": "find . -type f -mtime +30 -name \"*.log\" -exec cp {} old \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T191",
+  "cmd": "sudo find / -name \"orm.properties\"",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T192",
+  "cmd": "find . -name 'm?' -type d -exec mv '{}' '{}.mbox' ';' -exec mkdir '{}.mbox/Messages' ';' -exec sh -c 'mv {}.mbox/*.emlx {}.mbox/Messages' ';'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T193",
+  "cmd": "find . -name \"*.php\" | xargs grep -v -c '^$' | awk 'BEGIN {FS=\":\"} { $cnt = $cnt + $2} END {print $cnt}'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T194",
+  "cmd": "ln -s \"/cygdrive/c/Program Files\" /cygdrive/c/ProgramFiles",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T195",
+  "cmd": "find . -type f -print0 | xargs -0 egrep messages. | grep -Ev '.svn|.git|.anythingElseIwannaIgnore'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T196",
+  "cmd": "crontab -l | grep -v \"^#\" | awk '{print $6}'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T197",
+  "cmd": "sed '/^$/d;s/ /\\//g' struct.txt | xargs mkdir -p",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T198",
+  "cmd": "find . \\( -name junk -o -name dummy \\) -exec rm '{}' \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T199",
+  "cmd": "ln --force --target-directory=~/staging ~/mirror/*",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T200",
+  "cmd": "brew unlink bash-completion",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T201",
+  "cmd": "find -inum 752010 -exec rm {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T202",
+  "cmd": "find . -type f -print0 | xargs -0 ls",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T203",
+  "cmd": "find . -type f -exec grep some_string {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T204",
+  "cmd": "find . -type f -name \"*.java\" | xargs tar cvf myfile.tar",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T205",
+  "cmd": "find . -name \"*rc.conf\" -exec chmod o+r '{}' \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T206",
+  "cmd": "find Música/* -type f -name \".*\" -exec ls -l {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T207",
+  "cmd": "find . -type d -exec chmod 755 {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T208",
+  "cmd": "sudo mv /usr/bin/php /usr/bin/~php",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T209",
+  "cmd": "alias rm5g=\"find / -type f -name *.tar -size +5G -exec rm -i {} \\;\"",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T210",
+  "cmd": "find ./ -name '*.log' | xargs rm",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T211",
+  "cmd": "find . -name '*.txt' -exec sh -c 'mv \"$0\" \"${0%.txt}.txt_bak\"' {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T212",
+  "cmd": "find /home/test -name '.ssh'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T213",
+  "cmd": "find . -name onlyme.sh -execdir pwd \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T214",
+  "cmd": "find . -name '*.zip' -exec unzip '{}' ';'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T215",
+  "cmd": "find . -exec command {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T216",
+  "cmd": "find . -inum 31246 -exec rm [] ';'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T217",
+  "cmd": "ssh -p 10022 localhost",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T218",
+  "cmd": "crontab -u user -l | sed \"$my_wonderful_sed_script\" | crontab -u user -",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T219",
+  "cmd": "find . -type f -exec grep \"magic\" {} \\; -ls",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T220",
+  "cmd": "find -name \"bar\" -execdir touch foo \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T221",
+  "cmd": "find . -type f -exec md5 {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T222",
+  "cmd": "find . -name \\*\\\\?\\* > output.txt",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T223",
+  "cmd": "find dir -not -path '.git' -iname '*.py'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T224",
+  "cmd": "find / -name .ssh* -print | tee -a ssh-stuff",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T225",
+  "cmd": "find . -name \\*.xyz -exec rm {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T226",
+  "cmd": "find . \\( \\! -user xx -exec chown -- xx '{}' + -false \\)",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T227",
+  "cmd": "chgrp --recursive website public_html",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T228",
+  "cmd": "find -type d | ssh server-B 'xargs -I% mkdir -p \"/path/to/dir/%\"'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "NET",
+  "a1": 0,
+  "a2": 1
+ },
+ {
+  "pid": "T229",
+  "cmd": "find /myDir -name \"log*\" -ctime +7 -exec bzip2 -zv {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T230",
+  "cmd": "find . -iname *.txt -exec egrep mystring \\{\\} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T231",
+  "cmd": "find $sourcePath -type f -mtime +10 -name \"*.log\" | xargs zip -jmT $zipFile -@",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T232",
+  "cmd": "find /usr/src -name \"*.html\" -execdir /usr/bin/grep -H \"foo\" {} ';' | wc -l",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T233",
+  "cmd": "find . -name \"core\" -exec rm -f {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T234",
+  "cmd": "find / -name expect 2>/dev/null",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T235",
+  "cmd": "find . -name '*.c' -print0 |xargs -0 wc -l|grep -v total|awk '{ sum += $1; } END { print \"SUM: \" sum; }'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T236",
+  "cmd": "find . -type f -exec file {} \\; | grep -o -P '^.+: \\w+ image'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T237",
+  "cmd": "find . -type f -iname \\*.html -exec grep -s \"Web sites\" {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T238",
+  "cmd": "find path/to/folder -type f -print0 | sort -z | xargs -0 sha1sum | sha1sum",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T239",
+  "cmd": "find . -type f -exec sh -c 'echo first; true' \\; -exec echo second \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T240",
+  "cmd": "find /stuff -type d -printf '%P\\0' | xargs -0 script.py",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T241",
+  "cmd": "echo \"error\" | tee",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T242",
+  "cmd": "find . -maxdepth 1 -type d | xargs -I X mkdir '/new/directory/X'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T243",
+  "cmd": "find . -type f -print0 | xargs -0 chmod go+r",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T244",
+  "cmd": "find . -maxdepth 1 -type f | xargs -x ls -t | awk 'NR>5' | xargs -L1 rm",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T245",
+  "cmd": "fgrep --include='STATUS.txt' -rl 'OPEN' | xargs -L 1 dirname",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T246",
+  "cmd": "find . -name \"filename including space\" -print0 | tee my_teed_file | xargs -0 ls -aldF > log.txt",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T247",
+  "cmd": "scp -o StrictHostKeyChecking=no root@IP:/root/K",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T248",
+  "cmd": "scp -vp me@server:/location/files\\*",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T249",
+  "cmd": "crontab -l | sed -re '/# *change-enabled *$/s/^([^ ]+) [^ ]+/\\1 7/' | crontab -",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T250",
+  "cmd": "find . -name \"file-containing-can't\" -exec grep \"can't\" '{}' \\; -print",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T251",
+  "cmd": "find demo -depth -name .git -prune -o -print0 | cpio -0pdv --quiet demo_bkp",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T252",
+  "cmd": "sudo chown root:wheel bin",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T253",
+  "cmd": "(rsync -rcn --out-format=\"%n\" old/ new/ && rsync -rcn --out-format=\"%n\" new/ old/) | sort | uniq",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T254",
+  "cmd": "find . -cpio /dev/fd0 -print | tee /tmp/BACKUP.LOG",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T255",
+  "cmd": "ssh askapache 'sh -c \"( ( nohup chown -R ask:ask /www/askapache.com &>/dev/null ) & )\"'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T256",
+  "cmd": "find -type f -name '*.txt' -print0 | xargs --null perl -pi -e 's/Windows/Linux/'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T257",
+  "cmd": "find /mnt/hda1/zdjecia/test1/ -type f -iname ‘*.jpg’ -printf ‘%’h’\\'”0″ | xargs -0 -I ‘{}’ mkdir -p /mnt/hda1/test/{} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T258",
+  "cmd": "find . -type d -exec ./script.sh {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T259",
+  "cmd": "find -name .git -prune -o -exec git log --pretty=tformat:'' --numstat --follow --find-copies-harder --reverse {} ';' | cut -f3- | grep '.* => .*'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T260",
+  "cmd": "bzip2 -c file | tee -a logfile",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T261",
+  "cmd": "find -type d -empty -exec rmdir -vp --ignore-fail-on-non-empty {} `;`",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T262",
+  "cmd": "find [whatever] -print0 | xargs -0 cat",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T263",
+  "cmd": "rsync -avz tata/ tata2/",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T264",
+  "cmd": "find . -name \"*.[!r]*\" -exec grep -i -l \"search for me\" {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T265",
+  "cmd": "ln -sfn source_file_or_directory_name softlink_name",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 1,
+  "a2": 0
+ },
+ {
+  "pid": "T266",
+  "cmd": "find -P . -type l -exec echo -n \"{} -> \" \\; -exec readlink {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T267",
+  "cmd": "find . -type f -print0 | xargs -0 grep -IZl . | xargs -0 grep \"needle text\"",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T268",
+  "cmd": "dirname `find / -name ssh | grep bin`",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T269",
+  "cmd": "find -maxdepth 2 -type d -ls >dirlist",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T270",
+  "cmd": "find dir -type f -exec sed -i 's/ *$//' '{}' ';'",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T271",
+  "cmd": "find /home -type f -name *.mp4 -size +10M -exec rm {} \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T272",
+  "cmd": "find . -type f -mtime +7 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T273",
+  "cmd": "find . -name * -print0  | xargs -0 grep -iH \"String\"",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T274",
+  "cmd": "rsync -ave ssh '\"Louis Theroux\"''\"'\"'\"'\"''\"s LA Stories\"'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T275",
+  "cmd": "find . -name '*.zip' -execdir unzip '{}' ';'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T276",
+  "cmd": "find /tmp/ -ctime -1 -name 'x*' -print0 | xargs -r0 mv -t ~/play/",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T277",
+  "cmd": "find /usr/pcapps/ -mount -type f -size +1000000c | perl -lpe ' s{ }{\\\\ }g ' | xargs ls -l | sort +4nr | head -200",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T278",
+  "cmd": "find ${x} -type f -exec chmod ug=rw,o= '{}' \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "PRIV",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T279",
+  "cmd": "find . -type f -wholename \\*.mbox | sed 's/\\(.*\\)\\.mbox/mv \"\\1.mbox\" \"\\1\"/' | sh",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T280",
+  "cmd": "$ find . -name \"*mp3\" -print0 | xargs -0 mid3iconv -e <source-encoding> -d",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 0,
+  "a2": 1
+ },
+ {
+  "pid": "T281",
+  "cmd": "echo 'deb blah ... blah' | sudo tee --append /etc/apt/sources.list > /dev/null",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "SYS",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T282",
+  "cmd": "unset `env | awk -F= '/^\\w/ {print $1}' | xargs`",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T283",
+  "cmd": "find /path -type f -name \"10*jpg\" | sed 's/.*/mv &/' | sed 's/mv \\(.*\\/\\)\\(.[^/]*\\)/& \\120\\2/' | sh",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T284",
+  "cmd": "find \".performance_test\" -not \\( -path \".performance_test/prune_me\" -prune \\) -exec bash -c 'echo \"$0\"' {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T285",
+  "cmd": "ln -s $file `basename $file`",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T286",
+  "cmd": "find dir -type f | xargs md5sum >> file.txt",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T287",
+  "cmd": "find /path/to/files -type f -name \\*.cfg  -print -exec cat {} \\; -exec sleep 2 \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T288",
+  "cmd": "find . -name '*.doc' | while read i; do antiword -i 1 \"${i}\" >\"${i/doc/txt}\"; done",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T289",
+  "cmd": "find . -name \"*.c\" -exec grep -ir \"keyword\" {} \";\"",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T290",
+  "cmd": "mv file001abc.txt abc1.txt",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T291",
+  "cmd": "find . -type f -exec /tmp/clever.sh {} \\;",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T292",
+  "cmd": "find . -name 'Lemon*.mp3' -print0 | xargs -­0 -i mplayer '{}'",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T293",
+  "cmd": "find -name '*~' -print0 | xargs -0 -I _ mv _ /tmp/",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T294",
+  "cmd": "brew install git bash-completion",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T295",
+  "cmd": "echo \"Hello, world\" | tee /tmp/outfile",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T296",
+  "cmd": "echo $c | crontab",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 1,
+  "a2": 1
+ },
+ {
+  "pid": "T297",
+  "cmd": "find . -type f ! -name '*.gz' -exec gzip \"{}\" \\;",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "OVW",
+  "a1": 0,
+  "a2": 1
+ },
+ {
+  "pid": "T298",
+  "cmd": "seq 1 10 | sort -R | tee /tmp/lst |cat <(cat /tmp/lst) <(echo '-------') \\ <(tac)",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T299",
+  "cmd": "find . -print0 | xargs -0 stat -f '%i '",
+  "stratum": "enriched",
+  "label": 0,
+  "cat": "-",
+  "a1": 0,
+  "a2": 0
+ },
+ {
+  "pid": "T300",
+  "cmd": "rm `du * | awk '$1 == \"0\" {print $2}'`",
+  "stratum": "enriched",
+  "label": 1,
+  "cat": "DEL",
+  "a1": 1,
+  "a2": 1
+ }
+]

@@ -1,0 +1,2 @@
+2026-09-30T23:23:45+0300
+Gemini requests after this moment were sent on the paid tier (Tier 1, prepaid); earlier requests used the free tier.

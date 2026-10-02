@@ -1,0 +1,54 @@
+==12567==ERROR: AddressSanitizer: heap-use-after-free on address 0x5040001ef3d8 at pc 0x558d6fe234ff bp 0x7fff27258650 sp 0x7fff27258648
+READ of size 4 at 0x5040001ef3d8 thread T0
+    #0 0x558d6fe234fe in is_redir_target /home/claude/work/fuzz/../v2/tokens/glob_expand.c:23:29
+    #1 0x558d6fe234fe in expand_glob_tokens /home/claude/work/fuzz/../v2/tokens/glob_expand.c:98:31
+    #2 0x558d6fe240f4 in tokenize_with_expansion /home/claude/work/fuzz/../v2/tokens/token.c:37:7
+    #3 0x558d6fdf6750 in LLVMFuzzerTestOneInput /home/claude/work/fuzz/fuzz_parse.c:44:7
+    #4 0x558d6fd03e14 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/claude/work/fuzz/fuzz_parse+0x7ae14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #5 0x558d6fd03509 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/claude/work/fuzz/fuzz_parse+0x7a509) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #6 0x558d6fd04cf5 in fuzzer::Fuzzer::MutateAndTestOne() (/home/claude/work/fuzz/fuzz_parse+0x7bcf5) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #7 0x558d6fd05855 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile>>&) (/home/claude/work/fuzz/fuzz_parse+0x7c855) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #8 0x558d6fcf2b2f in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/claude/work/fuzz/fuzz_parse+0x69b2f) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #9 0x558d6fd1d1b6 in main (/home/claude/work/fuzz/fuzz_parse+0x941b6) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #10 0x7f4ba582a1c9 in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #11 0x7f4ba582a28a in __libc_start_main csu/../csu/libc-start.c:360:3
+    #12 0x558d6fce7b14 in _start (/home/claude/work/fuzz/fuzz_parse+0x5eb14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+
+0x5040001ef3d8 is located 8 bytes inside of 48-byte region [0x5040001ef3d0,0x5040001ef400)
+freed by thread T0 here:
+    #0 0x558d6fdb7caa in free (/home/claude/work/fuzz/fuzz_parse+0x12ecaa) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #1 0x558d6fe234da in expand_one /home/claude/work/fuzz/../v2/tokens/glob_expand.c:76:2
+    #2 0x558d6fe234da in expand_glob_tokens /home/claude/work/fuzz/../v2/tokens/glob_expand.c:100:9
+    #3 0x558d6fe240f4 in tokenize_with_expansion /home/claude/work/fuzz/../v2/tokens/token.c:37:7
+    #4 0x558d6fdf6750 in LLVMFuzzerTestOneInput /home/claude/work/fuzz/fuzz_parse.c:44:7
+    #5 0x558d6fd03e14 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/claude/work/fuzz/fuzz_parse+0x7ae14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #6 0x558d6fd03509 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/claude/work/fuzz/fuzz_parse+0x7a509) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #7 0x558d6fd04cf5 in fuzzer::Fuzzer::MutateAndTestOne() (/home/claude/work/fuzz/fuzz_parse+0x7bcf5) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #8 0x558d6fd05855 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile>>&) (/home/claude/work/fuzz/fuzz_parse+0x7c855) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #9 0x558d6fcf2b2f in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/claude/work/fuzz/fuzz_parse+0x69b2f) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #10 0x558d6fd1d1b6 in main (/home/claude/work/fuzz/fuzz_parse+0x941b6) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #11 0x7f4ba582a1c9 in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #12 0x7f4ba582a28a in __libc_start_main csu/../csu/libc-start.c:360:3
+    #13 0x558d6fce7b14 in _start (/home/claude/work/fuzz/fuzz_parse+0x5eb14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+
+previously allocated by thread T0 here:
+    #0 0x558d6fdb7f43 in malloc (/home/claude/work/fuzz/fuzz_parse+0x12ef43) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #1 0x558d6fe2541c in create_token_with_quote /home/claude/work/fuzz/../v2/tokens/token_utils2.c:67:21
+    #2 0x558d6fe255ac in create_token_with_expansion /home/claude/work/fuzz/../v2/tokens/token_utils3.c:15:10
+    #3 0x558d6fe2162c in finalize_token /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced_utils.c:163:8
+    #4 0x558d6fe1f1a5 in create_word_token_enhanced /home/claude/work/fuzz/../v2/tokens/create_word_token_enhanced.c:44:7
+    #5 0x558d6fe26173 in process_token_enhanced /home/claude/work/fuzz/../v2/tokens/tokens_fill.c:12:10
+    #6 0x558d6fe26173 in fill_tokens_enhanced_with_expansion /home/claude/work/fuzz/../v2/tokens/tokens_fill.c:34:12
+    #7 0x558d6fe2402d in tokenize_with_expansion /home/claude/work/fuzz/../v2/tokens/token.c:31:7
+    #8 0x558d6fdf6750 in LLVMFuzzerTestOneInput /home/claude/work/fuzz/fuzz_parse.c:44:7
+    #9 0x558d6fd03e14 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/claude/work/fuzz/fuzz_parse+0x7ae14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #10 0x558d6fd03509 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/claude/work/fuzz/fuzz_parse+0x7a509) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #11 0x558d6fd04cf5 in fuzzer::Fuzzer::MutateAndTestOne() (/home/claude/work/fuzz/fuzz_parse+0x7bcf5) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #12 0x558d6fd05855 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile>>&) (/home/claude/work/fuzz/fuzz_parse+0x7c855) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #13 0x558d6fcf2b2f in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/claude/work/fuzz/fuzz_parse+0x69b2f) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #14 0x558d6fd1d1b6 in main (/home/claude/work/fuzz/fuzz_parse+0x941b6) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+    #15 0x7f4ba582a1c9 in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #16 0x7f4ba582a28a in __libc_start_main csu/../csu/libc-start.c:360:3
+    #17 0x558d6fce7b14 in _start (/home/claude/work/fuzz/fuzz_parse+0x5eb14) (BuildId: e2ccfdb004d0a07e99ef5c76aab91c956c800f2e)
+
+SUMMARY: AddressSanitizer: heap-use-after-free /home/claude/work/fuzz/../v2/tokens/glob_expand.c:23:29 in is_redir_target

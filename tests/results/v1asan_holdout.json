@@ -1,0 +1,572 @@
+[
+ {
+  "id": "Ah01",
+  "cat": "A",
+  "stdout": "3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0145792590001292
+ },
+ {
+  "id": "Ah02",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/Ah02/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0113700659999267
+ },
+ {
+  "id": "Ah03",
+  "cat": "A",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011969329999829
+ },
+ {
+  "id": "Ah04",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0091325960001996
+ },
+ {
+  "id": "Ah05",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/Ah05\n/tmp/shellm_fix/Ah05\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138419539998722
+ },
+ {
+  "id": "Ah06",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0131392769999366
+ },
+ {
+  "id": "Ah07",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0125558329996238
+ },
+ {
+  "id": "Ah08",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "",
+  "rc": 255,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0123418980001588
+ },
+ {
+  "id": "Bh01",
+  "cat": "B",
+  "stdout": "x.c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.018551785999989
+ },
+ {
+  "id": "Bh02",
+  "cat": "B",
+  "stdout": "ZVAR=zzz\n",
+  "stderr": "/usr/bin/env\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011246343000039
+ },
+ {
+  "id": "Bh03",
+  "cat": "B",
+  "stdout": "script-ok\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0168674809997356
+ },
+ {
+  "id": "Bh04",
+  "cat": "B",
+  "stdout": "44\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0147828670001218
+ },
+ {
+  "id": "Bh05",
+  "cat": "B",
+  "stdout": "script-ok\n3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0140533819999291
+ },
+ {
+  "id": "Bh06",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0127836819997356
+ },
+ {
+  "id": "Ch01",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0175147789996117
+ },
+ {
+  "id": "Ch02",
+  "cat": "C",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.018772590000026
+ },
+ {
+  "id": "Ch03",
+  "cat": "C",
+  "stdout": "armut\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.016839900999912
+ },
+ {
+  "id": "Ch04",
+  "cat": "C",
+  "stdout": "abc\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0188869319999867
+ },
+ {
+  "id": "Ch05",
+  "cat": "C",
+  "stdout": "/tmp/shellm_fix/Ch05\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0131050449999748
+ },
+ {
+  "id": "Ch06",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0214577410001766
+ },
+ {
+  "id": "Ch07",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163142950000292
+ },
+ {
+  "id": "Ch08",
+  "cat": "C",
+  "stdout": "armut\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0187675890001628
+ },
+ {
+  "id": "Dh01",
+  "cat": "D",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0161344150001241
+ },
+ {
+  "id": "Dh02",
+  "cat": "D",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0137566340004014
+ },
+ {
+  "id": "Dh03",
+  "cat": "D",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0192076680000355
+ },
+ {
+  "id": "Dh04",
+  "cat": "D",
+  "stdout": "hi extra\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0168945450000137
+ },
+ {
+  "id": "Dh05",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "cat: -: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013940620000085
+ },
+ {
+  "id": "Dh06",
+  "cat": "D",
+  "stdout": "x\ny\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0141271649999908
+ },
+ {
+  "id": "Dh07",
+  "cat": "D",
+  "stdout": "5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.018351323999923
+ },
+ {
+  "id": "Eh01",
+  "cat": "E",
+  "stdout": "MERHABA\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0172390009997798
+ },
+ {
+  "id": "Eh02",
+  "cat": "E",
+  "stdout": "/tmp/shellm_fix/Eh02/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0144311439999
+ },
+ {
+  "id": "Eh03",
+  "cat": "E",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0214265650001835
+ },
+ {
+  "id": "Eh04",
+  "cat": "E",
+  "stdout": "a b   c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163014370000383
+ },
+ {
+  "id": "Eh05",
+  "cat": "E",
+  "stdout": "elma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0169190419996994
+ },
+ {
+  "id": "Fh01",
+  "cat": "F",
+  "stdout": "zzz$ZVARzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.01259870199965
+ },
+ {
+  "id": "Fh02",
+  "cat": "F",
+  "stdout": "a|b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0121473109998078
+ },
+ {
+  "id": "Fh03",
+  "cat": "F",
+  "stdout": "a > b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120338500000798
+ },
+ {
+  "id": "Fh04",
+  "cat": "F",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.01704936599981
+ },
+ {
+  "id": "Fh05",
+  "cat": "F",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152259149999736
+ },
+ {
+  "id": "Fh06",
+  "cat": "F",
+  "stdout": "zzzzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0128896149999491
+ },
+ {
+  "id": "Fh07",
+  "cat": "F",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012979994000034
+ },
+ {
+  "id": "Fh08",
+  "cat": "F",
+  "stdout": "xyz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0109500710000248
+ },
+ {
+  "id": "Hh01",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error `<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0099324450002314
+ },
+ {
+  "id": "Hh02",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error  `>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0110453399997823
+ },
+ {
+  "id": "Hh03",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error  `>>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138659660001395
+ },
+ {
+  "id": "Ih01",
+  "cat": "I",
+  "stdout": "/tmp\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0101276479999797
+ },
+ {
+  "id": "Ih02",
+  "cat": "I",
+  "stdout": "1\n",
+  "stderr": "minishell: cd: HOME not set\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120218879997083
+ },
+ {
+  "id": "Ih03",
+  "cat": "I",
+  "stdout": "x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0159254780000992
+ },
+ {
+  "id": "Ih04",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "=================================================================\n==20034==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000048 at pc 0x55c4885a2c21 bp 0x7ffe42363cb0 sp 0x7ffe42363ca0\nREAD of size 8 at 0x503000000048 thread T0\n=================================================================\n==20035==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000040 at pc 0x55c4885a3ebe bp 0x7ffe42363d10 sp 0x7ffe42363d00\nREAD of size 8 at 0x503000000040 thread T0\n    #0 0x55c4885a2c20 in ft_env builtins/builtin3.c:93\n    #1 0x55c4885a1df9 in run_builtin builtins/builtin.c:88\n    #2 0x55c4885b069c in execute_child_builtin pipes/pipe_4.c:11\n    #3 0x55c4885b03da in execute_command_common_child pipes/pipe_3.c:62\n    #4 0x55c4885b2254 in execute_command_in_child pipes/pipe_child.c:34\n    #5 0x55c4885b2545 in handle_left_child_node pipes/pipe_child.c:51\n    #6 0x55c4885b2b08 in execute_left_child_ctx pipes/pipe_child_exec.c:13\n    #7 0x55c4885b122e in fork_left_child pipes/pipe_4.c:68\n    #8 0x55c4885ae1ac in setup_pipe_and_left_child pipes/pipe.c:36\n    #9 0x55c4885ae60f in execute_pipe pipes/pipe.c:76\n    #10 0x55c4885ad9bf in handle_pipe_node parse/parse_execute_ast.c:80\n    #11 0x55c4885adad7 in execute_ast parse/parse_execute_ast.c:94\n    #12 0x55c48859f5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #13 0x55c48859e616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #14 0x55c48859ebf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #15 0x55c48859f071 in main /home/claude/work/v1_asan/main.c:284\n    #16 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #17 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #18 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000048 is located 8 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x55c4885a3ebd in get_env_value env/env.c:67\n    #1 0x55c4885a6684 in get_path_dirs env/find.c:34\n    #2 0x55c4885a6827 in find_exec env/find.c:73\n    #3 0x55c4885b0922 in execute_child_external pipes/pipe_4.c:23\n    #4 0x55c4885b03f4 in execute_command_common_child pipes/pipe_3.c:64\n    #5 0x55c4885b2254 in execute_command_in_child pipes/pipe_child.c:34\n    #6 0x55c4885afa69 in handle_right_child_node pipes/pipe_2.c:65\n    #7 0x55c4885b2f57 in execute_right_child_ctx pipes/pipe_child_exec.c:29\n    #8 0x55c4885b359c in fork_right_child pipes/pipe_child_exec.c:65\n    #9 0x55c4885ae236 in check_left_and_fork_right pipes/pipe.c:45\n    #10 0x55c4885ae678 in execute_pipe pipes/pipe.c:79\n    #11 0x55c4885ad9bf in handle_pipe_node parse/parse_execute_ast.c:80\n    #12 0x55c4885adad7 in execute_ast parse/parse_execute_ast.c:94\n    #13 0x55c48859f5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #14 0x55c48859e616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #15 0x55c48859ebf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #16 0x55c48859f071 in main /home/claude/work/v1_asan/main.c:284\n    #17 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #18 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #19 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000040 is located 0 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7f83528fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55c4885a7955 in free_env_node env/unset.c:13\n    #2 0x55c4885a79cf in remove_head_node env/unset.c:19\n    #3 0x55c4885a7ac8 in remove_env env/unset.c:33\n    #4 0x55c4885a7ca4 in execute_unset env/unset.c:57\n    #5 0x55c4885a1ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55c4885b054f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55c4885ad809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55c4885ada80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55c48859f5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55c48859e616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55c48859ebf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55c48859f071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7f83528fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55c4885a41cf in new_env_node env/env_utils.c:24\n    #2 0x55c4885a3947 in create_and_add_node env/env.c:11\n    #3 0x55c4885a3d99 in init_env_list env/env.c:52\n    #4 0x55c48859efa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free env/env.c:67 in get_env_value\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa[fd]fd fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 02 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 05 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa fd fd fd fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==20035==ABORTING\n    #0 0x7f83528fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55c4885a7955 in free_env_node env/unset.c:13\n    #2 0x55c4885a79cf in remove_head_node env/unset.c:19\n    #3 0x55c4885a7ac8 in remove_env env/unset.c:33\n    #4 0x55c4885a7ca4 in execute_unset env/unset.c:57\n    #5 0x55c4885a1ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55c4885b054f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55c4885ad809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55c4885ada80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55c48859f5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55c48859e616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55c48859ebf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55c48859f071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7f83528fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55c4885a41cf in new_env_node env/env_utils.c:24\n    #2 0x55c4885a3947 in create_and_add_node env/env.c:11\n    #3 0x55c4885a3d99 in init_env_list env/env.c:52\n    #4 0x55c48859efa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free builtins/builtin3.c:93 in ft_env\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa fd[fd]fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 02 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 05 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa fd fd fd fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==20034==ABORTING\n=================================================================\n==20024==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000050 at pc 0x55c4885a0677 bp 0x7ffe42364650 sp 0x7ffe42364640\nREAD of size 8 at 0x503000000050 thread T0\n    #0 0x55c4885a0676 in free_env_list ast/free.c:13\n    #1 0x55c48859f0c0 in main /home/claude/work/v1_asan/main.c:287\n    #2 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #3 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #4 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000050 is located 16 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7f83528fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55c4885a7955 in free_env_node env/unset.c:13\n    #2 0x55c4885a79cf in remove_head_node env/unset.c:19\n    #3 0x55c4885a7ac8 in remove_env env/unset.c:33\n    #4 0x55c4885a7ca4 in execute_unset env/unset.c:57\n    #5 0x55c4885a1ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55c4885b054f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55c4885ad809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55c4885ada80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55c48859f5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55c48859e616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55c48859ebf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55c48859f071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7f83528fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55c4885a41cf in new_env_node env/env_utils.c:24\n    #2 0x55c4885a3947 in create_and_add_node env/env.c:11\n    #3 0x55c4885a3d99 in init_env_list env/env.c:52\n    #4 0x55c48859efa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7f835242a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7f835242a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55c48859d964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free ast/free.c:13 in free_env_list\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa fd fd[fd]fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 02 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 05 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa fd fd fd fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==20024==ABORTING\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.2321247220002078
+ },
+ {
+  "id": "Ih05",
+  "cat": "I",
+  "stdout": "EMPTY=\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0148044299999128
+ },
+ {
+  "id": "Jh01",
+  "cat": "J",
+  "stdout": "0\n",
+  "stderr": "ls: cannot access '*.txt': No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0174191269998119
+ },
+ {
+  "id": "Jh02",
+  "cat": "J",
+  "stdout": "d/*.[ch]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013083555999856
+ },
+ {
+  "id": "Jh03",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "cat: '~/Desktop/*.txt': No such file or directory\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013482109999586
+ },
+ {
+  "id": "Jh04",
+  "cat": "J",
+  "stdout": "~/Desktop\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0128872179998325
+ },
+ {
+  "id": "Jh05",
+  "cat": "J",
+  "stdout": "~/x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012913101000322
+ },
+ {
+  "id": "Jh06",
+  "cat": "J",
+  "stdout": "x*y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0104725289997987
+ },
+ {
+  "id": "Jh07",
+  "cat": "J",
+  "stdout": "not.txt\nrapor.pdf\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138809129998663
+ }
+]

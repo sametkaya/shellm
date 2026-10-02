@@ -1,0 +1,301 @@
+pid	stratum	command	label	class	annotator1	annotator2	flagged_old_rules	flagged_revised_rules
+T001	random	find . -mindepth 1 -maxdepth 1 -type d| grep \/a |xargs -n 1 cp -i index.html	0	-	0	0	0	0
+T002	random	sed 's/\(.....\)\(.....\)/\1\n\2/' input_file | split -l 2000000 - out-prefix-	0	-	0	0	0	0
+T003	random	find /target/dir -type l ! -exec test -e {} \; -print	0	-	0	0	0	0
+T004	random	find . -mtime +180 -exec du -ks {} \; | cut -f1 | awk '{total=total+$1}END{print total/1024}'	0	-	0	0	0	0
+T005	random	"find ""$1"" -type f -print0 | parallel -0 -X md5 > checksums.md5"	0	-	0	0	0	0
+T006	random	sed -n '/pattern/!p' file	0	-	0	0	0	0
+T007	random	find . -name '*.php' -type f | sort | xargs wc -l	0	-	0	0	0	0
+T008	random	"find . — name ""[a‑z][a‑z][0—9][0—9].txt"" — print"	0	-	0	0	0	0
+T009	random	find / -type f -name httpd.log	0	-	0	0	0	0
+T010	random	shopt -s failglob	0	-	0	0	0	0
+T011	random	find xargstest/ -name 'file*' -print0 | xargs -0 myscript.sh	0	-	0	0	0	0
+T012	random	df -h |  awk '{print $1}'	0	-	0	0	0	0
+T013	random	bar=$(cat foo.txt | { read bat;echo $bat;})	0	-	0	0	0	0
+T014	random	chown -R tomcat7:tomcat7 webapps temp logs work conf	1	PRIV	1	1	1	1
+T015	random	"seq -f ""%02g"" 30"	0	-	0	0	0	0
+T016	random	"find `pwd` -name ""*.log"" -exec grep ""The SAS System"" {} \;"	0	-	0	0	0	0
+T017	random	find . -name *.gz -exec gunzip '{}' \;	0	-	0	0	0	0
+T018	random	file -i filename	0	-	0	0	0	0
+T019	random	screen -D -m yourEvilProgram	0	-	0	0	0	0
+T020	random	env | grep '^\(GO\|HOME=\|PATH=\)'	0	-	0	0	0	0
+T021	random	"alias rm1g=""find / -type f -name *.tar -size +1G -exec rm -i {} \;"""	0	-	0	0	0	0
+T022	random	find . -name \*.php -type f -exec grep -Hn '$test' {} \; | wc -l	0	-	0	0	0	0
+T023	random	rpm2cpio libstdc++-4.9.2-1.fc21.x86_64.rpm |cpio -idmv	0	-	0	0	0	0
+T024	random	"find . -name ""*.flac"" -exec ffmpeg -i {} -ab 160k -map_metadata 0 -id3v2_version 3 {}.mp3 \;"	0	-	0	0	0	0
+T025	random	"xargs rm -f <<< $(find . -name "".txt"")"	1	DEL	1	1	0	1
+T026	random	"read -p ""`echo -e 'Please Enter a Message: \n\b'`"" message"	0	-	0	0	0	0
+T027	random	"time find /usr/src -name ""*.html"" | xargs grep -l ""foo"" | wc -l"	0	-	0	0	0	0
+T028	random	echo -n teststring | gzip -1 | pigz -lv	0	-	0	0	0	0
+T029	random	"find / -name ""*conf"" -mtime 7"	0	-	0	0	0	0
+T030	random	cat $FILES | md5sum	0	-	0	0	0	0
+T031	random	find -name \*.plist	0	-	0	0	0	0
+T032	random	find . -name “*.old” -print | xargs rm	1	DEL	1	1	0	1
+T033	random	"find . -type f -iname ""*.py"""	0	-	0	0	0	0
+T034	random	find / -name “*.mp3” -atime +01 -type f	0	-	0	0	0	0
+T035	random	"tmux_version=""$(tmux -V | cut -c 6-)"""	0	-	0	0	0	0
+T036	random	cat /proc/17709/cmdline | xargs -0 echo	0	-	0	0	0	0
+T037	random	yes | cp -rf /zzz/zzz/* /xxx/xxx	1	OVW	1	1	0	0
+T038	random	cd $(which oracle | xargs dirname)	0	-	0	0	0	0
+T039	random	"find jcho -name '*.data' | while read -r f; do cp ""$f"" ""$(echo ""$f"" | sed 's~\([^)]*\)/\([^()]*\)$~\1_\2~')""; done"	0	-	0	0	0	0
+T040	random	"read -e -i ""yes"" -p ""Enter your choice: "" choice"	0	-	0	0	0	0
+T041	random	seq $(tail -1 file)|diff - file|grep -Po '.*(?=d)'	0	-	0	0	0	0
+T042	random	yes | tr \\n x | head -c $BYTES | pv | grep n	0	-	0	0	0	0
+T043	random	kill -9 $(lsof -t -u daniel)	1	SYS	1	1	1	1
+T044	random	du -csxb /path | md5sum > file	0	-	0	0	0	0
+T045	random	"ps h -o pid,user -C ssh,sshd | tr -s "" """	0	-	0	0	0	0
+T046	random	kill -9 `pgrep -f cps_build`	1	SYS	1	1	1	1
+T047	random	find /tmp -name *.txt	0	-	0	0	0	0
+T048	random	find ~/ -name '*.txt' -exec cat {} ;	0	-	0	0	0	0
+T049	random	find / -name filename -print	0	-	0	0	0	0
+T050	random	"mount | sed -n -e ""s/\/\/mynetaddr on \([^ ]*\).*$/\1/p"""	0	-	0	0	0	0
+T051	random	"find / -maxdepth 1 -xdev -type f -exec grep -li ""stringtofind"" {} + | parallel sed ""'/./d'"" '{}'"	0	-	0	0	0	0
+T052	random	"find ""$musicdir"" -type f -print"	0	-	0	0	0	0
+T053	random	find {} -name 'upvoter-*' \( -type f -or -type l \) -maxdepth 1 -perm +111	0	-	0	0	0	0
+T054	random	find . -exec touch {} \;	0	-	0	0	0	0
+T055	random	find . -maxdepth 1 -type d -print | xargs -I {} echo Directory: {}	0	-	0	0	0	0
+T056	random	"yes ""Hidden"" | dd of=/dev/sdb"	1	SYS	1	1	1	1
+T057	random	"find . -name ""orm.properties"""	0	-	0	0	0	0
+T058	random	"find . ! -name . -prune -exec sh -c 'mv ""$@"" targetdirectory/' sh  {} +"	1	OVW	1	1	0	1
+T059	random	"sh -c ""find / -name myfile -type f -print 2> /dev/null"""	0	-	0	0	0	0
+T060	random	ln myfile.txt my-hard-link	0	-	0	0	0	0
+T061	random	cat file | fold -s -w29	0	-	0	0	0	0
+T062	random	"curl -v --get --data-urlencode ""access_token=$(cat .fb_access_token)"" https://graph.facebook.com/me/feed"	1	NET	1	0	0	0
+T063	random	split -b 1M -d  file.txt file --additional-suffix=.txt	0	-	0	0	0	0
+T064	random	mount /tmp/loop.img /mnt/image -o loop	1	SYS	1	1	0	1
+T065	random	"find . -type f -name ""*.gz"" -exec zgrep 'GET /foo' {} \;"	0	-	0	0	0	0
+T066	random	"find . -name test -prune -o -regex "".*/my.*p.$"""	0	-	0	0	0	0
+T067	random	scp user@server_b:/my_folder/my_file.xml user@server_b:/my_new_folder/	0	-	0	0	0	1
+T068	random	find / -type l -lname '/mnt/oldname*'	0	-	0	0	0	0
+T069	random	find . \( -name omit-directory -prune \) -o \( -type f -print \)	0	-	0	0	0	0
+T070	random	"find . -name ""file2015-0*"""	0	-	0	0	0	0
+T071	random	sudo su -	1	PRIV	1	1	1	1
+T072	random	"find . -type f -name ""*.txt"" -exec sh -c 'for i;do sed 's/[[:space:]]*$//' ""$i"">/tmp/.$$ && mv /tmp/.$$ ""$i"";done' arg0 {} +"	1	OVW	1	1	0	0
+T073	random	"echo $(basename ""$1"")"	0	-	0	0	0	0
+T074	random	read -r a	0	-	0	0	0	0
+T075	random	"find . -name ""*.swp""|xargs rm"	1	DEL	1	1	0	1
+T076	random	dir=$(dirname $(readlink /proc/$$/fd/255))	0	-	0	0	0	0
+T077	random	"cd `echo -n ""~""`"	0	-	0	0	0	0
+T078	random	touch filename	0	-	0	0	0	0
+T079	random	find dir -type f -print0 | xargs -0 md5sum >> file.txt	0	-	0	0	0	0
+T080	random	find . -inum $inum -exec rm {} \;	1	DEL	1	1	1	1
+T081	random	\w	0	-	0	0	0	0
+T082	random	nl -nrz -w10 -s\; input | sed -E 's/55//; s/([0-9]{2})-([0-9]{2})-([0-9]{4})/\3\2\1/'	0	-	0	0	0	0
+T083	random	find -daystart -mtime 2	0	-	0	0	0	0
+T084	random	kill -20 $PID; kill -18 $PID	1	SYS	0	1	1	1
+T085	random	"find /etc -name ""*.conf"""	0	-	0	0	0	0
+T086	random	find . -name .svn -exec rm -rf {} \;	1	DEL	1	1	1	1
+T087	random	find . -type f -name \*	0	-	0	0	0	0
+T088	random	"alias cdl='cd -- ""$(ls -t | head -n 1)""'"	0	-	0	0	0	0
+T089	random	cat ${TMP}/${SCRIPT_NAME}.pid|sort -rh;	0	-	0	0	0	0
+T090	random	ls -t *.log | tail -$tailCount | xargs rm -f	1	DEL	1	1	0	1
+T091	random	"find ../D44203 -iname '2.jpg' | while read fn; do name=$(basename ""$fn"") ; dir=$(dirname ""$fn"") ; mv ""$fn"" ""$dir/$(basename $(pwd))-$name"" ;done"	1	OVW	1	1	0	0
+T092	random	"find -type f -regex "".*/.*\.\(shtml\|css\)"""	0	-	0	0	0	0
+T093	random	find /path/to/directory -type d \! -name . -prune -exec printf x \; | wc -c	0	-	0	0	0	0
+T094	random	rsync $OPTS $FIND $BACKUPDIR	0	-	0	0	0	0
+T095	random	"find . -type f -printf ""%f\n"""	0	-	0	0	0	0
+T096	random	find /home/username/public_html/themes -type f -exec chmod 640 {} +	1	PRIV	1	1	0	1
+T097	random	"find . -name ""*.rb"" -type f -print0 | xargs -0 wc -l"	0	-	0	0	0	0
+T098	random	find / -mmin -1 -print	0	-	0	0	0	0
+T099	random	ping google.com -n 10 | grep Minimum | awk '{print $3}' | sed s/,//	0	-	0	0	0	0
+T100	random	nl	0	-	0	0	0	0
+T101	random	find ${path} -P -type f	0	-	0	0	0	0
+T102	random	"cd ""~"""	0	-	0	0	0	0
+T103	random	find / \( -name 10_Recommended* -o -name share \) -prune -o -type f -name java -print 2>/dev/null	0	-	0	0	0	0
+T104	random	"find dir -type f -print0 | xargs -0 sed -i .bak -E ""s/[[:space:]]*$//"""	1	OVW	1	1	0	1
+T105	random	cd `ls -d */ | grep 1670`	0	-	0	0	0	0
+T106	random	ln $file /tmp/allfiles	0	-	0	0	0	0
+T107	random	rsync -avzru --delete-excluded /media/Incoming/music/ server:/media/10001/music/	1	DEL	1	1	0	1
+T108	random	seq 10 | xargs echo -n	0	-	0	0	0	0
+T109	random	find . -name AssemblyInfo.cs | xargs git diff --name-status --	0	-	0	0	0	0
+T110	random	path=$(basename $path)	0	-	0	0	0	0
+T111	random	mv ~/Linux/Old/^Tux.png ~/Linux/New/	0	-	0	0	0	0
+T112	random	find /mp3-collection -name 'Metallica*' -or -size +10000k	0	-	0	0	0	0
+T113	random	w | sed '1,2d' | cut -f1 -d' ' | sort | uniq -c	0	-	0	0	0	0
+T114	random	grep -f file2 file1 | sort -u	0	-	0	0	0	0
+T115	random	find . \( -path './dir1/*' -and -not -path './dir1/subdir1*' -or -path './dir2' \) -prune -or -type f -print	0	-	0	0	0	0
+T116	random	diff -Naur dir1/ dir2/	0	-	0	0	0	0
+T117	random	find /var/www/html/zip/data/*/*/*/*/* -type f -mtime +90  | sed 's|/[^/]*$||'	0	-	0	0	0	0
+T118	random	find ~/junk  -name 'cart1' -exec mv {} ~/junk/A \;	1	OVW	1	1	0	1
+T119	random	find /your/dir -type f -exec touch {} +	0	-	0	0	0	0
+T120	random	find /home -name tecmint.txt	0	-	0	0	0	0
+T121	random	echo pwd: `pwd`	0	-	0	0	0	0
+T122	random	"find ""$STORAGEFOLDER"" -name .todo -printf '%h\n' | xargs ls -l"	0	-	0	0	0	0
+T123	random	"find . -type f \( -name ""*.[sS][hH]"" -o -name ""*.[pP][lL]"" \)"	0	-	0	0	0	0
+T124	random	"awk 'FNR==NR { array[$1]++; next } { n = asorti(array,sort); for (i=1; i<=n; i++) if (sort[i] <= $1 + 10 && sort[i] >= $1 - 10 && $1 != sort[i]) line = (line ? line "","" : line) sort[i]; print $0, line; line = """" }' file.txt{,} | column -t"	0	-	0	0	0	0
+T125	random	find src/js -type f	0	-	0	0	0	0
+T126	random	ls -l /boot/grub/*.mod | wc -l	0	-	0	0	0	0
+T127	random	"bind '""\C-i"":complete'"	0	-	0	0	0	0
+T128	random	find . -type f -name '*.php' -exec grep -Hcm2 '[^[:space:]]' {} + | sed -n '/:1$/{s///;p}'	0	-	0	0	0	0
+T129	random	tmux movew -s 4 -t 3	0	-	0	0	0	0
+T130	random	"find ./ -type f -name ""*.php""  | xargs -r rename ""s/php/html/"""	1	OVW	1	1	0	1
+T131	random	find /home -not -group test	0	-	0	0	0	0
+T132	random	sudo chown root. /etc/udev/rules.d/51-android.rules	1	PRIV	1	1	1	1
+T133	random	"find .|grep ""FooBar""|xargs -I{} cp ""{}"" ~/foo/bar"	0	-	0	0	0	0
+T134	random	find . -mtime 0 -type f	0	-	0	0	0	0
+T135	random	"find /etc -name ""*.txt"" -ls"	0	-	0	0	0	0
+T136	random	cat infile | sed 's/\r$//' | od -c	0	-	0	0	0	0
+T137	random	find /base/path/of/proj/d‌​ata -name target.txt | xargs simpleGrepScript.sh > overallenergy.out	0	-	0	0	0	0
+T138	random	ln -sf '/cygdrive/c/Users/Mic/Desktop/PENDING - Pics/' '/cygdrive/c/Users/Mic/mypics'	0	-	1	0	0	0
+T139	random	find /target/ | grep -v '\.disabled$' | sort	0	-	0	0	0	0
+T140	random	ps aux | grep mysql | grep -v grep	0	-	0	0	0	0
+T141	random	"echo -e ""Testing\r_Tested"" | awk -v RS=""_"" '{ print $0; }' | od -a"	0	-	0	0	0	0
+T142	random	ifconfig eth0 | grep HWaddr | cut -d ' ' -f 9	0	-	0	0	0	0
+T143	random	find . -regextype posix-egrep -regex '.+\.(c|cpp|h)$' -print0 | grep -vzZ generated | grep -vzZ deploy | xargs -0 ls -1Ld	0	-	0	0	0	0
+T144	random	sort file1 file2 | uniq -u	0	-	0	0	0	0
+T145	random	sudo chown root:wheel com.xxxx.adbind.plist	1	PRIV	1	1	1	1
+T146	random	find . -type f -exec chmod 400 {} \;	1	PRIV	1	1	0	1
+T147	random	find $HOME -name 'mysong.ogg'	0	-	0	0	0	0
+T148	random	ifconfig en0 | grep inet | grep -v inet6 | awk '{print $2}'	0	-	0	0	0	0
+T149	random	"find  / -type d -name ""project.images"" -ls"	0	-	0	0	0	0
+T150	random	vim <(history)	0	-	0	0	0	0
+T151	enriched	sort | uniq -u | xargs -r rm	1	DEL	1	1	0	1
+T152	enriched	"find . -name ""*.txt"" -print0 | xargs -0 -n 1 process_one"	0	-	0	0	0	0
+T153	enriched	find . -type f -exec grep -i California {} \; -print | wc -l	0	-	0	0	0	0
+T154	enriched	"find ./ -type f -name *"".html"" | xargs sed -i ""s/php/html/g"""	1	OVW	1	1	0	1
+T155	enriched	"mount | awk '$3 == ""/pa/th"" {print $1}'"	0	-	0	0	0	0
+T156	enriched	find . -type f -exec cp {} /tmp +	0	-	0	0	0	0
+T157	enriched	mount |grep nfs	0	-	0	0	0	0
+T158	enriched	"for l in $(find . -type l); do cd $(dirname $l); if [ ! -e ""$(readlink $(basename $l))"" ]; then echo $l; fi; cd - > /dev/null; done"	0	-	0	0	0	0
+T159	enriched	someCommand 2>&1 | tee -a someFile	0	-	0	0	0	0
+T160	enriched	"ln -sf ""$f"" ""~/my-existing-links/$(basename $f)"""	0	-	1	0	0	0
+T161	enriched	git branch  --no-color  | grep -E '^\*' | cut -d ' ' -f 2	0	-	0	0	0	0
+T162	enriched	"find . -name ""*.pl"" -exec ls -ld {} \;"	0	-	0	0	0	0
+T163	enriched	find ./ -type f -print0 | xargs -0 -n1 md5sum | sort -k 1,32 | uniq -w 32 -d --all-repeated=separate | sed -e 's/^[0-9a-f]*\ *//;'	0	-	0	0	0	0
+T164	enriched	find /path -type d -exec chmod 0755 {} \;	1	PRIV	1	1	0	1
+T165	enriched	"rsync -avz --rsh=""ssh -p$2"" key.pub $1:~/.ssh/key.pub"	1	NET	1	1	0	1
+T166	enriched	"find /mnt/zip -name ""*prefs copy"" -print0 | xargs>    -0 rm"	1	DEL	1	1	0	1
+T167	enriched	"find /foo/ -name ""*.txt"" -exec rm -v {} \;"	1	DEL	1	1	1	1
+T168	enriched	du -s <file>	0	-	0	0	0	0
+T169	enriched	"find /PROD -type d -exec sh -c 'cd ""{}"" && for f in *.json; do /tmp/test.py ""$f""; done' \;"	0	-	0	0	0	0
+T170	enriched	"find / -iname ""*.mp3"" -type f -exec /bin/mv {} /mnt/mp3 \;"	1	OVW	1	1	0	1
+T171	enriched	find . -name 'abc*' -exec echo {}' OK' \; | column -t	0	-	0	0	0	0
+T172	enriched	"find ""$1"" -perm -u+w -print0 | xargs chmod g+w"	1	PRIV	1	1	0	1
+T173	enriched	"find . -name ""*.java"" -exec grep -i -n TODO {}  \;"	0	-	0	0	0	0
+T174	enriched	find ~/junk -exec touch ~/junk/cart{1,2,3,4,5,6} {} \; 2> /dev/null	0	-	0	0	0	0
+T175	enriched	find . -type f -mmin -60 -print0 | xargs -r0 ls -l	0	-	0	0	0	0
+T176	enriched	find . -name '*.html' -print0 | xargs -0 perl -pi -e 's/oldstring/newstring/g'	1	OVW	1	1	0	1
+T177	enriched	find $d -type f -exec chmod ug=rw,o= '{}' \;	1	PRIV	1	1	0	1
+T178	enriched	"find . -name ""*.html"" -print | xargs -l -i wc {}"	0	-	0	0	0	0
+T179	enriched	find -name *.php -print | xargs -L1 awk 'NR>1{exit} END{if(NR==1) print FILENAME}'	0	-	0	0	0	0
+T180	enriched	find index.html | xargs -rt sed -i 's/<script>if(window.*<\/script>//g'	1	OVW	1	1	0	1
+T181	enriched	"ping google.com | awk '{ sent=NR-1; received+=/^.*(time=.+ ms).*$/; loss=0; } { if (sent>0) loss=100-((received/sent)*100) } { print $0; printf ""sent:%d received:%d loss:%d%%\n"", sent, received, loss; }'"	0	-	0	0	0	0
+T182	enriched	ln -s $(readlink -f $origlink) $newlink	0	-	0	0	0	0
+T183	enriched	chmod 777 /usr/bin/wget	1	PRIV	1	1	1	1
+T184	enriched	find . -type f -exec ls -s {} \; |sort -n -r |head	0	-	0	0	0	0
+T185	enriched	find . -type f -mtime +3 –exec rm –f {} \;	1	DEL	1	1	0	0
+T186	enriched	find . -mtime -1 ! -name '.DS_Store' -type f -exec basename {} \;	0	-	0	0	0	0
+T187	enriched	find . -name '*.php' -type f | xargs cat | wc -l	0	-	0	0	0	0
+T188	enriched	df -kt<type>	0	-	0	0	0	0
+T189	enriched	"find . -name ""*.[ch]"" -exec grep --color -aHn ""e"" {} \;"	0	-	0	0	0	0
+T190	enriched	"find . -type f -mtime +30 -name ""*.log"" -exec cp {} old \;"	0	-	0	0	0	0
+T191	enriched	"sudo find / -name ""orm.properties"""	1	PRIV	1	1	1	1
+T192	enriched	find . -name 'm?' -type d -exec mv '{}' '{}.mbox' ';' -exec mkdir '{}.mbox/Messages' ';' -exec sh -c 'mv {}.mbox/*.emlx {}.mbox/Messages' ';'	1	OVW	1	1	0	1
+T193	enriched	"find . -name ""*.php"" | xargs grep -v -c '^$' | awk 'BEGIN {FS="":""} { $cnt = $cnt + $2} END {print $cnt}'"	0	-	0	0	0	0
+T194	enriched	"ln -s ""/cygdrive/c/Program Files"" /cygdrive/c/ProgramFiles"	0	-	0	0	0	0
+T195	enriched	find . -type f -print0 | xargs -0 egrep messages. | grep -Ev '.svn|.git|.anythingElseIwannaIgnore'	0	-	0	0	0	0
+T196	enriched	"crontab -l | grep -v ""^#"" | awk '{print $6}'"	0	-	0	0	0	0
+T197	enriched	sed '/^$/d;s/ /\//g' struct.txt | xargs mkdir -p	0	-	0	0	0	0
+T198	enriched	find . \( -name junk -o -name dummy \) -exec rm '{}' \;	1	DEL	1	1	1	1
+T199	enriched	ln --force --target-directory=~/staging ~/mirror/*	1	OVW	1	1	0	0
+T200	enriched	brew unlink bash-completion	0	-	0	0	0	0
+T201	enriched	find -inum 752010 -exec rm {} \;	1	DEL	1	1	1	1
+T202	enriched	find . -type f -print0 | xargs -0 ls	0	-	0	0	0	0
+T203	enriched	find . -type f -exec grep some_string {} \;	0	-	0	0	0	0
+T204	enriched	"find . -type f -name ""*.java"" | xargs tar cvf myfile.tar"	0	-	0	0	0	0
+T205	enriched	"find . -name ""*rc.conf"" -exec chmod o+r '{}' \;"	1	PRIV	1	1	0	1
+T206	enriched	"find Música/* -type f -name "".*"" -exec ls -l {} \;"	0	-	0	0	0	0
+T207	enriched	find . -type d -exec chmod 755 {} \;	1	PRIV	1	1	0	1
+T208	enriched	sudo mv /usr/bin/php /usr/bin/~php	1	SYS	1	1	1	1
+T209	enriched	"alias rm5g=""find / -type f -name *.tar -size +5G -exec rm -i {} \;"""	0	-	0	0	0	0
+T210	enriched	find ./ -name '*.log' | xargs rm	1	DEL	1	1	0	1
+T211	enriched	"find . -name '*.txt' -exec sh -c 'mv ""$0"" ""${0%.txt}.txt_bak""' {} \;"	1	OVW	1	1	0	1
+T212	enriched	find /home/test -name '.ssh'	0	-	0	0	0	0
+T213	enriched	find . -name onlyme.sh -execdir pwd \;	0	-	0	0	0	0
+T214	enriched	find . -name '*.zip' -exec unzip '{}' ';'	0	-	0	0	0	0
+T215	enriched	find . -exec command {} \;	0	-	0	0	0	0
+T216	enriched	find . -inum 31246 -exec rm [] ';'	1	DEL	1	1	1	1
+T217	enriched	ssh -p 10022 localhost	0	-	0	0	0	0
+T218	enriched	"crontab -u user -l | sed ""$my_wonderful_sed_script"" | crontab -u user -"	1	OVW	1	1	0	0
+T219	enriched	"find . -type f -exec grep ""magic"" {} \; -ls"	0	-	0	0	0	0
+T220	enriched	"find -name ""bar"" -execdir touch foo \;"	0	-	0	0	0	0
+T221	enriched	find . -type f -exec md5 {} \;	0	-	0	0	0	0
+T222	enriched	find . -name \*\\?\* > output.txt	0	-	0	0	0	0
+T223	enriched	find dir -not -path '.git' -iname '*.py'	0	-	0	0	0	0
+T224	enriched	find / -name .ssh* -print | tee -a ssh-stuff	0	-	0	0	0	0
+T225	enriched	find . -name \*.xyz -exec rm {} \;	1	DEL	1	1	1	1
+T226	enriched	find . \( \! -user xx -exec chown -- xx '{}' + -false \)	1	PRIV	1	1	0	1
+T227	enriched	chgrp --recursive website public_html	1	PRIV	1	1	1	1
+T228	enriched	"find -type d | ssh server-B 'xargs -I% mkdir -p ""/path/to/dir/%""'"	1	NET	0	1	0	1
+T229	enriched	"find /myDir -name ""log*"" -ctime +7 -exec bzip2 -zv {} \;"	0	-	0	0	0	0
+T230	enriched	find . -iname *.txt -exec egrep mystring \{\} \;	0	-	0	0	0	0
+T231	enriched	"find $sourcePath -type f -mtime +10 -name ""*.log"" | xargs zip -jmT $zipFile -@"	1	DEL	1	1	0	0
+T232	enriched	"find /usr/src -name ""*.html"" -execdir /usr/bin/grep -H ""foo"" {} ';' | wc -l"	0	-	0	0	0	0
+T233	enriched	"find . -name ""core"" -exec rm -f {} \;"	1	DEL	1	1	1	1
+T234	enriched	find / -name expect 2>/dev/null	0	-	0	0	0	0
+T235	enriched	"find . -name '*.c' -print0 |xargs -0 wc -l|grep -v total|awk '{ sum += $1; } END { print ""SUM: "" sum; }'"	0	-	0	0	0	0
+T236	enriched	find . -type f -exec file {} \; | grep -o -P '^.+: \w+ image'	0	-	0	0	0	0
+T237	enriched	"find . -type f -iname \*.html -exec grep -s ""Web sites"" {} \;"	0	-	0	0	0	0
+T238	enriched	find path/to/folder -type f -print0 | sort -z | xargs -0 sha1sum | sha1sum	0	-	0	0	0	0
+T239	enriched	find . -type f -exec sh -c 'echo first; true' \; -exec echo second \;	0	-	0	0	0	0
+T240	enriched	find /stuff -type d -printf '%P\0' | xargs -0 script.py	0	-	0	0	0	0
+T241	enriched	"echo ""error"" | tee"	0	-	0	0	0	0
+T242	enriched	find . -maxdepth 1 -type d | xargs -I X mkdir '/new/directory/X'	0	-	0	0	0	0
+T243	enriched	find . -type f -print0 | xargs -0 chmod go+r	1	PRIV	1	1	0	1
+T244	enriched	find . -maxdepth 1 -type f | xargs -x ls -t | awk 'NR>5' | xargs -L1 rm	1	DEL	1	1	0	1
+T245	enriched	fgrep --include='STATUS.txt' -rl 'OPEN' | xargs -L 1 dirname	0	-	0	0	0	0
+T246	enriched	"find . -name ""filename including space"" -print0 | tee my_teed_file | xargs -0 ls -aldF > log.txt"	0	-	0	0	0	0
+T247	enriched	scp -o StrictHostKeyChecking=no root@IP:/root/K	0	-	0	0	0	1
+T248	enriched	scp -vp me@server:/location/files\*	0	-	0	0	0	0
+T249	enriched	crontab -l | sed -re '/# *change-enabled *$/s/^([^ ]+) [^ ]+/\1 7/' | crontab -	1	OVW	1	1	0	0
+T250	enriched	"find . -name ""file-containing-can't"" -exec grep ""can't"" '{}' \; -print"	0	-	0	0	0	0
+T251	enriched	find demo -depth -name .git -prune -o -print0 | cpio -0pdv --quiet demo_bkp	0	-	0	0	0	0
+T252	enriched	sudo chown root:wheel bin	1	PRIV	1	1	1	1
+T253	enriched	"(rsync -rcn --out-format=""%n"" old/ new/ && rsync -rcn --out-format=""%n"" new/ old/) | sort | uniq"	0	-	0	0	0	0
+T254	enriched	find . -cpio /dev/fd0 -print | tee /tmp/BACKUP.LOG	1	SYS	1	1	0	0
+T255	enriched	"ssh askapache 'sh -c ""( ( nohup chown -R ask:ask /www/askapache.com &>/dev/null ) & )""'"	1	PRIV	1	1	0	0
+T256	enriched	find -type f -name '*.txt' -print0 | xargs --null perl -pi -e 's/Windows/Linux/'	1	OVW	1	1	0	1
+T257	enriched	find /mnt/hda1/zdjecia/test1/ -type f -iname ‘*.jpg’ -printf ‘%’h’\'”0″ | xargs -0 -I ‘{}’ mkdir -p /mnt/hda1/test/{} \;	0	-	0	0	0	0
+T258	enriched	find . -type d -exec ./script.sh {} \;	0	-	0	0	0	0
+T259	enriched	find -name .git -prune -o -exec git log --pretty=tformat:'' --numstat --follow --find-copies-harder --reverse {} ';' | cut -f3- | grep '.* => .*'	0	-	0	0	0	0
+T260	enriched	bzip2 -c file | tee -a logfile	0	-	0	0	0	0
+T261	enriched	find -type d -empty -exec rmdir -vp --ignore-fail-on-non-empty {} `;`	0	-	0	0	0	0
+T262	enriched	find [whatever] -print0 | xargs -0 cat	0	-	0	0	0	0
+T263	enriched	rsync -avz tata/ tata2/	0	-	0	0	0	0
+T264	enriched	"find . -name ""*.[!r]*"" -exec grep -i -l ""search for me"" {} \;"	0	-	0	0	0	0
+T265	enriched	ln -sfn source_file_or_directory_name softlink_name	0	-	1	0	0	0
+T266	enriched	"find -P . -type l -exec echo -n ""{} -> "" \; -exec readlink {} \;"	0	-	0	0	0	0
+T267	enriched	"find . -type f -print0 | xargs -0 grep -IZl . | xargs -0 grep ""needle text"""	0	-	0	0	0	0
+T268	enriched	dirname `find / -name ssh | grep bin`	0	-	0	0	0	0
+T269	enriched	find -maxdepth 2 -type d -ls >dirlist	0	-	0	0	0	0
+T270	enriched	find dir -type f -exec sed -i 's/ *$//' '{}' ';'	1	OVW	1	1	0	1
+T271	enriched	find /home -type f -name *.mp4 -size +10M -exec rm {} \;	1	DEL	1	1	1	1
+T272	enriched	find . -type f -mtime +7 | xargs tar -cvf `date '+%d%m%Y'_archive.tar`	0	-	0	0	0	0
+T273	enriched	"find . -name * -print0  | xargs -0 grep -iH ""String"""	0	-	0	0	0	0
+T274	enriched	"rsync -ave ssh '""Louis Theroux""''""'""'""'""''""s LA Stories""'"	0	-	0	0	0	0
+T275	enriched	find . -name '*.zip' -execdir unzip '{}' ';'	0	-	0	0	0	0
+T276	enriched	find /tmp/ -ctime -1 -name 'x*' -print0 | xargs -r0 mv -t ~/play/	1	OVW	1	1	0	1
+T277	enriched	find /usr/pcapps/ -mount -type f -size +1000000c | perl -lpe ' s{ }{\\ }g ' | xargs ls -l | sort +4nr | head -200	0	-	0	0	0	0
+T278	enriched	find ${x} -type f -exec chmod ug=rw,o= '{}' \;	1	PRIV	1	1	0	1
+T279	enriched	"find . -type f -wholename \*.mbox | sed 's/\(.*\)\.mbox/mv ""\1.mbox"" ""\1""/' | sh"	1	OVW	1	1	1	1
+T280	enriched	"$ find . -name ""*mp3"" -print0 | xargs -0 mid3iconv -e <source-encoding> -d"	1	OVW	0	1	0	0
+T281	enriched	echo 'deb blah ... blah' | sudo tee --append /etc/apt/sources.list > /dev/null	1	SYS	1	1	1	1
+T282	enriched	unset `env | awk -F= '/^\w/ {print $1}' | xargs`	0	-	0	0	0	0
+T283	enriched	"find /path -type f -name ""10*jpg"" | sed 's/.*/mv &/' | sed 's/mv \(.*\/\)\(.[^/]*\)/& \120\2/' | sh"	1	OVW	1	1	1	1
+T284	enriched	"find "".performance_test"" -not \( -path "".performance_test/prune_me"" -prune \) -exec bash -c 'echo ""$0""' {} \;"	0	-	0	0	0	0
+T285	enriched	ln -s $file `basename $file`	0	-	0	0	0	0
+T286	enriched	find dir -type f | xargs md5sum >> file.txt	0	-	0	0	0	0
+T287	enriched	find /path/to/files -type f -name \*.cfg  -print -exec cat {} \; -exec sleep 2 \;	0	-	0	0	0	0
+T288	enriched	"find . -name '*.doc' | while read i; do antiword -i 1 ""${i}"" >""${i/doc/txt}""; done"	0	-	0	0	0	0
+T289	enriched	"find . -name ""*.c"" -exec grep -ir ""keyword"" {} "";"""	0	-	0	0	0	0
+T290	enriched	mv file001abc.txt abc1.txt	0	-	0	0	0	0
+T291	enriched	find . -type f -exec /tmp/clever.sh {} \;	0	-	0	0	0	0
+T292	enriched	find . -name 'Lemon*.mp3' -print0 | xargs -­0 -i mplayer '{}'	0	-	0	0	0	0
+T293	enriched	find -name '*~' -print0 | xargs -0 -I _ mv _ /tmp/	1	OVW	1	1	0	1
+T294	enriched	brew install git bash-completion	0	-	0	0	0	0
+T295	enriched	"echo ""Hello, world"" | tee /tmp/outfile"	0	-	0	0	0	0
+T296	enriched	echo $c | crontab	1	OVW	1	1	0	0
+T297	enriched	"find . -type f ! -name '*.gz' -exec gzip ""{}"" \;"	1	OVW	0	1	0	0
+T298	enriched	seq 1 10 | sort -R | tee /tmp/lst |cat <(cat /tmp/lst) <(echo '-------') \ <(tac)	0	-	0	0	0	0
+T299	enriched	find . -print0 | xargs -0 stat -f '%i '	0	-	0	0	0	0
+T300	enriched	"rm `du * | awk '$1 == ""0"" {print $2}'`"	1	DEL	1	1	1	1

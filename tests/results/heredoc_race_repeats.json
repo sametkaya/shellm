@@ -1,0 +1,16 @@
+{
+ "description": "four independent repetitions of heredoc_race.py (each 16 concurrent shells x 5 rounds = 80 runs)",
+ "v1_corrupted": [
+  69,
+  64,
+  70,
+  69
+ ],
+ "v2_corrupted": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "runs": 80
+}

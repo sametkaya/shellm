@@ -1,0 +1,142 @@
+{
+ "unique_commands": 10624,
+ "syntax_supported": 7333,
+ "syntax_supported_pct": 69.0,
+ "needs_tilde_or_glob_among_supported": 594,
+ "v1_executable": 6739,
+ "v1_executable_pct": 63.4,
+ "v2_executable": 7333,
+ "v2_executable_pct": 69.0,
+ "unsupported_by_first_issue": [
+  [
+   "backslash escape",
+   1707
+  ],
+  [
+   "variable assignment without export",
+   350
+  ],
+  [
+   "command substitution with backquotes",
+   271
+  ],
+  [
+   "'$(...)' command substitution",
+   235
+  ],
+  [
+   "subshell or process substitution '( )'",
+   204
+  ],
+  [
+   "command substitution inside double quotes",
+   141
+  ],
+  [
+   "command separator ';'",
+   138
+  ],
+  [
+   "file-descriptor redirection (e.g. 2>)",
+   92
+  ],
+  [
+   "'${...}' parameter expansion",
+   52
+  ],
+  [
+   "brace expansion '{a,b}'",
+   31
+  ],
+  [
+   "'&' (background or descriptor redirection)",
+   29
+  ],
+  [
+   "'&&' operator",
+   23
+  ],
+  [
+   "'|&' operator",
+   7
+  ],
+  [
+   "'<<<' here-string",
+   7
+  ],
+  [
+   "'||' operator",
+   4
+  ]
+ ],
+ "risky": 713,
+ "risky_pct": 6.7,
+ "risky_by_reason": [
+  [
+   "mass file deletion (find -delete)",
+   342
+  ],
+  [
+   "running with administrator rights (sudo/su)",
+   214
+  ],
+  [
+   "recursive permission/ownership change",
+   49
+  ],
+  [
+   "killing processes",
+   35
+  ],
+  [
+   "recursive or forced deletion (rm -r/-f)",
+   24
+  ],
+  [
+   "running piped content in an interpreter (| sh)",
+   22
+  ],
+  [
+   "file deletion (rm)",
+   14
+  ],
+  [
+   "disk or data destruction (dd/mkfs/shred)",
+   13
+  ]
+ ],
+ "examples_unsupported": [
+  "$ find . \\( -name D -prune \\) -o -name hi.dat",
+  "$ join -j 2 -o 1.1 1.2 2.1 <(sort 1) <(sort -k2 2)",
+  "$ my_temp_dir=$(mktemp -d --tmpdir=$temp_dir -t $template)",
+  "$(cat myfile)",
+  "$(dirname $(readlink -e ../../../../etc/passwd))",
+  "$(dirname $(readlink -f $BASH_SOURCE))",
+  "$(dirname $0)",
+  "$(readlink -f $(dirname \"$0\"))",
+  "( awk 'NR % 2' input; awk 'NR % 2 == 0' input ) | paste - - - | column -s'   ' -t",
+  "( cd /tmp; mycommand )",
+  "( cd ~/mydir && mycommand )",
+  "( find . -iname \"dl-aster-full-20131102*\" -exec grep \"Processed Files\" {} \\;) | cut -d\":\" -f2",
+  "( find . -name '*.txt' -exec cat {} ';' ) | sed 's/ /\\n/g' | grep '^aaa$' | wc -l",
+  "( find . \\( -name '*.h' -o -name '*.cpp' \\) -print0 | xargs -0 cat ) | wc -l",
+  "( find ./ -name '*.php' -print0 | xargs -0 cat ) | wc -l"
+ ],
+ "examples_needs_expansion": [
+  "$ ls -Fltr *",
+  "$dig -x 8.8.8.8 | grep  PTR | grep -o google.*",
+  "/usr/bin/find $*",
+  "/usr/bin/find ./ $*",
+  "I'm assuming you only want to zip files that match names in $Namese. In your script, try replacing the find command with:  export Namese  find /var/tmp/ -type f -name '*.xml'",
+  "apropos -s 3 . | grep ^[a-z]",
+  "awk -F '\\t' '{print $2}' * | sort | uniq -c | sort -nr",
+  "bg %1 [puts the job in the background]",
+  "bind -f ~/.inputrc",
+  "bzip2 *",
+  "bzip2 -kv */*",
+  "bzip2 -kv */*/*",
+  "bzip2 -kv */*/*/*",
+  "bzip2 -kv */*/*/*/*",
+  "bzip2 -kv */*/*/*/*/*"
+ ]
+}

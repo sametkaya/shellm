@@ -1,0 +1,411 @@
+{
+ "old": {
+  "all": {
+   "tp": 26,
+   "fn": 50,
+   "fp": 0,
+   "tn": 224,
+   "recall": 0.342,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "random": {
+   "tp": 10,
+   "fn": 16,
+   "fp": 0,
+   "tn": 124,
+   "recall": 0.385,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "enriched": {
+   "tp": 16,
+   "fn": 34,
+   "fp": 0,
+   "tn": 100,
+   "recall": 0.32,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "by_cat_recall": {
+   "DEL": "10/21",
+   "OVW": "2/25",
+   "PRIV": "8/19",
+   "SYS": "6/8",
+   "NET": "0/3"
+  },
+  "misses": [
+   [
+    "T025",
+    "DEL",
+    "xargs rm -f <<< $(find . -name \".txt\")"
+   ],
+   [
+    "T032",
+    "DEL",
+    "find . -name “*.old” -print | xargs rm"
+   ],
+   [
+    "T037",
+    "OVW",
+    "yes | cp -rf /zzz/zzz/* /xxx/xxx"
+   ],
+   [
+    "T058",
+    "OVW",
+    "find . ! -name . -prune -exec sh -c 'mv \"$@\" targetdirectory/' sh  {} +"
+   ],
+   [
+    "T062",
+    "NET",
+    "curl -v --get --data-urlencode \"access_token=$(cat .fb_access_token)\" https://graph.facebook.com/me/feed"
+   ],
+   [
+    "T064",
+    "SYS",
+    "mount /tmp/loop.img /mnt/image -o loop"
+   ],
+   [
+    "T072",
+    "OVW",
+    "find . -type f -name \"*.txt\" -exec sh -c 'for i;do sed 's/[[:space:]]*$//' \"$i\">/tmp/.$$ && mv /tmp/.$$ \"$i\";done' arg0 {} +"
+   ],
+   [
+    "T075",
+    "DEL",
+    "find . -name \"*.swp\"|xargs rm"
+   ],
+   [
+    "T090",
+    "DEL",
+    "ls -t *.log | tail -$tailCount | xargs rm -f"
+   ],
+   [
+    "T091",
+    "OVW",
+    "find ../D44203 -iname '2.jpg' | while read fn; do name=$(basename \"$fn\") ; dir=$(dirname \"$fn\") ; mv \"$fn\" \"$dir/$(basename $(pwd))-$name\" ;done"
+   ],
+   [
+    "T096",
+    "PRIV",
+    "find /home/username/public_html/themes -type f -exec chmod 640 {} +"
+   ],
+   [
+    "T104",
+    "OVW",
+    "find dir -type f -print0 | xargs -0 sed -i .bak -E \"s/[[:space:]]*$//\""
+   ],
+   [
+    "T107",
+    "DEL",
+    "rsync -avzru --delete-excluded /media/Incoming/music/ server:/media/10001/music/"
+   ],
+   [
+    "T118",
+    "OVW",
+    "find ~/junk  -name 'cart1' -exec mv {} ~/junk/A \\;"
+   ],
+   [
+    "T130",
+    "OVW",
+    "find ./ -type f -name \"*.php\"  | xargs -r rename \"s/php/html/\""
+   ],
+   [
+    "T146",
+    "PRIV",
+    "find . -type f -exec chmod 400 {} \\;"
+   ],
+   [
+    "T151",
+    "DEL",
+    "sort | uniq -u | xargs -r rm"
+   ],
+   [
+    "T154",
+    "OVW",
+    "find ./ -type f -name *\".html\" | xargs sed -i \"s/php/html/g\""
+   ],
+   [
+    "T164",
+    "PRIV",
+    "find /path -type d -exec chmod 0755 {} \\;"
+   ],
+   [
+    "T165",
+    "NET",
+    "rsync -avz --rsh=\"ssh -p$2\" key.pub $1:~/.ssh/key.pub"
+   ],
+   [
+    "T166",
+    "DEL",
+    "find /mnt/zip -name \"*prefs copy\" -print0 | xargs>    -0 rm"
+   ],
+   [
+    "T170",
+    "OVW",
+    "find / -iname \"*.mp3\" -type f -exec /bin/mv {} /mnt/mp3 \\;"
+   ],
+   [
+    "T172",
+    "PRIV",
+    "find \"$1\" -perm -u+w -print0 | xargs chmod g+w"
+   ],
+   [
+    "T176",
+    "OVW",
+    "find . -name '*.html' -print0 | xargs -0 perl -pi -e 's/oldstring/newstring/g'"
+   ],
+   [
+    "T177",
+    "PRIV",
+    "find $d -type f -exec chmod ug=rw,o= '{}' \\;"
+   ],
+   [
+    "T180",
+    "OVW",
+    "find index.html | xargs -rt sed -i 's/<script>if(window.*<\\/script>//g'"
+   ],
+   [
+    "T185",
+    "DEL",
+    "find . -type f -mtime +3 –exec rm –f {} \\;"
+   ],
+   [
+    "T192",
+    "OVW",
+    "find . -name 'm?' -type d -exec mv '{}' '{}.mbox' ';' -exec mkdir '{}.mbox/Messages' ';' -exec sh -c 'mv {}.mbox/*.emlx {}.mbox/Messages' ';'"
+   ],
+   [
+    "T199",
+    "OVW",
+    "ln --force --target-directory=~/staging ~/mirror/*"
+   ],
+   [
+    "T205",
+    "PRIV",
+    "find . -name \"*rc.conf\" -exec chmod o+r '{}' \\;"
+   ],
+   [
+    "T207",
+    "PRIV",
+    "find . -type d -exec chmod 755 {} \\;"
+   ],
+   [
+    "T210",
+    "DEL",
+    "find ./ -name '*.log' | xargs rm"
+   ],
+   [
+    "T211",
+    "OVW",
+    "find . -name '*.txt' -exec sh -c 'mv \"$0\" \"${0%.txt}.txt_bak\"' {} \\;"
+   ],
+   [
+    "T218",
+    "OVW",
+    "crontab -u user -l | sed \"$my_wonderful_sed_script\" | crontab -u user -"
+   ],
+   [
+    "T226",
+    "PRIV",
+    "find . \\( \\! -user xx -exec chown -- xx '{}' + -false \\)"
+   ],
+   [
+    "T228",
+    "NET",
+    "find -type d | ssh server-B 'xargs -I% mkdir -p \"/path/to/dir/%\"'"
+   ],
+   [
+    "T231",
+    "DEL",
+    "find $sourcePath -type f -mtime +10 -name \"*.log\" | xargs zip -jmT $zipFile -@"
+   ],
+   [
+    "T243",
+    "PRIV",
+    "find . -type f -print0 | xargs -0 chmod go+r"
+   ],
+   [
+    "T244",
+    "DEL",
+    "find . -maxdepth 1 -type f | xargs -x ls -t | awk 'NR>5' | xargs -L1 rm"
+   ],
+   [
+    "T249",
+    "OVW",
+    "crontab -l | sed -re '/# *change-enabled *$/s/^([^ ]+) [^ ]+/\\1 7/' | crontab -"
+   ],
+   [
+    "T254",
+    "SYS",
+    "find . -cpio /dev/fd0 -print | tee /tmp/BACKUP.LOG"
+   ],
+   [
+    "T255",
+    "PRIV",
+    "ssh askapache 'sh -c \"( ( nohup chown -R ask:ask /www/askapache.com &>/dev/null ) & )\"'"
+   ],
+   [
+    "T256",
+    "OVW",
+    "find -type f -name '*.txt' -print0 | xargs --null perl -pi -e 's/Windows/Linux/'"
+   ],
+   [
+    "T270",
+    "OVW",
+    "find dir -type f -exec sed -i 's/ *$//' '{}' ';'"
+   ],
+   [
+    "T276",
+    "OVW",
+    "find /tmp/ -ctime -1 -name 'x*' -print0 | xargs -r0 mv -t ~/play/"
+   ],
+   [
+    "T278",
+    "PRIV",
+    "find ${x} -type f -exec chmod ug=rw,o= '{}' \\;"
+   ],
+   [
+    "T280",
+    "OVW",
+    "$ find . -name \"*mp3\" -print0 | xargs -0 mid3iconv -e <source-encoding> -d"
+   ],
+   [
+    "T293",
+    "OVW",
+    "find -name '*~' -print0 | xargs -0 -I _ mv _ /tmp/"
+   ],
+   [
+    "T296",
+    "OVW",
+    "echo $c | crontab"
+   ],
+   [
+    "T297",
+    "OVW",
+    "find . -type f ! -name '*.gz' -exec gzip \"{}\" \\;"
+   ]
+  ],
+  "false_alarms": []
+ },
+ "new": {
+  "all": {
+   "tp": 62,
+   "fn": 14,
+   "fp": 2,
+   "tn": 222,
+   "recall": 0.816,
+   "precision": 0.969,
+   "fpr": 0.009
+  },
+  "random": {
+   "tp": 22,
+   "fn": 4,
+   "fp": 1,
+   "tn": 123,
+   "recall": 0.846,
+   "precision": 0.957,
+   "fpr": 0.008
+  },
+  "enriched": {
+   "tp": 40,
+   "fn": 10,
+   "fp": 1,
+   "tn": 99,
+   "recall": 0.8,
+   "precision": 0.976,
+   "fpr": 0.01
+  },
+  "by_cat_recall": {
+   "DEL": "19/21",
+   "OVW": "16/25",
+   "PRIV": "18/19",
+   "SYS": "7/8",
+   "NET": "2/3"
+  },
+  "misses": [
+   [
+    "T037",
+    "OVW",
+    "yes | cp -rf /zzz/zzz/* /xxx/xxx"
+   ],
+   [
+    "T062",
+    "NET",
+    "curl -v --get --data-urlencode \"access_token=$(cat .fb_access_token)\" https://graph.facebook.com/me/feed"
+   ],
+   [
+    "T072",
+    "OVW",
+    "find . -type f -name \"*.txt\" -exec sh -c 'for i;do sed 's/[[:space:]]*$//' \"$i\">/tmp/.$$ && mv /tmp/.$$ \"$i\";done' arg0 {} +"
+   ],
+   [
+    "T091",
+    "OVW",
+    "find ../D44203 -iname '2.jpg' | while read fn; do name=$(basename \"$fn\") ; dir=$(dirname \"$fn\") ; mv \"$fn\" \"$dir/$(basename $(pwd))-$name\" ;done"
+   ],
+   [
+    "T185",
+    "DEL",
+    "find . -type f -mtime +3 –exec rm –f {} \\;"
+   ],
+   [
+    "T199",
+    "OVW",
+    "ln --force --target-directory=~/staging ~/mirror/*"
+   ],
+   [
+    "T218",
+    "OVW",
+    "crontab -u user -l | sed \"$my_wonderful_sed_script\" | crontab -u user -"
+   ],
+   [
+    "T231",
+    "DEL",
+    "find $sourcePath -type f -mtime +10 -name \"*.log\" | xargs zip -jmT $zipFile -@"
+   ],
+   [
+    "T249",
+    "OVW",
+    "crontab -l | sed -re '/# *change-enabled *$/s/^([^ ]+) [^ ]+/\\1 7/' | crontab -"
+   ],
+   [
+    "T254",
+    "SYS",
+    "find . -cpio /dev/fd0 -print | tee /tmp/BACKUP.LOG"
+   ],
+   [
+    "T255",
+    "PRIV",
+    "ssh askapache 'sh -c \"( ( nohup chown -R ask:ask /www/askapache.com &>/dev/null ) & )\"'"
+   ],
+   [
+    "T280",
+    "OVW",
+    "$ find . -name \"*mp3\" -print0 | xargs -0 mid3iconv -e <source-encoding> -d"
+   ],
+   [
+    "T296",
+    "OVW",
+    "echo $c | crontab"
+   ],
+   [
+    "T297",
+    "OVW",
+    "find . -type f ! -name '*.gz' -exec gzip \"{}\" \\;"
+   ]
+  ],
+  "false_alarms": [
+   [
+    "T067",
+    "scp user@server_b:/my_folder/my_file.xml user@server_b:/my_new_folder/",
+    "yerel dosyaları uzak sunucuya gönderme"
+   ],
+   [
+    "T247",
+    "scp -o StrictHostKeyChecking=no root@IP:/root/K",
+    "yerel dosyaları uzak sunucuya gönderme"
+   ]
+  ]
+ }
+}

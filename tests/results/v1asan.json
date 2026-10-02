@@ -1,0 +1,1442 @@
+[
+ {
+  "id": "A01",
+  "cat": "A",
+  "stdout": "merhaba dünya\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0178142340000704
+ },
+ {
+  "id": "A02",
+  "cat": "A",
+  "stdout": "abc",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0095684230000188
+ },
+ {
+  "id": "A03",
+  "cat": "A",
+  "stdout": "x",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0107422350001798
+ },
+ {
+  "id": "A04",
+  "cat": "A",
+  "stdout": "-nx y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0113643360000424
+ },
+ {
+  "id": "A05",
+  "cat": "A",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0107090799997422
+ },
+ {
+  "id": "A06",
+  "cat": "A",
+  "stdout": "a   b c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0103877910000847
+ },
+ {
+  "id": "A07",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A07\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0131336340000416
+ },
+ {
+  "id": "A08",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A08/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0103794629999356
+ },
+ {
+  "id": "A09",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A09\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0131871680000586
+ },
+ {
+  "id": "A10",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: cd: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0125723090000065
+ },
+ {
+  "id": "A11",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A11/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0217094359995826
+ },
+ {
+  "id": "A12",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: cd: Not a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0150959289999264
+ },
+ {
+  "id": "A13",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A13\n/tmp/shellm_fix/A13\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0123209569997016
+ },
+ {
+  "id": "A14",
+  "cat": "A",
+  "stdout": "42\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138117440001224
+ },
+ {
+  "id": "A15",
+  "cat": "A",
+  "stdout": "12\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012121649999699
+ },
+ {
+  "id": "A16",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: export: `1A=x': not a valid identifier\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.010683407000215
+ },
+ {
+  "id": "A17",
+  "cat": "A",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0108744350000052
+ },
+ {
+  "id": "A18",
+  "cat": "A",
+  "stdout": "bir\n",
+  "stderr": "",
+  "rc": 7,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012656006999805
+ },
+ {
+  "id": "A19",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "ls: cannot access 'olmayan_dosya': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.019769572000314
+ },
+ {
+  "id": "A20",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "minishell: exit: abc: numeric argument required\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0106517330000315
+ },
+ {
+  "id": "A21",
+  "cat": "A",
+  "stdout": "devam\n",
+  "stderr": "minishell: exit: too many arguments\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0119996880002873
+ },
+ {
+  "id": "A22",
+  "cat": "A",
+  "stdout": "ZVAR=zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013812100999985
+ },
+ {
+  "id": "A23",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": " too many arguments\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012474714000291
+ },
+ {
+  "id": "B01",
+  "cat": "B",
+  "stdout": "x.c\ny.c\nz.h\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0165531570000894
+ },
+ {
+  "id": "B02",
+  "cat": "B",
+  "stdout": "mutlak yol\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0141841629997543
+ },
+ {
+  "id": "B03",
+  "cat": "B",
+  "stdout": "script-ok\n3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0134342440001092
+ },
+ {
+  "id": "B04",
+  "cat": "B",
+  "stdout": "",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0116759410002487
+ },
+ {
+  "id": "B05",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0134555629997521
+ },
+ {
+  "id": "B06",
+  "cat": "B",
+  "stdout": "126\n",
+  "stderr": "minishell: ./noexec.sh: Permission denied\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0113179850000051
+ },
+ {
+  "id": "B07",
+  "cat": "B",
+  "stdout": "126\n",
+  "stderr": "minishell: ./d: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0106327540001985
+ },
+ {
+  "id": "B08",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: ./yok.sh: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0109831299996586
+ },
+ {
+  "id": "B09",
+  "cat": "B",
+  "stdout": "4 a.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0134079240001483
+ },
+ {
+  "id": "B10",
+  "cat": "B",
+  "stdout": "x\n0\n",
+  "stderr": "minishell: : command not found2\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011464457999864
+ },
+ {
+  "id": "B11",
+  "cat": "B",
+  "stdout": "5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0135471190001226
+ },
+ {
+  "id": "B12",
+  "cat": "B",
+  "stdout": "15\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.022232391000216
+ },
+ {
+  "id": "B13",
+  "cat": "B",
+  "stdout": "9\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152453380001134
+ },
+ {
+  "id": "B14",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: ls: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0121876110001722
+ },
+ {
+  "id": "B15",
+  "cat": "B",
+  "stdout": "a\n",
+  "stderr": "/bin/echo\n/bin/cat\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0141776270002083
+ },
+ {
+  "id": "B16",
+  "cat": "B",
+  "stdout": "script-ok\n",
+  "stderr": "./run.sh\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0155350100003488
+ },
+ {
+  "id": "B17",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "./noexec.sh\nminishell: ./noexec.sh: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0146328499999981
+ },
+ {
+  "id": "C01",
+  "cat": "C",
+  "stdout": "elma\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0127213140003732
+ },
+ {
+  "id": "C02",
+  "cat": "C",
+  "stdout": "      1 armut\n      2 elma\n      1 kiraz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163858370001435
+ },
+ {
+  "id": "C03",
+  "cat": "C",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152144329999828
+ },
+ {
+  "id": "C04",
+  "cat": "C",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0224406629999976
+ },
+ {
+  "id": "C05",
+  "cat": "C",
+  "stdout": "3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011716639000042
+ },
+ {
+  "id": "C06",
+  "cat": "C",
+  "stdout": "MERHABA\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.012062098000115
+ },
+ {
+  "id": "C07",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013557851999849
+ },
+ {
+  "id": "C08",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0221781629998077
+ },
+ {
+  "id": "C09",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.020675726999798
+ },
+ {
+  "id": "C10",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0124115049998181
+ },
+ {
+  "id": "C11",
+  "cat": "C",
+  "stdout": "y\ny\ny\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0119665980000718
+ },
+ {
+  "id": "C12",
+  "cat": "C",
+  "stdout": "test\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163566060000448
+ },
+ {
+  "id": "C13",
+  "cat": "C",
+  "stdout": "declare -x ZVAR=\"zzz\"\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0134245440003724
+ },
+ {
+  "id": "C14",
+  "cat": "C",
+  "stdout": "/tmp/shellm_fix/C14\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0126526370004285
+ },
+ {
+  "id": "C15",
+  "cat": "C",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0144923719999497
+ },
+ {
+  "id": "C16",
+  "cat": "C",
+  "stdout": "elma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0164200690001053
+ },
+ {
+  "id": "D01",
+  "cat": "D",
+  "stdout": "x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0140970649999872
+ },
+ {
+  "id": "D02",
+  "cat": "D",
+  "stdout": "1\n2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0130973020000056
+ },
+ {
+  "id": "D03",
+  "cat": "D",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0129641540002012
+ },
+ {
+  "id": "D04",
+  "cat": "D",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0136185289998139
+ },
+ {
+  "id": "D05",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "minishell: yok.txt: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0111221849997492
+ },
+ {
+  "id": "D06",
+  "cat": "D",
+  "stdout": "elma\narmut\nkiraz\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0166951239998525
+ },
+ {
+  "id": "D07",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120805020001171
+ },
+ {
+  "id": "D08",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0137248099999852
+ },
+ {
+  "id": "D09",
+  "cat": "D",
+  "stdout": "elma\narmut\nkiraz\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0157257250002658
+ },
+ {
+  "id": "D10",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "d: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011005708999619
+ },
+ {
+  "id": "D11",
+  "cat": "D",
+  "stdout": "",
+  "stderr": "ls: cannot access 'bos.txt': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0140943689998494
+ },
+ {
+  "id": "D12",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.014172778000102
+ },
+ {
+  "id": "D13",
+  "cat": "D",
+  "stdout": "7\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.016354124999907
+ },
+ {
+  "id": "D14",
+  "cat": "D",
+  "stdout": "/tmp/shellm_fix/D14\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.01902238699995
+ },
+ {
+  "id": "D15",
+  "cat": "D",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0147817289998784
+ },
+ {
+  "id": "D16",
+  "cat": "D",
+  "stdout": "",
+  "stderr": "minishell: yok.txt: No such file or directory\nls: cannot access 'o.txt': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0136410629997954
+ },
+ {
+  "id": "E01",
+  "cat": "E",
+  "stdout": "a\nb\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0165941739996924
+ },
+ {
+  "id": "E02",
+  "cat": "E",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.017564453000432
+ },
+ {
+  "id": "E03",
+  "cat": "E",
+  "stdout": "$ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0175789200002328
+ },
+ {
+  "id": "E04",
+  "cat": "E",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0168756549996942
+ },
+ {
+  "id": "E05",
+  "cat": "E",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0173968270000842
+ },
+ {
+  "id": "E06",
+  "cat": "E",
+  "stdout": "y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0164406779999808
+ },
+ {
+  "id": "E07",
+  "cat": "E",
+  "stdout": "z\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.01601480599993
+ },
+ {
+  "id": "E08",
+  "cat": "E",
+  "stdout": "minishell: warning...\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0110361139995803
+ },
+ {
+  "id": "E09",
+  "cat": "E",
+  "stdout": "\"zzz\" 'zzz'\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138603690002128
+ },
+ {
+  "id": "F01",
+  "cat": "F",
+  "stdout": "tek $ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0210974030001125
+ },
+ {
+  "id": "F02",
+  "cat": "F",
+  "stdout": "cift zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0144696020001902
+ },
+ {
+  "id": "F03",
+  "cat": "F",
+  "stdout": "zzzx$ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0123002939999424
+ },
+ {
+  "id": "F04",
+  "cat": "F",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0110294450000765
+ },
+ {
+  "id": "F05",
+  "cat": "F",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011365358999683
+ },
+ {
+  "id": "F06",
+  "cat": "F",
+  "stdout": "$\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0199526219998916
+ },
+ {
+  "id": "F07",
+  "cat": "F",
+  "stdout": "$\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011536408000211
+ },
+ {
+  "id": "F08",
+  "cat": "F",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0148368159998427
+ },
+ {
+  "id": "F09",
+  "cat": "F",
+  "stdout": "\" '\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0127490660001968
+ },
+ {
+  "id": "F10",
+  "cat": "F",
+  "stdout": "a'b'c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120438849999118
+ },
+ {
+  "id": "F11",
+  "cat": "F",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0123118060000706
+ },
+ {
+  "id": "F12",
+  "cat": "F",
+  "stdout": "ab\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0148850139999013
+ },
+ {
+  "id": "F13",
+  "cat": "F",
+  "stdout": "zzzzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011520849000135
+ },
+ {
+  "id": "F14",
+  "cat": "F",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0111973050002234
+ },
+ {
+  "id": "F15",
+  "cat": "F",
+  "stdout": "zzz.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011746925999887
+ },
+ {
+  "id": "F16",
+  "cat": "F",
+  "stdout": "zzz'\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0121700529998634
+ },
+ {
+  "id": "F17",
+  "cat": "F",
+  "stdout": "/tmp/shellm_fix/F17/home/x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0153844780002146
+ },
+ {
+  "id": "F18",
+  "cat": "F",
+  "stdout": "tester\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011242059000324
+ },
+ {
+  "id": "F19",
+  "cat": "F",
+  "stdout": "Syntax Error: Unmatched quotes\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0095487089997732
+ },
+ {
+  "id": "H01",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0095234089999394
+ },
+ {
+  "id": "H02",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.011428924000029
+ },
+ {
+  "id": "H03",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error  `>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0106931730001634
+ },
+ {
+  "id": "H04",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error `>'\nAddressSanitizer:DEADLYSIGNAL\n=================================================================\n==19552==ERROR: AddressSanitizer: SEGV on unknown address (pc 0x7f4d0ae44688 bp 0x7fff5ecc4660 sp 0x7fff5ecc4620 T0)\n==19552==The signal is caused by a READ memory access.\n==19552==Hint: this fault was caused by a dereference of a high value address (see register values below).  Disassemble the provided pc to learn which register was used.\n    #0 0x7f4d0ae44688 in bool __sanitizer::atomic_compare_exchange_strong<__sanitizer::atomic_uint8_t>(__sanitizer::atomic_uint8_t volatile*, __sanitizer::atomic_uint8_t::Type*, __sanitizer::atomic_uint8_t::Type, __sanitizer::memory_order) ../../../../src/libsanitizer/sanitizer_common/sanitizer_atomic_clang.h:81\n    #1 0x7f4d0ae44688 in __asan::Allocator::AtomicallySetQuarantineFlagIfAllocated(__asan::AsanChunk*, void*, __sanitizer::BufferedStackTrace*) ../../../../src/libsanitizer/asan/asan_allocator.cpp:668\n    #2 0x7f4d0ae44688 in __asan::Allocator::Deallocate(void*, unsigned long, unsigned long, __sanitizer::BufferedStackTrace*, __asan::AllocType) ../../../../src/libsanitizer/asan/asan_allocator.cpp:724\n    #3 0x7f4d0aefc49b in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:53\n    #4 0x55c180d5a160 in free_args_array parse/parse_execute_ast.c:12\n    #5 0x55c180d4dc7e in free_fd_and_args ast/free_ast.c:32\n    #6 0x55c180d4e16a in free_ast ast/free_ast.c:74\n    #7 0x55c180d585fa in parse_command parse/parse_command.c:104\n    #8 0x55c180d57f08 in parse_tokens parse/parse_command.c:20\n    #9 0x55c180d4c4a4 in process_input /home/claude/work/v1_asan/main_utils.c:43\n    #10 0x55c180d4b616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55c180d4bbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55c180d4c071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7f4d0aa2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7f4d0aa2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55c180d4a964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nAddressSanitizer can not provide additional info.\nSUMMARY: AddressSanitizer: SEGV ../../../../src/libsanitizer/sanitizer_common/sanitizer_atomic_clang.h:81 in bool __sanitizer::atomic_compare_exchange_strong<__sanitizer::atomic_uint8_t>(__sanitizer::atomic_uint8_t volatile*, __sanitizer::atomic_uint8_t::Type*, __sanitizer::atomic_uint8_t::Type, __sanitizer::memory_order)\n==19552==ABORTING\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1674987339997642
+ },
+ {
+  "id": "H05",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell:syntax error `<<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0139822529999947
+ },
+ {
+  "id": "H06",
+  "cat": "H",
+  "stdout": "tamam\n",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.010897931999807
+ },
+ {
+  "id": "H07",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error `<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0100804129997414
+ },
+ {
+  "id": "I01",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "=================================================================\n==19568==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000040 at pc 0x55f6d7bd6ebe bp 0x7ffdc8ceaed0 sp 0x7ffdc8ceaec0\nREAD of size 8 at 0x503000000040 thread T0\n    #0 0x55f6d7bd6ebd in get_env_value env/env.c:67\n    #1 0x55f6d7bd87c8 in handle_var_expansion env/expander_utils.c:56\n    #2 0x55f6d7bd8c8a in handle_dollar_expansion env/expander_utils.c:85\n    #3 0x55f6d7bd7d7c in process_char env/expander.c:9\n    #4 0x55f6d7bd8061 in expand_string_with_vars env/expander.c:41\n    #5 0x55f6d7bebc06 in expand_and_join tokens/create_word_token_enhanced_utils2.c:78\n    #6 0x55f6d7beacbf in append_unquoted tokens/create_word_token_enhanced_utils.c:67\n    #7 0x55f6d7bea128 in build_result tokens/create_word_token_enhanced.c:24\n    #8 0x55f6d7bea1c1 in create_word_token_enhanced tokens/create_word_token_enhanced.c:36\n    #9 0x55f6d7bed5df in process_token_enhanced tokens/tokens_fill.c:12\n    #10 0x55f6d7bed83b in fill_tokens_enhanced_with_expansion tokens/tokens_fill.c:34\n    #11 0x55f6d7bebef1 in tokenize_with_expansion tokens/token.c:31\n    #12 0x55f6d7bd2480 in process_input /home/claude/work/v1_asan/main_utils.c:40\n    #13 0x55f6d7bd1616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #14 0x55f6d7bd1bf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #15 0x55f6d7bd2071 in main /home/claude/work/v1_asan/main.c:284\n    #16 0x7fe35ca2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #17 0x7fe35ca2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #18 0x55f6d7bd0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000040 is located 0 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7fe35cefc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55f6d7bda955 in free_env_node env/unset.c:13\n    #2 0x55f6d7bda9cf in remove_head_node env/unset.c:19\n    #3 0x55f6d7bdaac8 in remove_env env/unset.c:33\n    #4 0x55f6d7bdaca4 in execute_unset env/unset.c:57\n    #5 0x55f6d7bd4ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55f6d7be354f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55f6d7be0809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55f6d7be0a80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55f6d7bd25b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55f6d7bd1616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55f6d7bd1bf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55f6d7bd2071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7fe35ca2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7fe35ca2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55f6d7bd0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7fe35cefd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55f6d7bd71cf in new_env_node env/env_utils.c:24\n    #2 0x55f6d7bd6947 in create_and_add_node env/env.c:11\n    #3 0x55f6d7bd6d99 in init_env_list env/env.c:52\n    #4 0x55f6d7bd1fa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7fe35ca2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7fe35ca2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55f6d7bd0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free env/env.c:67 in get_env_value\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa[fd]fd fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 01 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 04 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa 00 00 00 fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==19568==ABORTING\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1155132349999803
+ },
+ {
+  "id": "I02",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "=================================================================\n==19576==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000048 at pc 0x55d07be31c21 bp 0x7fff6c0b53f0 sp 0x7fff6c0b53e0\nREAD of size 8 at 0x503000000048 thread T0\n=================================================================\n==19577==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000040 at pc 0x55d07be32ebe bp 0x7fff6c0b5450 sp 0x7fff6c0b5440\nREAD of size 8 at 0x503000000040 thread T0\n    #0 0x55d07be31c20 in ft_env builtins/builtin3.c:93\n    #1 0x55d07be30df9 in run_builtin builtins/builtin.c:88\n    #2 0x55d07be3f69c in execute_child_builtin pipes/pipe_4.c:11\n    #3 0x55d07be3f3da in execute_command_common_child pipes/pipe_3.c:62\n    #4 0x55d07be41254 in execute_command_in_child pipes/pipe_child.c:34\n    #5 0x55d07be41545 in handle_left_child_node pipes/pipe_child.c:51\n    #6 0x55d07be41b08 in execute_left_child_ctx pipes/pipe_child_exec.c:13\n    #7 0x55d07be4022e in fork_left_child pipes/pipe_4.c:68\n    #8 0x55d07be3d1ac in setup_pipe_and_left_child pipes/pipe.c:36\n    #9 0x55d07be3d60f in execute_pipe pipes/pipe.c:76\n    #10 0x55d07be3c9bf in handle_pipe_node parse/parse_execute_ast.c:80\n    #11 0x55d07be3cad7 in execute_ast parse/parse_execute_ast.c:94\n    #12 0x55d07be2e5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #13 0x55d07be2d616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #14 0x55d07be2dbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #15 0x55d07be2e071 in main /home/claude/work/v1_asan/main.c:284\n    #16 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #17 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #18 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000048 is located 8 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7fd0ea0fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55d07be36955 in free_env_node env/unset.c:13\n    #2 0x55d07be369cf in remove_head_node env/unset.c:19\n    #3 0x55d07be36ac8 in remove_env env/unset.c:33\n    #4 0x55d07be36ca4 in execute_unset env/unset.c:57\n    #5 0x55d07be30ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55d07be3f54f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55d07be3c809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55d07be3ca80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55d07be2e5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55d07be2d616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55d07be2dbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55d07be2e071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7fd0ea0fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55d07be331cf in new_env_node env/env_utils.c:24\n    #2 0x55d07be32947 in create_and_add_node env/env.c:11\n    #3 0x55d07be32d99 in init_env_list env/env.c:52\n    #4 0x55d07be2dfa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free builtins/builtin3.c:93 in ft_env\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa fd[fd]fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 01 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 04 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa 00 00 00 fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==19576==ABORTING\n    #0 0x55d07be32ebd in get_env_value env/env.c:67\n    #1 0x55d07be35684 in get_path_dirs env/find.c:34\n    #2 0x55d07be35827 in find_exec env/find.c:73\n    #3 0x55d07be3f922 in execute_child_external pipes/pipe_4.c:23\n    #4 0x55d07be3f3f4 in execute_command_common_child pipes/pipe_3.c:64\n    #5 0x55d07be41254 in execute_command_in_child pipes/pipe_child.c:34\n    #6 0x55d07be3ea69 in handle_right_child_node pipes/pipe_2.c:65\n    #7 0x55d07be41f57 in execute_right_child_ctx pipes/pipe_child_exec.c:29\n    #8 0x55d07be4259c in fork_right_child pipes/pipe_child_exec.c:65\n    #9 0x55d07be3d236 in check_left_and_fork_right pipes/pipe.c:45\n    #10 0x55d07be3d678 in execute_pipe pipes/pipe.c:79\n    #11 0x55d07be3c9bf in handle_pipe_node parse/parse_execute_ast.c:80\n    #12 0x55d07be3cad7 in execute_ast parse/parse_execute_ast.c:94\n    #13 0x55d07be2e5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #14 0x55d07be2d616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #15 0x55d07be2dbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #16 0x55d07be2e071 in main /home/claude/work/v1_asan/main.c:284\n    #17 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #18 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #19 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000040 is located 0 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7fd0ea0fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55d07be36955 in free_env_node env/unset.c:13\n    #2 0x55d07be369cf in remove_head_node env/unset.c:19\n    #3 0x55d07be36ac8 in remove_env env/unset.c:33\n    #4 0x55d07be36ca4 in execute_unset env/unset.c:57\n    #5 0x55d07be30ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55d07be3f54f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55d07be3c809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55d07be3ca80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55d07be2e5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55d07be2d616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55d07be2dbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55d07be2e071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7fd0ea0fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55d07be331cf in new_env_node env/env_utils.c:24\n    #2 0x55d07be32947 in create_and_add_node env/env.c:11\n    #3 0x55d07be32d99 in init_env_list env/env.c:52\n    #4 0x55d07be2dfa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free env/env.c:67 in get_env_value\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa[fd]fd fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 01 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 04 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa 00 00 00 fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==19577==ABORTING\n=================================================================\n==19572==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000050 at pc 0x55d07be2f677 bp 0x7fff6c0b5d90 sp 0x7fff6c0b5d80\nREAD of size 8 at 0x503000000050 thread T0\n    #0 0x55d07be2f676 in free_env_list ast/free.c:13\n    #1 0x55d07be2e0c0 in main /home/claude/work/v1_asan/main.c:287\n    #2 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #3 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #4 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000050 is located 16 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7fd0ea0fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55d07be36955 in free_env_node env/unset.c:13\n    #2 0x55d07be369cf in remove_head_node env/unset.c:19\n    #3 0x55d07be36ac8 in remove_env env/unset.c:33\n    #4 0x55d07be36ca4 in execute_unset env/unset.c:57\n    #5 0x55d07be30ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55d07be3f54f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55d07be3c809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55d07be3ca80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55d07be2e5b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55d07be2d616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55d07be2dbf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55d07be2e071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7fd0ea0fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55d07be331cf in new_env_node env/env_utils.c:24\n    #2 0x55d07be32947 in create_and_add_node env/env.c:11\n    #3 0x55d07be32d99 in init_env_list env/env.c:52\n    #4 0x55d07be2dfa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7fd0e9c2a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7fd0e9c2a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55d07be2c964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free ast/free.c:13 in free_env_list\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa fd fd[fd]fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 01 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 04 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa 00 00 00 fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==19572==ABORTING\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.2102243079998516
+ },
+ {
+  "id": "I03",
+  "cat": "I",
+  "stdout": "YENI=5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0175282609998249
+ },
+ {
+  "id": "I04",
+  "cat": "I",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.014489555000182
+ },
+ {
+  "id": "I05",
+  "cat": "I",
+  "stdout": "yeni\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0109097550002843
+ },
+ {
+  "id": "I06",
+  "cat": "I",
+  "stdout": "yeni\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.021912354000051
+ },
+ {
+  "id": "I07",
+  "cat": "I",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0140945859998283
+ },
+ {
+  "id": "I08",
+  "cat": "I",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120889179997903
+ },
+ {
+  "id": "I09",
+  "cat": "I",
+  "stdout": "declare -x AAA_FIRST=\"1\"\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0135720399998718
+ },
+ {
+  "id": "I10",
+  "cat": "I",
+  "stdout": "/tmp/shellm_fix/I10/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0116371480003181
+ },
+ {
+  "id": "I11",
+  "cat": "I",
+  "stdout": "/tmp/shellm_fix/I11/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013568707000104
+ },
+ {
+  "id": "I12",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "=================================================================\n==19623==ERROR: AddressSanitizer: heap-use-after-free on address 0x503000000040 at pc 0x55ff53fc8f8c bp 0x7ffc577f2460 sp 0x7ffc577f2450\nREAD of size 8 at 0x503000000040 thread T0\n    #0 0x55ff53fc8f8b in add_update_env env/export.c:35\n    #1 0x55ff53fca736 in process_export_arg env/process_export_arg.c:48\n    #2 0x55ff53fc941e in execute_export env/export.c:87\n    #3 0x55ff53fc4f4d in run_builtin builtins/builtin.c:92\n    #4 0x55ff53fd354f in execute_command_common pipes/pipe_3.c:82\n    #5 0x55ff53fd0809 in handle_command_node parse/parse_execute_ast.c:59\n    #6 0x55ff53fd0a80 in execute_ast parse/parse_execute_ast.c:92\n    #7 0x55ff53fc25b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #8 0x55ff53fc1616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #9 0x55ff53fc1bf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #10 0x55ff53fc2071 in main /home/claude/work/v1_asan/main.c:284\n    #11 0x7f1b4682a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #12 0x7f1b4682a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #13 0x55ff53fc0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\n0x503000000040 is located 0 bytes inside of 24-byte region [0x503000000040,0x503000000058)\nfreed by thread T0 here:\n    #0 0x7f1b46cfc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52\n    #1 0x55ff53fca955 in free_env_node env/unset.c:13\n    #2 0x55ff53fca9cf in remove_head_node env/unset.c:19\n    #3 0x55ff53fcaac8 in remove_env env/unset.c:33\n    #4 0x55ff53fcaca4 in execute_unset env/unset.c:57\n    #5 0x55ff53fc4ff7 in run_builtin builtins/builtin.c:94\n    #6 0x55ff53fd354f in execute_command_common pipes/pipe_3.c:82\n    #7 0x55ff53fd0809 in handle_command_node parse/parse_execute_ast.c:59\n    #8 0x55ff53fd0a80 in execute_ast parse/parse_execute_ast.c:92\n    #9 0x55ff53fc25b6 in process_input /home/claude/work/v1_asan/main_utils.c:51\n    #10 0x55ff53fc1616 in handle_input /home/claude/work/v1_asan/main.c:115\n    #11 0x55ff53fc1bf6 in shell_loop /home/claude/work/v1_asan/main.c:230\n    #12 0x55ff53fc2071 in main /home/claude/work/v1_asan/main.c:284\n    #13 0x7f1b4682a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #14 0x7f1b4682a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #15 0x55ff53fc0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\npreviously allocated by thread T0 here:\n    #0 0x7f1b46cfd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69\n    #1 0x55ff53fc71cf in new_env_node env/env_utils.c:24\n    #2 0x55ff53fc6947 in create_and_add_node env/env.c:11\n    #3 0x55ff53fc6d99 in init_env_list env/env.c:52\n    #4 0x55ff53fc1fa0 in main /home/claude/work/v1_asan/main.c:275\n    #5 0x7f1b4682a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58\n    #6 0x7f1b4682a28a in __libc_start_main_impl ../csu/libc-start.c:360\n    #7 0x55ff53fc0964 in _start (/home/claude/work/v1_asan/SheLLM+0x6964) (BuildId: fba0e8776a01f141585e70d620de492f5d645992)\n\nSUMMARY: AddressSanitizer: heap-use-after-free env/export.c:35 in add_update_env\nShadow bytes around the buggy address:\n  0x502ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n  0x502fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n=>0x503000000000: fa fa 00 00 00 fa fa fa[fd]fd fd fa fa fa fd fd\n  0x503000000080: fd fd fa fa 00 00 00 fa fa fa 00 00 00 01 fa fa\n  0x503000000100: 00 00 00 fa fa fa fd fd fd fa fa fa 00 00 00 fa\n  0x503000000180: fa fa 00 00 04 fa fa fa 00 00 00 fa fa fa 00 00\n  0x503000000200: 00 fa fa fa 00 00 00 fa fa fa 00 00 00 fa fa fa\n  0x503000000280: fd fd fd fd fa fa 00 00 00 fa fa fa 00 00 00 00\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==19623==ABORTING\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1247300410000207
+ },
+ {
+  "id": "J01",
+  "cat": "J",
+  "stdout": "~\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0120994050002992
+ },
+ {
+  "id": "J02",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "ls: cannot access '~/Desktop': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0129783479997059
+ },
+ {
+  "id": "J03",
+  "cat": "J",
+  "stdout": "*.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0117535730000782
+ },
+ {
+  "id": "J04",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "ls: cannot access 'd/*.c': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0159928479997689
+ },
+ {
+  "id": "J05",
+  "cat": "J",
+  "stdout": "*.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0116693680001845
+ },
+ {
+  "id": "J06",
+  "cat": "J",
+  "stdout": "*\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.014153205999719
+ },
+ {
+  "id": "J07",
+  "cat": "J",
+  "stdout": "*.yok\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0134760010000718
+ },
+ {
+  "id": "J08",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "find: '~/Desktop': No such file or directory\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0146006329996453
+ },
+ {
+  "id": "J09",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "cat: '~/Desktop/not.txt': No such file or directory\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0142433850000998
+ },
+ {
+  "id": "J10",
+  "cat": "J",
+  "stdout": "d/?.c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0101326540002447
+ },
+ {
+  "id": "J11",
+  "cat": "J",
+  "stdout": "~\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0105475730001672
+ },
+ {
+  "id": "J12",
+  "cat": "J",
+  "stdout": "~/ab\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0100404800000433
+ },
+ {
+  "id": "J13",
+  "cat": "J",
+  "stdout": "/tmp/shellm_fix/J13/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152660090002428
+ },
+ {
+  "id": "J14",
+  "cat": "J",
+  "stdout": "[ab].txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.013304577999861
+ },
+ {
+  "id": "L01",
+  "cat": "L",
+  "stdout": "a; echo b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0128027669998119
+ },
+ {
+  "id": "L02",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.015929387000142
+ },
+ {
+  "id": "L03",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0102059760001794
+ },
+ {
+  "id": "L04",
+  "cat": "L",
+  "stdout": "$(echo ic)\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.010484008000276
+ },
+ {
+  "id": "L05",
+  "cat": "L",
+  "stdout": "2\n",
+  "stderr": "ls: cannot access 'yok': No such file or directory\nls: cannot access '2': No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0117588950001846
+ },
+ {
+  "id": "L06",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "minishell: (cd: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0102105500000107
+ },
+ {
+  "id": "L07",
+  "cat": "L",
+  "stdout": "a   b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0105042459999822
+ },
+ {
+  "id": "L08",
+  "cat": "L",
+  "stdout": "\\zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0104299449999417
+ },
+ {
+  "id": "L09",
+  "cat": "L",
+  "stdout": "{a,b}\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0116870619999645
+ },
+ {
+  "id": "L10",
+  "cat": "L",
+  "stdout": "\n",
+  "stderr": "minishell: x=5: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0167345410000053
+ },
+ {
+  "id": "L11",
+  "cat": "L",
+  "stdout": "`echo ic`\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0124035819999335
+ }
+]

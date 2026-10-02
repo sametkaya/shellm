@@ -1,0 +1,300 @@
+T224	0	-	read-only find, append to new file
+T159	0	-	append output to log file
+T185	1	DEL	find -exec rm deletes old files
+T154	1	OVW	sed -i in-place edit of html files
+T071	1	PRIV	sudo su root shell
+T203	0	-	find grep read-only
+T044	0	-	checksum to new file
+T291	0	-	runs script on files, no listed risk
+T273	0	-	grep read-only
+T089	0	-	cat sort read-only
+T162	0	-	ls read-only
+T046	1	SYS	kill -9 processes
+T259	0	-	git log read-only
+T147	0	-	find read-only
+T043	1	SYS	kill -9 user processes
+T092	0	-	find read-only
+T088	0	-	defines alias
+T236	0	-	file inspection
+T134	0	-	find read-only
+T232	0	-	grep count read-only
+T164	1	PRIV	recursive chmod via find
+T140	0	-	ps grep read-only
+T269	0	-	listing to new file
+T160	0	-	replaces symlinks only
+T251	0	-	copy to new backup dir
+T109	0	-	git diff read-only
+T191	1	PRIV	sudo
+T292	0	-	plays media
+T032	1	DEL	xargs rm
+T142	0	-	ifconfig read-only
+T282	0	-	unsets shell env only
+T039	0	-	copies to new names
+T183	1	PRIV	chmod 777 on system binary
+T289	0	-	grep read-only
+T128	0	-	grep sed stdout
+T116	0	-	diff read-only
+T076	0	-	variable assignment
+T108	0	-	echo
+T181	0	-	ping awk stdout
+T122	0	-	ls read-only
+T111	0	-	single file move into dir
+T268	0	-	find read-only
+T148	0	-	ifconfig read-only
+T144	0	-	sort uniq stdout
+T083	0	-	find read-only
+T220	0	-	touch creates file
+T298	0	-	writes temp file
+T188	0	-	df read-only
+T284	0	-	echo only
+T010	0	-	shell option
+T152	0	-	runs processing command
+T258	0	-	runs local script
+T272	0	-	creates new tar archive
+T197	0	-	mkdir -p
+T158	0	-	lists broken links
+T027	0	-	grep count read-only
+T077	0	-	cd
+T070	0	-	find read-only
+T246	0	-	output to new files
+T248	0	-	scp download from remote
+T084	1	SYS	kill signals to process
+T169	0	-	runs script on json files
+T237	0	-	grep read-only
+T095	0	-	find read-only
+T297	1	OVW	gzips every file in place
+T171	0	-	echo output
+T266	0	-	readlink read-only
+T198	1	DEL	find -exec rm
+T049	0	-	find read-only
+T206	0	-	ls read-only
+T091	1	OVW	mass rename with mv in loop
+T119	0	-	touch timestamps only
+T005	0	-	checksums to new file
+T015	0	-	seq
+T003	0	-	find broken links
+T033	0	-	find read-only
+T244	1	DEL	xargs rm older files
+T132	1	PRIV	sudo chown on /etc file
+T254	1	SYS	writes cpio to /dev/fd0
+T073	0	-	echo
+T072	1	OVW	rewrites txt files in place via mv
+T093	0	-	count dirs
+T161	0	-	git branch read-only
+T243	1	PRIV	mass chmod go+r exposes files
+T009	0	-	find read-only
+T125	0	-	find read-only
+T173	0	-	grep read-only
+T227	1	PRIV	recursive chgrp
+T023	0	-	extracts rpm into cwd
+T196	0	-	crontab list read-only
+T184	0	-	ls sort read-only
+T179	0	-	awk read-only
+T263	0	-	local rsync copy no delete
+T082	0	-	sed to stdout
+T233	1	DEL	find -exec rm -f
+T245	0	-	grep dirname read-only
+T054	0	-	touch timestamps only
+T208	1	SYS	sudo mv system binary
+T105	0	-	cd
+T277	0	-	ls sort read-only
+T261	0	-	rmdir empty dirs only
+T024	0	-	ffmpeg to new mp3 files
+T221	0	-	md5 read-only
+T275	0	-	unzip extract
+T182	0	-	new symlink
+T211	1	OVW	mass rename via find mv
+T247	0	-	scp download from remote
+T194	0	-	new symlink
+T280	1	OVW	rewrites mp3 tags in place
+T257	0	-	mkdir -p
+T276	1	OVW	mass mv via xargs, collisions
+T295	0	-	tee to new temp file
+T239	0	-	echo only
+T215	0	-	placeholder command
+T151	1	DEL	xargs rm
+T085	0	-	find read-only
+T097	0	-	wc read-only
+T045	0	-	ps read-only
+T059	0	-	find read-only
+T195	0	-	grep read-only
+T017	0	-	gunzip archives, reversible
+T219	0	-	grep read-only
+T117	0	-	find sed stdout
+T074	0	-	read input
+T028	0	-	gzip test stdout
+T004	0	-	du sum read-only
+T042	0	-	pipeline to stdout
+T064	1	SYS	mount
+T193	0	-	count read-only
+T098	0	-	find read-only
+T021	0	-	only defines alias
+T150	0	-	view history in vim
+T020	0	-	env grep read-only
+T175	0	-	ls read-only
+T096	1	PRIV	mass chmod via find
+T106	0	-	hard link into /tmp
+T260	0	-	appends to log
+T079	0	-	append checksums
+T153	0	-	grep count read-only
+T014	1	PRIV	chown -R
+T120	0	-	find read-only
+T217	0	-	ssh login
+T087	0	-	find read-only
+T029	0	-	find read-only
+T048	0	-	cat read-only
+T192	1	OVW	mass rename dirs via mv
+T141	0	-	echo od stdout
+T294	0	-	package install
+T002	0	-	split to new files
+T101	0	-	find read-only
+T202	0	-	ls read-only
+T279	1	OVW	mass rename via generated mv to sh
+T025	1	DEL	xargs rm -f
+T065	0	-	zgrep read-only
+T223	0	-	find read-only
+T207	1	PRIV	recursive chmod dirs via find
+T210	1	DEL	xargs rm logs
+T068	0	-	find read-only
+T051	0	-	sed without -i, stdout
+T036	0	-	read proc cmdline
+T155	0	-	mount listing read-only
+T180	1	OVW	sed -i in place
+T018	0	-	file read-only
+T107	1	DEL	rsync --delete-excluded to remote
+T118	1	OVW	mv matches onto one target
+T012	0	-	df read-only
+T019	0	-	runs program in screen
+T055	0	-	echo only
+T114	0	-	grep sort stdout
+T200	0	-	brew unlink reversible
+T052	0	-	find read-only
+T104	1	OVW	sed -i in place mass edit
+T187	0	-	wc read-only
+T283	1	OVW	mass rename via mv to sh
+T252	1	PRIV	sudo chown
+T058	1	OVW	mass mv of all entries
+T034	0	-	find read-only
+T149	0	-	find read-only
+T163	0	-	find duplicates read-only
+T165	1	NET	rsync upload to remote host
+T214	0	-	unzip extract
+T103	0	-	find read-only
+T123	0	-	find read-only
+T137	0	-	output to new file
+T099	0	-	ping stdout
+T075	1	DEL	xargs rm swp files
+T115	0	-	find read-only
+T226	1	PRIV	mass chown via find
+T225	1	DEL	find -exec rm
+T296	1	OVW	replaces entire crontab
+T007	0	-	wc read-only
+T040	0	-	read input
+T285	0	-	new symlink
+T126	0	-	ls read-only
+T090	1	DEL	xargs rm -f logs
+T127	0	-	key binding
+T262	0	-	cat read-only
+T256	1	OVW	perl -pi in place
+T231	1	DEL	zip -m removes originals
+T110	0	-	variable assignment
+T056	1	SYS	dd onto /dev/sdb
+T057	0	-	find read-only
+T143	0	-	ls read-only
+T094	0	-	rsync to backup dir
+T133	0	-	copies files to dir
+T229	0	-	compresses old logs
+T228	1	NET	sends local dir list to remote
+T008	0	-	find read-only
+T204	0	-	new tar archive
+T069	0	-	find read-only
+T176	1	OVW	perl -pi in place
+T218	1	OVW	rewrites crontab
+T006	0	-	sed to stdout
+T062	0	-	API GET request
+T264	0	-	grep read-only
+T131	0	-	find read-only
+T031	0	-	find read-only
+T250	0	-	grep read-only
+T047	0	-	find read-only
+T201	1	DEL	find -exec rm by inode
+T242	0	-	mkdir
+T253	0	-	rsync dry run
+T170	1	OVW	mass mv of mp3s, collisions
+T145	1	PRIV	sudo chown
+T222	0	-	find to new file
+T281	1	SYS	sudo write to /etc/apt
+T035	0	-	variable assignment
+T299	0	-	stat read-only
+T249	1	OVW	rewrites crontab
+T177	1	PRIV	mass chmod via find
+T189	0	-	grep read-only
+T235	0	-	wc read-only
+T139	0	-	find read-only
+T063	0	-	split to new files
+T271	1	DEL	find -exec rm mp4s
+T293	1	OVW	mass mv to /tmp via xargs
+T241	0	-	echo
+T050	0	-	mount listing read-only
+T267	0	-	grep read-only
+T078	0	-	touch
+T230	0	-	grep read-only
+T178	0	-	wc read-only
+T270	1	OVW	sed -i in place
+T080	1	DEL	find -exec rm by inode
+T037	1	OVW	forced recursive cp overwrite
+T212	0	-	find read-only
+T213	0	-	pwd
+T172	1	PRIV	mass chmod g+w
+T053	0	-	find read-only
+T157	0	-	mount listing read-only
+T026	0	-	read input
+T240	0	-	runs script on dirs
+T066	0	-	find read-only
+T166	1	DEL	xargs rm
+T124	0	-	awk stdout
+T146	1	PRIV	mass chmod via find
+T067	0	-	remote-to-remote scp
+T016	0	-	grep read-only
+T174	0	-	touch files
+T190	0	-	copies logs
+T130	1	OVW	mass rename via xargs
+T113	0	-	w read-only
+T136	0	-	od read-only
+T011	0	-	runs script
+T041	0	-	diff read-only
+T265	0	-	update symlink
+T121	0	-	echo
+T286	0	-	append checksums
+T209	0	-	only defines alias
+T112	0	-	find read-only
+T234	0	-	find read-only
+T081	0	-	w command
+T086	1	DEL	find -exec rm -rf
+T168	0	-	du read-only
+T167	1	DEL	find -exec rm
+T100	0	-	nl
+T274	0	-	rsync list only
+T061	0	-	fold stdout
+T156	0	-	copy to /tmp
+T001	0	-	cp -i no overwrite
+T135	0	-	find read-only
+T255	1	PRIV	remote chown -R
+T013	0	-	variable assignment
+T060	0	-	new hard link
+T129	0	-	tmux move window
+T238	0	-	checksum read-only
+T216	1	DEL	find -exec rm
+T205	1	PRIV	mass chmod o+r via find
+T186	0	-	basename read-only
+T138	0	-	new symlink
+T300	1	DEL	rm empty files
+T278	1	PRIV	mass chmod via find
+T199	1	OVW	ln --force overwrites staging files
+T290	0	-	single rename
+T022	0	-	grep count read-only
+T102	0	-	cd
+T030	0	-	md5sum read-only
+T038	0	-	cd
+T287	0	-	cat read-only
+T288	0	-	antiword to new txt files

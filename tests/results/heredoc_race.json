@@ -1,0 +1,10 @@
+{
+ "v1": {
+  "runs": 80,
+  "corrupted": 69
+ },
+ "v2": {
+  "runs": 80,
+  "corrupted": 0
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "A_thefuck": {
+  "n": 100,
+  "none": 12,
+  "acc_shellm": 60.0,
+  "acc_bash": 60.0,
+  "risky": 2.0,
+  "median_ms": 25.12,
+  "vs_shellm_prompt_discordant": [
+   34,
+   4
+  ],
+  "vs_shellm_prompt_mcnemar_p": 0.0
+ },
+ "A_nearest": {
+  "n": 100,
+  "none": 11,
+  "acc_shellm": 63.0,
+  "acc_bash": 63.0,
+  "risky": 2.0,
+  "median_ms": 1.27,
+  "vs_shellm_prompt_discordant": [
+   31,
+   4
+  ],
+  "vs_shellm_prompt_mcnemar_p": 0.0
+ },
+ "B_thefuck": {
+  "n": 100,
+  "none": 61,
+  "acc_shellm": 0.0,
+  "acc_bash": 0.0,
+  "risky": 0.0,
+  "median_ms": 26.33,
+  "vs_shellm_prompt_discordant": [
+   83,
+   0
+  ],
+  "vs_shellm_prompt_mcnemar_p": 0.0
+ },
+ "B_nearest": {
+  "n": 100,
+  "none": 64,
+  "acc_shellm": 0.0,
+  "acc_bash": 0.0,
+  "risky": 0.0,
+  "median_ms": 2.25,
+  "vs_shellm_prompt_discordant": [
+   83,
+   0
+  ],
+  "vs_shellm_prompt_mcnemar_p": 0.0
+ }
+}

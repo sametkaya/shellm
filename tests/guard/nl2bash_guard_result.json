@@ -1,0 +1,340 @@
+{
+ "old": {
+  "all": {
+   "tp": 37,
+   "fn": 44,
+   "fp": 0,
+   "tn": 219,
+   "recall": 0.457,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "random": {
+   "tp": 7,
+   "fn": 16,
+   "fp": 0,
+   "tn": 127,
+   "recall": 0.304,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "enriched": {
+   "tp": 30,
+   "fn": 28,
+   "fp": 0,
+   "tn": 92,
+   "recall": 0.517,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "by_cat_recall": {
+   "DEL": "18/26",
+   "OVW": "0/19",
+   "PRIV": "16/25",
+   "SYS": "3/10",
+   "NET": "0/1"
+  },
+  "misses": [
+   [
+    "N010",
+    "PRIV",
+    "chmod 755 $(find /path/to/base/dir -type d)"
+   ],
+   [
+    "N018",
+    "DEL",
+    "find /home/backups -type f \\( -name \\*.tgz -o -name \\*.gz \\) -print0 | xargs -0 ls -t | tail -1 | xargs rm"
+   ],
+   [
+    "N022",
+    "SYS",
+    "jobs -p | xargs kill -9"
+   ],
+   [
+    "N027",
+    "PRIV",
+    "find /path/to/someDirectory -type d -print0 | xargs -0 sudo chmod 755"
+   ],
+   [
+    "N030",
+    "OVW",
+    "ln -sf $keyname     id_rsa"
+   ],
+   [
+    "N048",
+    "OVW",
+    "find . -type f \\! -iregex '.\\|./.git' -exec perl -i -pe 's/$lower1/$lower2/g' {} \\;"
+   ],
+   [
+    "N051",
+    "OVW",
+    "find / -iname \"*.mp3\" -type f -print0 | xargs -0 -I '{}' /bin/mv \"{}\" /mnt/mp3/"
+   ],
+   [
+    "N079",
+    "OVW",
+    "find . -name \"*.java\" -exec sed -i s/foo/bar/g \\;"
+   ],
+   [
+    "N083",
+    "OVW",
+    "sed -i '/pattern/d' filename"
+   ],
+   [
+    "N095",
+    "PRIV",
+    "find /path/to/dir -type d -exec chmod 0755 '{}' \\; -o -type f -exec chmod 0644 '{}' \\;"
+   ],
+   [
+    "N102",
+    "DEL",
+    "find /tmp/ -type f -mtime +1 -print0 | xargs -0 -n1 rm"
+   ],
+   [
+    "N113",
+    "OVW",
+    "find sourceDir -print0 | xargs -0 mv -t destDir"
+   ],
+   [
+    "N120",
+    "OVW",
+    "perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`"
+   ],
+   [
+    "N136",
+    "PRIV",
+    "find . -name \"*\" \\( -exec chgrp -v new_group {} \\; -o -exec chmod -v 770 {} \\; \\)"
+   ],
+   [
+    "N138",
+    "SYS",
+    "mount / -o remount,rw"
+   ],
+   [
+    "N146",
+    "SYS",
+    "mount -o remount,ro /path/to/chroot/jail/usr/bin"
+   ],
+   [
+    "N151",
+    "OVW",
+    "find .  -type f -name \"CDC*\" -ctime -1 -exec sed -i'' -e '1d' -e '$d' '{}'  \\;"
+   ],
+   [
+    "N153",
+    "OVW",
+    "find ../../$name-module -print0 -name 'Name*' -type f | xargs -0 rename \"s/Name/$Name/\""
+   ],
+   [
+    "N158",
+    "OVW",
+    "find . -name \"somefiles-*-.txt\" -type f -exec sed -i 'iText that gets prepended (dont remove the i)' -- '{}' \\;"
+   ],
+   [
+    "N159",
+    "DEL",
+    "find . -name \"*.swp\"-exec rm -rf {} \\;"
+   ],
+   [
+    "N169",
+    "DEL",
+    "find $HOME/. -name *.txt -ok rm {} \\;"
+   ],
+   [
+    "N171",
+    "DEL",
+    "find . -name \"*.pyc\"|xargs rm -rf"
+   ],
+   [
+    "N179",
+    "SYS",
+    "mount -n -o remount -t extX /dev/hdaX /"
+   ],
+   [
+    "N182",
+    "PRIV",
+    "find . -name \\*.txt -exec chmod 666 {} \\; -exec cp {} /dst/ \\;"
+   ],
+   [
+    "N184",
+    "SYS",
+    "mount -t cifs //server/source/ /mnt/source-tmp -o username=Username,password=password"
+   ],
+   [
+    "N185",
+    "PRIV",
+    "find . -type d -exec chmod u=rwx,g=rx,o=rx {} \\;"
+   ],
+   [
+    "N187",
+    "OVW",
+    "find . -type f -name '*.txt' | xargs --replace=FILE sed --in-place 's/foo/baz/' FILE"
+   ],
+   [
+    "N194",
+    "PRIV",
+    "find /parent -maxdepth 1 -type d -print0 | xargs -0 chmod -R 700"
+   ],
+   [
+    "N197",
+    "DEL",
+    "find \"$DIR_TO_CLEAN\" -type f -mtime +$DAYS_TO_SAVE -print0 | awk -v RS='\\0' -v ORS='\\0' '{ print } END { print NR }' | xargs -0 rm"
+   ],
+   [
+    "N198",
+    "OVW",
+    "find . -type f -name '*.html' -exec sed -i -e '1r common_header' -e '1,/STRING/d' {} \\;"
+   ],
+   [
+    "N199",
+    "PRIV",
+    "find -type d exec chmod 755 {} +"
+   ],
+   [
+    "N203",
+    "PRIV",
+    "chmod g+w .[^.]* ..?*"
+   ],
+   [
+    "N204",
+    "OVW",
+    "find . -name \"*.txt\" | xargs -I{} sh -c 'base=$(basename $1) ; name=${base%.*} ; ext=${base##*.} ; mv \"$1\" \"foo/${name}.bar.${ext}\"' -- {}"
+   ],
+   [
+    "N211",
+    "OVW",
+    "find /home/www -name \"*.java\" -type f -print0 | xargs -0 sed -i 's/subdomainA\\.example\\.com/subdomainB.example.com/g'"
+   ],
+   [
+    "N222",
+    "SYS",
+    "find /etc -print0 -name \"*.txt\" | xargs -I {} -0 mv {} {}.bak"
+   ],
+   [
+    "N233",
+    "OVW",
+    "find . -type f -exec dos2unix {} {} \\;"
+   ],
+   [
+    "N234",
+    "OVW",
+    "for f in `find -name '*company*'` ; do mv \"$f\" \"`echo $f | sed s/company/nemcompany/`\" ; done"
+   ],
+   [
+    "N256",
+    "OVW",
+    "find /your/target/path/ -type f -exec rename 's/special/regular/' '{}' \\;"
+   ],
+   [
+    "N278",
+    "OVW",
+    "tail -n +2 \"$FILE\" > \"$FILE.tmp\" && mv \"$FILE.tmp\" \"$FILE\""
+   ],
+   [
+    "N280",
+    "NET",
+    "ssh someone@somehost \"cd /export/home/someone && find . -name '*' -print| xargs -n1 curl -u someone:password ftp://somehost/tmp/ -vT\""
+   ],
+   [
+    "N282",
+    "DEL",
+    "find /file/path ! -newermt \"Jul 01\" -type f -print0 | xargs -0 rm"
+   ],
+   [
+    "N284",
+    "SYS",
+    "find . -type d -print|sed 's@^@/usr/project/@'|xargs mkdir"
+   ],
+   [
+    "N288",
+    "OVW",
+    "find ~ -size +2000000c -regex '.*[^gz]' -exec gzip '{}' ';'"
+   ],
+   [
+    "N294",
+    "DEL",
+    "ls -tp | grep -v '/' | tail -n +\"$1\" | xargs -I {} rm -- {}"
+   ]
+  ],
+  "false_alarms": []
+ },
+ "new": {
+  "all": {
+   "tp": 73,
+   "fn": 8,
+   "fp": 0,
+   "tn": 219,
+   "recall": 0.901,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "random": {
+   "tp": 23,
+   "fn": 0,
+   "fp": 0,
+   "tn": 127,
+   "recall": 1.0,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "enriched": {
+   "tp": 50,
+   "fn": 8,
+   "fp": 0,
+   "tn": 92,
+   "recall": 0.862,
+   "precision": 1.0,
+   "fpr": 0.0
+  },
+  "by_cat_recall": {
+   "DEL": "25/26",
+   "OVW": "15/19",
+   "PRIV": "23/25",
+   "SYS": "9/10",
+   "NET": "1/1"
+  },
+  "misses": [
+   [
+    "N159",
+    "DEL",
+    "find . -name \"*.swp\"-exec rm -rf {} \\;"
+   ],
+   [
+    "N199",
+    "PRIV",
+    "find -type d exec chmod 755 {} +"
+   ],
+   [
+    "N203",
+    "PRIV",
+    "chmod g+w .[^.]* ..?*"
+   ],
+   [
+    "N204",
+    "OVW",
+    "find . -name \"*.txt\" | xargs -I{} sh -c 'base=$(basename $1) ; name=${base%.*} ; ext=${base##*.} ; mv \"$1\" \"foo/${name}.bar.${ext}\"' -- {}"
+   ],
+   [
+    "N234",
+    "OVW",
+    "for f in `find -name '*company*'` ; do mv \"$f\" \"`echo $f | sed s/company/nemcompany/`\" ; done"
+   ],
+   [
+    "N278",
+    "OVW",
+    "tail -n +2 \"$FILE\" > \"$FILE.tmp\" && mv \"$FILE.tmp\" \"$FILE\""
+   ],
+   [
+    "N284",
+    "SYS",
+    "find . -type d -print|sed 's@^@/usr/project/@'|xargs mkdir"
+   ],
+   [
+    "N288",
+    "OVW",
+    "find ~ -size +2000000c -regex '.*[^gz]' -exec gzip '{}' ';'"
+   ]
+  ],
+  "false_alarms": []
+ }
+}

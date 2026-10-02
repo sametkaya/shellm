@@ -1,0 +1,1452 @@
+[
+ {
+  "id": "A01",
+  "cat": "A",
+  "stdout": "merhaba dünya\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163511079999807
+ },
+ {
+  "id": "A02",
+  "cat": "A",
+  "stdout": "abc",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0143446900001436
+ },
+ {
+  "id": "A03",
+  "cat": "A",
+  "stdout": "x",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.005334956000297
+ },
+ {
+  "id": "A04",
+  "cat": "A",
+  "stdout": "-nx y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0132427700000335
+ },
+ {
+  "id": "A05",
+  "cat": "A",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0466159729994615
+ },
+ {
+  "id": "A06",
+  "cat": "A",
+  "stdout": "a   b c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0305057860005036
+ },
+ {
+  "id": "A07",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A07\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1195271440001306
+ },
+ {
+  "id": "A08",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A08/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0223684250004226
+ },
+ {
+  "id": "A09",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A09\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.018093057000442
+ },
+ {
+  "id": "A10",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: cd: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0202236940003786
+ },
+ {
+  "id": "A11",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A11/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.029954405999888
+ },
+ {
+  "id": "A12",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: cd: Not a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0414520369995444
+ },
+ {
+  "id": "A13",
+  "cat": "A",
+  "stdout": "/tmp/shellm_fix/A13\n/tmp/shellm_fix/A13\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0523324199994022
+ },
+ {
+  "id": "A14",
+  "cat": "A",
+  "stdout": "42\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0790836840005795
+ },
+ {
+  "id": "A15",
+  "cat": "A",
+  "stdout": "12\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0409975809998286
+ },
+ {
+  "id": "A16",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": "minishell: export: `1A=x': not a valid identifier\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.072339225000178
+ },
+ {
+  "id": "A17",
+  "cat": "A",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0207803419998527
+ },
+ {
+  "id": "A18",
+  "cat": "A",
+  "stdout": "bir\n",
+  "stderr": "",
+  "rc": 7,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0199478750000708
+ },
+ {
+  "id": "A19",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "ls: cannot access 'olmayan_dosya': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.052196353999534
+ },
+ {
+  "id": "A20",
+  "cat": "A",
+  "stdout": "",
+  "stderr": "minishell: exit: abc: numeric argument required\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0107806249998248
+ },
+ {
+  "id": "A21",
+  "cat": "A",
+  "stdout": "devam\n",
+  "stderr": "minishell: exit: too many arguments\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0408625279997068
+ },
+ {
+  "id": "A22",
+  "cat": "A",
+  "stdout": "ZVAR=zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0667026430000988
+ },
+ {
+  "id": "A23",
+  "cat": "A",
+  "stdout": "1\n",
+  "stderr": " too many arguments\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0191890589994728
+ },
+ {
+  "id": "B01",
+  "cat": "B",
+  "stdout": "x.c\ny.c\nz.h\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1489511780000612
+ },
+ {
+  "id": "B02",
+  "cat": "B",
+  "stdout": "mutlak yol\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0880110019998028
+ },
+ {
+  "id": "B03",
+  "cat": "B",
+  "stdout": "script-ok\n3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0377487249998012
+ },
+ {
+  "id": "B04",
+  "cat": "B",
+  "stdout": "",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0587008200000128
+ },
+ {
+  "id": "B05",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0482014129993331
+ },
+ {
+  "id": "B06",
+  "cat": "B",
+  "stdout": "126\n",
+  "stderr": "minishell: ./noexec.sh: Permission denied\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0453376289997323
+ },
+ {
+  "id": "B07",
+  "cat": "B",
+  "stdout": "126\n",
+  "stderr": "minishell: ./d: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0533690879992719
+ },
+ {
+  "id": "B08",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: ./yok.sh: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.02380944000015
+ },
+ {
+  "id": "B09",
+  "cat": "B",
+  "stdout": "4 a.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0261911939996935
+ },
+ {
+  "id": "B10",
+  "cat": "B",
+  "stdout": "x\n0\n",
+  "stderr": "minishell: : command not found2\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1831313960001353
+ },
+ {
+  "id": "B11",
+  "cat": "B",
+  "stdout": "5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0165968549999889
+ },
+ {
+  "id": "B12",
+  "cat": "B",
+  "stdout": "15\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152393680000387
+ },
+ {
+  "id": "B13",
+  "cat": "B",
+  "stdout": "9\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0790327539998543
+ },
+ {
+  "id": "B14",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "minishell: ls: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0100268109999888
+ },
+ {
+  "id": "B15",
+  "cat": "B",
+  "stdout": "a\n",
+  "stderr": "/bin/echo\n/bin/cat\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0681871169999795
+ },
+ {
+  "id": "B16",
+  "cat": "B",
+  "stdout": "script-ok\n",
+  "stderr": "./run.sh\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0999366519999967
+ },
+ {
+  "id": "B17",
+  "cat": "B",
+  "stdout": "0\n",
+  "stderr": "./noexec.sh\nminishell: ./noexec.sh: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.092750325000452
+ },
+ {
+  "id": "C01",
+  "cat": "C",
+  "stdout": "elma\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0142694039996059
+ },
+ {
+  "id": "C02",
+  "cat": "C",
+  "stdout": "      1 armut\n      2 elma\n      1 kiraz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0943090840000878
+ },
+ {
+  "id": "C03",
+  "cat": "C",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.09731223900053
+ },
+ {
+  "id": "C04",
+  "cat": "C",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0473032770005375
+ },
+ {
+  "id": "C05",
+  "cat": "C",
+  "stdout": "3\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0552321340001072
+ },
+ {
+  "id": "C06",
+  "cat": "C",
+  "stdout": "MERHABA\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1710444189993723
+ },
+ {
+  "id": "C07",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1230317459994694
+ },
+ {
+  "id": "C08",
+  "cat": "C",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0246933700000227
+ },
+ {
+  "id": "C09",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0212797639997007
+ },
+ {
+  "id": "C10",
+  "cat": "C",
+  "stdout": "0\n",
+  "stderr": "minishell: boyle_bir_komut_yok: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0189802650002093
+ },
+ {
+  "id": "C11",
+  "cat": "C",
+  "stdout": "y\ny\ny\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0149395520002145
+ },
+ {
+  "id": "C12",
+  "cat": "C",
+  "stdout": "test\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.033068419999836
+ },
+ {
+  "id": "C13",
+  "cat": "C",
+  "stdout": "declare -x ZVAR=\"zzz\"\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0250887330003025
+ },
+ {
+  "id": "C14",
+  "cat": "C",
+  "stdout": "/tmp/shellm_fix/C14\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0101513720001094
+ },
+ {
+  "id": "C15",
+  "cat": "C",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1048002689994973
+ },
+ {
+  "id": "C16",
+  "cat": "C",
+  "stdout": "elma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0899956769999335
+ },
+ {
+  "id": "D01",
+  "cat": "D",
+  "stdout": "x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.016928519999965
+ },
+ {
+  "id": "D02",
+  "cat": "D",
+  "stdout": "1\n2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0151948970005833
+ },
+ {
+  "id": "D03",
+  "cat": "D",
+  "stdout": "2\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0091743500006487
+ },
+ {
+  "id": "D04",
+  "cat": "D",
+  "stdout": "4\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.032578717999968
+ },
+ {
+  "id": "D05",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "minishell: yok.txt: No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0066121449999628
+ },
+ {
+  "id": "D06",
+  "cat": "D",
+  "stdout": "elma\narmut\nkiraz\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0906758809996973
+ },
+ {
+  "id": "D07",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0303965869998137
+ },
+ {
+  "id": "D08",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0339444290002575
+ },
+ {
+  "id": "D09",
+  "cat": "D",
+  "stdout": "elma\narmut\nkiraz\nelma\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0639177160001054
+ },
+ {
+  "id": "D10",
+  "cat": "D",
+  "stdout": "1\n",
+  "stderr": "d: Is a directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.020013260000269
+ },
+ {
+  "id": "D11",
+  "cat": "D",
+  "stdout": "",
+  "stderr": "ls: cannot access 'bos.txt': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.1226226810003936
+ },
+ {
+  "id": "D12",
+  "cat": "D",
+  "stdout": "hi\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0474487679994127
+ },
+ {
+  "id": "D13",
+  "cat": "D",
+  "stdout": "7\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.019121998000628
+ },
+ {
+  "id": "D14",
+  "cat": "D",
+  "stdout": "/tmp/shellm_fix/D14\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0176636030000736
+ },
+ {
+  "id": "D15",
+  "cat": "D",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0667509979994065
+ },
+ {
+  "id": "D16",
+  "cat": "D",
+  "stdout": "",
+  "stderr": "minishell: yok.txt: No such file or directory\nls: cannot access 'o.txt': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0129121989994019
+ },
+ {
+  "id": "E01",
+  "cat": "E",
+  "stdout": "a\nb\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0173152090001167
+ },
+ {
+  "id": "E02",
+  "cat": "E",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.020560345999911
+ },
+ {
+  "id": "E03",
+  "cat": "E",
+  "stdout": "$ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.018712771000537
+ },
+ {
+  "id": "E04",
+  "cat": "E",
+  "stdout": "zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0166020739998203
+ },
+ {
+  "id": "E05",
+  "cat": "E",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0531780890005393
+ },
+ {
+  "id": "E06",
+  "cat": "E",
+  "stdout": "y\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0747532919995137
+ },
+ {
+  "id": "E07",
+  "cat": "E",
+  "stdout": "z\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0559569089991783
+ },
+ {
+  "id": "E08",
+  "cat": "E",
+  "stdout": "minishell: warning...\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0239157639998666
+ },
+ {
+  "id": "E09",
+  "cat": "E",
+  "stdout": "\"zzz\" 'zzz'\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0123776820000785
+ },
+ {
+  "id": "F01",
+  "cat": "F",
+  "stdout": "tek $ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0169257219995416
+ },
+ {
+  "id": "F02",
+  "cat": "F",
+  "stdout": "cift zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0091917370000374
+ },
+ {
+  "id": "F03",
+  "cat": "F",
+  "stdout": "zzzx$ZVAR\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0118249859997377
+ },
+ {
+  "id": "F04",
+  "cat": "F",
+  "stdout": "a\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0081071399999928
+ },
+ {
+  "id": "F05",
+  "cat": "F",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0137503890000517
+ },
+ {
+  "id": "F06",
+  "cat": "F",
+  "stdout": "$\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0155194469998605
+ },
+ {
+  "id": "F07",
+  "cat": "F",
+  "stdout": "$\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0386283750003713
+ },
+ {
+  "id": "F08",
+  "cat": "F",
+  "stdout": "1\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0172889120003674
+ },
+ {
+  "id": "F09",
+  "cat": "F",
+  "stdout": "\" '\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.019507818999955
+ },
+ {
+  "id": "F10",
+  "cat": "F",
+  "stdout": "a'b'c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0075553979995675
+ },
+ {
+  "id": "F11",
+  "cat": "F",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0273268179998922
+ },
+ {
+  "id": "F12",
+  "cat": "F",
+  "stdout": "ab\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0099104569999326
+ },
+ {
+  "id": "F13",
+  "cat": "F",
+  "stdout": "zzzzzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0164977750000617
+ },
+ {
+  "id": "F14",
+  "cat": "F",
+  "stdout": "\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.009548093000376
+ },
+ {
+  "id": "F15",
+  "cat": "F",
+  "stdout": "zzz.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.015494743999625
+ },
+ {
+  "id": "F16",
+  "cat": "F",
+  "stdout": "zzz'\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0168879430002562
+ },
+ {
+  "id": "F17",
+  "cat": "F",
+  "stdout": "/tmp/shellm_fix/F17/home/x\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0218920630004504
+ },
+ {
+  "id": "F18",
+  "cat": "F",
+  "stdout": "tester\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0093942349994904
+ },
+ {
+  "id": "F19",
+  "cat": "F",
+  "stdout": "Syntax Error: Unmatched quotes\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0249140519999855
+ },
+ {
+  "id": "H01",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0160752729998421
+ },
+ {
+  "id": "H02",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.014498433000881
+ },
+ {
+  "id": "H03",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error  `>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0132453640007952
+ },
+ {
+  "id": "H04",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error `>'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.017431100000067
+ },
+ {
+  "id": "H05",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell:syntax error `<<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0213523319998785
+ },
+ {
+  "id": "H06",
+  "cat": "H",
+  "stdout": "tamam\n",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0169035870003427
+ },
+ {
+  "id": "H07",
+  "cat": "H",
+  "stdout": "",
+  "stderr": "minishell: syntax error `<'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0196248980000746
+ },
+ {
+  "id": "I01",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "",
+  "rc": -11,
+  "timeout": false,
+  "crash": true,
+  "time": 1.0418369760000132
+ },
+ {
+  "id": "I02",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "",
+  "rc": -11,
+  "timeout": false,
+  "crash": true,
+  "time": 1.0642073290000553
+ },
+ {
+  "id": "I03",
+  "cat": "I",
+  "stdout": "YENI=5\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0147738499999832
+ },
+ {
+  "id": "I04",
+  "cat": "I",
+  "stdout": "0\n",
+  "stderr": "",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0175612240000191
+ },
+ {
+  "id": "I05",
+  "cat": "I",
+  "stdout": "yeni\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0214788680004858
+ },
+ {
+  "id": "I06",
+  "cat": "I",
+  "stdout": "yeni\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0250281990001895
+ },
+ {
+  "id": "I07",
+  "cat": "I",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0143154830002459
+ },
+ {
+  "id": "I08",
+  "cat": "I",
+  "stdout": "[]\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0160869549999916
+ },
+ {
+  "id": "I09",
+  "cat": "I",
+  "stdout": "declare -x AAA_FIRST=\"1\"\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0367820669998764
+ },
+ {
+  "id": "I10",
+  "cat": "I",
+  "stdout": "/tmp/shellm_fix/I10/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0223580210004002
+ },
+ {
+  "id": "I11",
+  "cat": "I",
+  "stdout": "/tmp/shellm_fix/I11/d\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0140147850006542
+ },
+ {
+  "id": "I12",
+  "cat": "I",
+  "stdout": "",
+  "stderr": "",
+  "rc": -11,
+  "timeout": false,
+  "crash": true,
+  "time": 1.022233118999793
+ },
+ {
+  "id": "J01",
+  "cat": "J",
+  "stdout": "~\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0138629610000862
+ },
+ {
+  "id": "J02",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "ls: cannot access '~/Desktop': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.026224044000628
+ },
+ {
+  "id": "J03",
+  "cat": "J",
+  "stdout": "*.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0208142159999625
+ },
+ {
+  "id": "J04",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "ls: cannot access 'd/*.c': No such file or directory\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0228291539997372
+ },
+ {
+  "id": "J05",
+  "cat": "J",
+  "stdout": "*.txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0162566899998637
+ },
+ {
+  "id": "J06",
+  "cat": "J",
+  "stdout": "*\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.017173000999719
+ },
+ {
+  "id": "J07",
+  "cat": "J",
+  "stdout": "*.yok\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0215777109997362
+ },
+ {
+  "id": "J08",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "find: '~/Desktop': No such file or directory\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0164496199995483
+ },
+ {
+  "id": "J09",
+  "cat": "J",
+  "stdout": "",
+  "stderr": "cat: '~/Desktop/not.txt': No such file or directory\n",
+  "rc": 1,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0403588820008736
+ },
+ {
+  "id": "J10",
+  "cat": "J",
+  "stdout": "d/?.c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0073830179999277
+ },
+ {
+  "id": "J11",
+  "cat": "J",
+  "stdout": "~\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0187071330001345
+ },
+ {
+  "id": "J12",
+  "cat": "J",
+  "stdout": "~/ab\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0098129809994134
+ },
+ {
+  "id": "J13",
+  "cat": "J",
+  "stdout": "/tmp/shellm_fix/J13/home\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0180351100007101
+ },
+ {
+  "id": "J14",
+  "cat": "J",
+  "stdout": "[ab].txt\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152958349999608
+ },
+ {
+  "id": "J15",
+  "cat": "J",
+  "stdout": "*.txt d/*.c\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0163793250003437
+ },
+ {
+  "id": "L01",
+  "cat": "L",
+  "stdout": "a; echo b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0089971360002892
+ },
+ {
+  "id": "L02",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.010999461999745
+ },
+ {
+  "id": "L03",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "minishell: syntax error near unexpected token `|'\n",
+  "rc": 2,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0197735709998597
+ },
+ {
+  "id": "L04",
+  "cat": "L",
+  "stdout": "$(echo ic)\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0188879670004098
+ },
+ {
+  "id": "L05",
+  "cat": "L",
+  "stdout": "2\n",
+  "stderr": "ls: cannot access 'yok': No such file or directory\nls: cannot access '2': No such file or directory\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.020874050999737
+ },
+ {
+  "id": "L06",
+  "cat": "L",
+  "stdout": "",
+  "stderr": "minishell: (cd: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0111685470001248
+ },
+ {
+  "id": "L07",
+  "cat": "L",
+  "stdout": "a   b\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0109622159998253
+ },
+ {
+  "id": "L08",
+  "cat": "L",
+  "stdout": "\\zzz\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0114865800005646
+ },
+ {
+  "id": "L09",
+  "cat": "L",
+  "stdout": "{a,b}\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0152945039999395
+ },
+ {
+  "id": "L10",
+  "cat": "L",
+  "stdout": "\n",
+  "stderr": "minishell: x=5: command not found\n",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0105033689997072
+ },
+ {
+  "id": "L11",
+  "cat": "L",
+  "stdout": "`echo ic`\n",
+  "stderr": "",
+  "rc": 0,
+  "timeout": false,
+  "crash": false,
+  "time": 1.0110808700001144
+ }
+]
